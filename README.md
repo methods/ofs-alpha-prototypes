@@ -1,10 +1,67 @@
+# Office for Students - Resource that helps students make informed higher education choices
+
+This is the main code repository of the alpha phase of the Office for Students project to find a suitable replacement for [Unistats](https://unistats.ac.uk/)
+
+Testing will be carried out using Heroku free tier apps that deploy from branches of this repository. See **Repo structure** for details
+
+### Deployments
+- None
+
+### Useful links
+- [Unistats](https://unistats.ac.uk/)
+- [DFE Search for schools and colleges to compare](https://www.compare-school-performance.service.gov.uk/)
+
+### Technology links
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Repo structure - How to better organize your React applications?](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1))
+- [Deploying Production Build of React App to Heroku](https://medium.com/quick-code/deploying-production-build-of-react-app-to-heroku-2548d8bf6936)
+- [GOVUK design system](https://design-system.service.gov.uk/)
+- [GOVUK front end](https://github.com/alphagov/govuk-frontend)
+
+### Thoughts and bookmarks
+- [Start4Life - structure](https://www.nhs.uk/start4life)
+- [Change4Life - structure](https://change4life.service.nhs.uk/change4life)
+
+
+------------------------------
+
+## Repo structure
+
+This repo contains
+1. The master branch with...
+    * A simple structured React app that is deployable to Heroku
+    * This README.md for guidance
+    * Any other documentation
+2. Master prototype branches...
+    * Take the form **master-p01-ofs-01** (where **p01** indicates our round of testing, **ofs** indicates a major style and **01** indicates a variation)
+    * Each of these will deploy to a heroku branch of the form **ofs-prototype-01-v1** (after a couple of weeks it is expected these will calm down so that version numbers are not needed)
+3. Feature branches...
+    * Of the form feature-p01-*
+
+Round 1 testing expects us to test three variations of the new OfS website with a GOV.UK version for comparison. These will deploy to
+* **master-p01-ofs-01** => **ofs-prototype-01-v1.herokuapp.com**
+* **master-p01-ofs-02** => **ofs-prototype-01-v2.herokuapp.com**
+* **master-p01-ofs-03** => **ofs-prototype-01-v3.herokuapp.com**
+* **master-p01-gov-01** => **ofs-prototype-01-v4.herokuapp.com**
+
+------------------------------
+
+## React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts in development
+
+The Heroku version of this app replaces . 
 
 In the project directory, you can run:
 
 ### `npm start`
+
+**Important: not the dev server**
+This command is used to run the production server. For development see the next command
+
+### `npm run dev`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
