@@ -1,0 +1,54 @@
+@include ofs-exports("ofs/core/lists") {
+
+  %ofs-list {
+    @include ofs-font($size: 19);
+    @include ofs-text-colour;
+    margin-top: 0;
+    @include ofs-responsive-margin(4, "bottom");
+    padding-left: 0;
+    list-style-type: none;
+
+    // Add a top margin for nested lists
+    %ofs-list {
+      margin-top: ofs-spacing(2);
+    }
+  }
+
+  %ofs-list > li {
+    // Lists without numbers or bullets should always have extra space between
+    // list items. Lists with numbers or bullets only have this extra space on
+    // tablet and above
+    margin-bottom: ofs-spacing(1);
+  }
+
+  .ofs-list {
+    @extend %ofs-list;
+  }
+
+  %ofs-list--bullet {
+    padding-left: ofs-spacing(4);
+    list-style-type: disc;
+  }
+
+  %ofs-list--number {
+    padding-left: ofs-spacing(4);
+    list-style-type: decimal;
+  }
+
+  %ofs-list--bullet > li,
+  %ofs-list--number > li {
+    margin-bottom: 0;
+
+    @include ofs-media-query($from: tablet) {
+      margin-bottom: ofs-spacing(1);
+    }
+  }
+
+  .ofs-list--bullet {
+    @extend %ofs-list--bullet;
+  }
+
+  .ofs-list--number {
+    @extend %ofs-list--number;
+  }
+}

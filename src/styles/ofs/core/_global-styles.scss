@@ -1,0 +1,19 @@
+@import "links";
+@import "typography";
+
+@mixin ofs-global-styles {
+  a {
+    @extend %ofs-link;
+  }
+
+  p {
+    @extend %ofs-body-m;
+  }
+}
+
+@include ofs-exports("ofs/core/global-styles") {
+
+  @if $ofs-global-styles == true {
+    @include ofs-global-styles;
+  }
+}

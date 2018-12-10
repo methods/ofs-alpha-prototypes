@@ -1,0 +1,186 @@
+@include ofs-exports("ofs/core/typography") {
+
+  // Headings
+
+  %ofs-heading-xl {
+    @include ofs-text-colour;
+    @include ofs-font($size: 48, $weight: bold);
+
+    display: block;
+
+    margin-top: 0;
+    @include ofs-responsive-margin(8, "bottom");
+  }
+
+  .ofs-heading-xl {
+    @extend %ofs-heading-xl;
+  }
+
+  %ofs-heading-l {
+    @include ofs-text-colour;
+    @include ofs-font($size: 36, $weight: bold);
+
+    display: block;
+
+    margin-top: 0;
+    @include ofs-responsive-margin(6, "bottom");
+  }
+
+  .ofs-heading-l {
+    @extend %ofs-heading-l;
+  }
+
+  %ofs-heading-m {
+    @include ofs-text-colour;
+    @include ofs-font($size: 24, $weight: bold);
+
+    display: block;
+
+    margin-top: 0;
+    @include ofs-responsive-margin(4, "bottom");
+  }
+
+  .ofs-heading-m {
+    @extend %ofs-heading-m;
+  }
+
+  %ofs-heading-s {
+    @include ofs-text-colour;
+    @include ofs-font($size: 19, $weight: bold);
+
+    display: block;
+
+    margin-top: 0;
+    @include ofs-responsive-margin(4, "bottom");
+  }
+
+  .ofs-heading-s {
+    @extend %ofs-heading-s;
+  }
+
+  // Captions to be used inside headings
+
+  .ofs-caption-xl {
+    @include ofs-font($size: 27);
+
+    display: block;
+
+    margin-bottom: ofs-spacing(1);
+
+    color: $ofs-secondary-text-colour;
+  }
+
+  .ofs-caption-l {
+    @include ofs-font($size: 24);
+
+    display: block;
+
+    margin-bottom: ofs-spacing(1);
+    color: $ofs-secondary-text-colour;
+
+    @include ofs-media-query($from: tablet) {
+      margin-bottom: 0;
+    }
+  }
+
+  .ofs-caption-m {
+    @include ofs-font($size: 19);
+
+    display: block;
+
+    color: $ofs-secondary-text-colour;
+  }
+
+  // Body (paragraphs)
+
+  %ofs-body-l {
+    @include ofs-text-colour;
+    @include ofs-font($size: 24);
+
+    margin-top: 0;
+    @include ofs-responsive-margin(6, "bottom");
+  }
+
+  .ofs-body-l {
+    @extend %ofs-body-l;
+  }
+
+  %ofs-body-m {
+    @include ofs-text-colour;
+    @include ofs-font($size: 19);
+
+    margin-top: 0;
+    @include ofs-responsive-margin(4, "bottom");
+  }
+
+  .ofs-body-m {
+    @extend %ofs-body-m;
+  }
+
+  %ofs-body-s {
+    @include ofs-text-colour;
+    @include ofs-font($size: 16);
+
+    margin-top: 0;
+    @include ofs-responsive-margin(4, "bottom");
+  }
+
+  .ofs-body-s {
+    @extend %ofs-body-s;
+  }
+
+  %ofs-body-xs {
+    @include ofs-text-colour;
+    @include ofs-font($size: 14);
+
+    margin-top: 0;
+    @include ofs-responsive-margin(4, "bottom");
+  }
+
+  .ofs-body-xs {
+    @extend %ofs-body-xs;
+  }
+
+  // Usage aliases
+
+  // Using extend to alias means we also inherit any contextual adjustments that
+  // refer to the 'original' class name
+
+  .ofs-body-lead {
+    @extend %ofs-body-l;
+  }
+
+  .ofs-body {
+    @extend %ofs-body-m;
+  }
+
+  // Contextual adjustments
+  // Add top padding to headings that appear directly after paragraphs.
+
+  %ofs-body-l  + %ofs-heading-l {
+    padding-top: ofs-spacing(1);
+
+    @include ofs-media-query($from: tablet) {
+      padding-top: ofs-spacing(2);
+    }
+  }
+
+  %ofs-body-m  + %ofs-heading-l,
+  %ofs-body-s  + %ofs-heading-l,
+  %ofs-list + %ofs-heading-l {
+    @include ofs-responsive-padding(4, "top");
+  }
+
+  %ofs-body-m + %ofs-heading-m,
+  %ofs-body-s + %ofs-heading-m,
+  %ofs-list + %ofs-heading-m,
+  %ofs-body-m + %ofs-heading-s,
+  %ofs-body-s + %ofs-heading-s,
+  %ofs-list + %ofs-heading-s {
+    padding-top: ofs-spacing(1);
+
+    @include ofs-media-query($from: tablet) {
+      padding-top: ofs-spacing(2);
+    }
+  }
+}

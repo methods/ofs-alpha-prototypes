@@ -1,0 +1,27 @@
+@include ofs-exports("ofs/core/links") {
+
+  %ofs-link {
+    @include ofs-link-common;
+    @include ofs-link-style-default;
+    @include ofs-link-print-friendly;
+  }
+
+  .ofs-link {
+    @extend %ofs-link;
+  }
+
+  // Variant classes should always be used in conjunction with the .ofs-link
+  // class, so we do not need the common link styles as they will be inherited.
+
+  .ofs-link--muted {
+    @include ofs-link-style-muted;
+  }
+
+  .ofs-link--text-colour {
+    @include ofs-link-style-text;
+  }
+
+  .ofs-link--no-visited-state {
+    @include ofs-link-style-no-visited-state;
+  }
+}

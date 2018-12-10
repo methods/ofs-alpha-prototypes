@@ -1,0 +1,85 @@
+////
+/// @group settings/measurements
+////
+
+
+
+// =========================================================
+// Page layout
+// =========================================================
+
+/// Width of main container
+///
+/// @type Number
+/// @access public
+
+$ofs-page-width: 960px !default;
+
+/// Width of gutter between grid columns
+///
+/// @type Number
+/// @access public
+
+$ofs-gutter: 30px !default;
+
+/// Width of half the gutter between grid columns
+///
+/// @type Number
+/// @access public
+
+$ofs-gutter-half: $ofs-gutter / 2;
+
+
+
+// =========================================================
+// Borders
+// =========================================================
+
+/// Standard border width
+///
+/// @type Number
+/// @access public
+
+$ofs-border-width: 5px !default;
+
+/// Wide border width
+///
+/// @type Number
+/// @access public
+
+$ofs-border-width-wide: 10px !default;
+
+/// Border width on mobile
+///
+/// @type Number
+/// @access public
+
+$ofs-border-width-mobile: 4px !default;
+
+/// Form control border width
+///
+/// @type Number
+/// @access public
+
+$ofs-border-width-form-element: 2px !default;
+
+/// Form control border width when in error state
+///
+/// @type Number
+/// @access public
+
+$ofs-border-width-form-element-error: 4px !default;
+
+/// Form group border width when in error state
+///
+/// @type Number
+/// @access public
+
+$ofs-border-width-form-group-error: $ofs-border-width !default;
+
+/// Border width of focus outline
+///
+/// @type Number
+/// @access public
+
+$ofs-focus-width: 3px !default;

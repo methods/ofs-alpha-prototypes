@@ -1,0 +1,48 @@
+////
+/// @group settings/typography
+////
+
+
+
+// =========================================================
+// Font families
+// =========================================================
+
+/// Font families to use for all typography on screen media
+///
+/// @type List
+/// @access public
+
+$ofs-font-family: $ofs-font-family-nta !default;
+
+/// Font families to use when displaying tabular numbers
+///
+/// @type List
+/// @access public
+
+$ofs-font-family-tabular: $ofs-font-family-nta-tabular !default;
+
+/// Font families to use for print media
+///
+/// @type List
+/// @access public
+
+$ofs-font-family-print: sans-serif !default;
+
+
+
+// =========================================================
+// Font weights
+// =========================================================
+
+/// Font weight for regular typography
+///
+/// @type Number
+/// @access public
+$ofs-font-weight-regular: 400 !default;
+
+/// Font weight for bold typography
+///
+/// @type Number
+/// @access public
+$ofs-font-weight-bold: 700 !default;
