@@ -7,7 +7,7 @@
 /// @type Map
 /// @access private
 
-$_govuk-grid-widths: (
+$_ofs-grid-widths: (
   one-quarter: 25%,
   one-third: 33.3333%,
   one-half: 50%,
@@ -24,8 +24,8 @@ $_govuk-grid-widths: (
 /// @access public
 
 @function grid-width($key) {
-  @if map-has-key($_govuk-grid-widths, $key) {
-    @return map-get($_govuk-grid-widths, $key);
+  @if map-has-key($_ofs-grid-widths, $key) {
+    @return map-get($_ofs-grid-widths, $key);
   }
 
   @error "Unknown grid width `#{$key}`";
@@ -35,27 +35,27 @@ $_govuk-grid-widths: (
 ///
 /// Creates a grid row class with a standardised margin.
 ///
-/// @param {String} $class [govuk-grid-row] CSS class name
+/// @param {String} $class [ofs-grid-row] CSS class name
 ///
 /// @example scss - Default
-///   @include govuk-grid-row;
+///   @include ofs-grid-row;
 ///
 /// @example scss - Customising the class name
-///   @include govuk-grid-row("app-grid");
+///   @include ofs-grid-row("app-grid");
 ///
 /// @access public
 
-@mixin govuk-grid-row($class: "govuk-grid-row") {
+@mixin ofs-grid-row($class: "ofs-grid-row") {
   .#{$class} {
-    @include govuk-clearfix;
-    margin-right: - ($govuk-gutter-half);
-    margin-left: - ($govuk-gutter-half);
+    @include ofs-clearfix;
+    margin-right: - ($ofs-gutter-half);
+    margin-left: - ($ofs-gutter-half);
   }
 }
 
 /// Generate grid column styles
 ///
-/// Creates a cross browser grid column with a class of '.govuk-grid-column' by
+/// Creates a cross browser grid column with a class of '.ofs-grid-column' by
 /// default, and a standardised gutter between the columns.
 ///
 /// Common widths are predefined above as keywords in the `$grid-widths` map.
@@ -64,34 +64,34 @@ $_govuk-grid-widths: (
 /// breakpoint, but that can be configured to be any other breakpoint by using
 /// the `$at` parameter.
 ///
-/// @param {String} $class [govuk-grid-column] CSS class name
+/// @param {String} $class [ofs-grid-column] CSS class name
 /// @param {String} $width [full] one-quarter | one-third | one-half | two-third | three-quarters | full
 /// @param {String} $float [left] left | right
 /// @param {String} $at [tablet] - mobile | tablet | desktop | any custom breakpoint in px or em
 ///
 /// @example scss - Default
-///   @include govuk-grid-column(two-thirds)
+///   @include ofs-grid-column(two-thirds)
 ///
 /// @example scss - Customising the class name
-///   @include govuk-grid-column(one-half, $class: "test-column");
+///   @include ofs-grid-column(one-half, $class: "test-column");
 ///
 /// @example scss - Customising the breakpoint where width percentage is applied
-///   @include govuk-grid-column(one-half, $at: desktop);
+///   @include ofs-grid-column(one-half, $at: desktop);
 ///
 /// @example scss - Customising the float direction
-///   @include govuk-grid-column(one-half, $float: right);
+///   @include ofs-grid-column(one-half, $float: right);
 ///
 /// @access public
 
-@mixin govuk-grid-column($width: full, $float: left, $at: tablet, $class: "govuk-grid-column") {
+@mixin ofs-grid-column($width: full, $float: left, $at: tablet, $class: "ofs-grid-column") {
 
   .#{$class}-#{$width} {
     box-sizing: border-box;
     @if $at != desktop {
       width: 100%;
     }
-    padding: 0 $govuk-gutter-half;
-    @include govuk-media-query($from: $at) {
+    padding: 0 $ofs-gutter-half;
+    @include ofs-media-query($from: $at) {
       width: grid-width($width);
       float: $float;
     }

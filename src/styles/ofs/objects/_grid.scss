@@ -1,0 +1,10 @@
+@include ofs-exports("ofs/objects/grid") {
+  //most common usage
+  @include ofs-grid-row;
+  @include ofs-grid-column(one-quarter);
+  @include ofs-grid-column(one-third);
+  @include ofs-grid-column(one-half);
+  @include ofs-grid-column(two-thirds);
+  @include ofs-grid-column(three-quarters);
+  @include ofs-grid-column(full);
+}

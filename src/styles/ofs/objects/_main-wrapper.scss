@@ -1,0 +1,41 @@
+// Example usage with Breadcrumbs, phase banners, back links:
+// <div class="ofs-width-container">
+//   <!-- Breadcrumbs, phase banners, back links are placed in here. -->
+//   <div class="ofs-main-wrapper">
+//       <!-- Wrapper for the main content of your page which applies padding
+//            to the top / bottom -->
+//   </div>
+// </div>
+//
+// Example usage without Breadcrumbs, phase banners, back links:
+// <div class="ofs-width-container">
+//   <div class="ofs-main-wrapper ofs-main-wrapper--l">
+//       <!-- Wrapper for the main content of your page which applies padding
+//            to the top / bottom -->
+//   </div>
+// </div>
+
+
+@mixin ofs-main-wrapper {
+  @include ofs-responsive-padding(6, "top");
+  @include ofs-responsive-padding(6, "bottom");
+  // In IE11 the `main` element can be used, but is not recognized  –
+  // meaning it's not defined in IE's default style sheet,
+  // so it uses CSS initial value, which is inline.
+  display: block;
+}
+
+// Use ofs-main-wrapper--l when you page does not have Breadcrumbs, phase banners or back links
+@mixin ofs-main-wrapper--l {
+  @include ofs-responsive-padding(8, "top");
+}
+
+@include ofs-exports("ofs/objects/main-wrapper") {
+  .ofs-main-wrapper {
+    @include ofs-main-wrapper;
+  }
+
+  .ofs-main-wrapper--l {
+    @include ofs-main-wrapper--l;
+  }
+}

@@ -1,0 +1,28 @@
+@mixin ofs-width-container {
+  // Limit the width of the container to the page width
+  max-width: $ofs-page-width;
+
+  @include ofs-if-ie8 {
+    width: $ofs-page-width;
+  }
+
+  // On mobile, add half width gutters
+  margin: 0 $ofs-gutter-half;
+
+  // On tablet, add full width gutters
+  @include ofs-media-query($from: tablet) {
+    margin: 0 $ofs-gutter;
+  }
+
+  // As soon as the viewport is greater than the width of the page plus the
+  // gutters, just centre the content instead of adding gutters.
+  @include ofs-media-query($and: "(min-width: #{($ofs-page-width + $ofs-gutter * 2)})") {
+    margin: 0 auto;
+  }
+}
+
+@include ofs-exports("ofs/objects/width-container") {
+  .ofs-width-container {
+    @include ofs-width-container;
+  }
+}
