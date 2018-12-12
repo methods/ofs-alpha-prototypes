@@ -1,0 +1,193 @@
+
+  @import "../../../styles/ofs/all.scss";
+  
+  $ofs-footer-background: $ofs-canvas-background-colour;
+  $ofs-footer-border-top: #a1acb2;
+  $ofs-footer-border: ofs-colour("grey-2");
+  $ofs-footer-text: #454a4c;
+  $ofs-footer-link: $ofs-footer-text;
+  $ofs-footer-link-hover: #171819;
+
+  // Based on the ofs-crest-2x.png image dimensions.
+  $ofs-footer-crest-image-width-2x: 250px;
+  $ofs-footer-crest-image-height-2x: 204px;
+  // Half the 2x image so that it fits the regular 1x size.
+  $ofs-footer-crest-image-width: ($ofs-footer-crest-image-width-2x / 2);
+  $ofs-footer-crest-image-height: ($ofs-footer-crest-image-height-2x / 2);
+
+  .ofs-footer {
+    @include ofs-font($size: 16);
+    @include ofs-responsive-padding(7, "top");
+    @include ofs-responsive-padding(5, "bottom");
+
+    border-top: 1px solid $ofs-footer-border-top;
+    color: $ofs-footer-text;
+    background: $ofs-footer-background;
+  }
+
+  .ofs-footer__link {
+    @include ofs-focusable-fill;
+
+    &:link,
+    &:visited {
+      color: $ofs-footer-link;
+    }
+
+    &:hover,
+    &:active {
+      color: $ofs-footer-link-hover;
+    }
+
+    // When focussed, the text colour needs to be darker to ensure that colour
+    // contrast is still acceptable
+    &:focus {
+      color: $ofs-focus-text-colour;
+    }
+
+    // alphagov/ofs_template includes a specific a:link:focus selector
+    // designed to make unvisited links a slightly darker blue when focussed, so
+    // we need to override the text colour for that combination of selectors.
+    @include ofs-compatibility(ofs_template) {
+      &:link:focus {
+        @include ofs-text-colour;
+      }
+    }
+  }
+
+  .ofs-footer__section-break {
+    margin: 0; // Reset `<hr>` default margins
+    @include ofs-responsive-margin(8, "bottom");
+    border: 0; // Reset `<hr>` default borders
+    border-bottom: 1px solid $ofs-footer-border;
+  }
+
+  .ofs-footer__meta {
+    display: flex; // Support: Flexbox
+    margin-right: -$ofs-gutter-half;
+    margin-left: -$ofs-gutter-half;
+    flex-wrap: wrap; // Support: Flexbox
+    align-items: flex-end; // Support: Flexbox
+    justify-content: center; // Support: Flexbox
+  }
+
+  .ofs-footer__meta-item {
+    margin-right: $ofs-gutter-half;
+    margin-bottom: ofs-spacing(5);
+    margin-left: $ofs-gutter-half;
+  }
+
+  .ofs-footer__meta-item--grow {
+    flex: 1; // Support: Flexbox
+    @include mq ($until: tablet) {
+      flex-basis: 320px; // Support: Flexbox
+    }
+  }
+
+  .ofs-footer__licence-logo {
+    display: inline-block;
+    margin-right: ofs-spacing(2);
+    @include mq ($until: desktop) {
+      margin-bottom: ofs-spacing(3);
+    }
+    vertical-align: top;
+  }
+
+  .ofs-footer__licence-description {
+    display: inline-block;
+  }
+
+  .ofs-footer__copyright-logo {
+    display: inline-block;
+    min-width: $ofs-footer-crest-image-width;
+    padding-top: ($ofs-footer-crest-image-height + ofs-spacing(2));
+    background-image: ofs-image-url("ofs-crest.png");
+    @include ofs-device-pixel-ratio {
+      background-image: ofs-image-url("ofs-crest-2x.png");
+    }
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: $ofs-footer-crest-image-width $ofs-footer-crest-image-height;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .ofs-footer__inline-list {
+    margin-top: 0;
+    margin-bottom: ofs-spacing(3);
+    padding: 0;
+  }
+
+  .ofs-footer__meta-custom {
+    margin-bottom: ofs-spacing(4);
+  }
+
+  .ofs-footer__inline-list-item {
+    display: inline-block;
+    margin-right: ofs-spacing(3);
+    margin-bottom: ofs-spacing(1);
+  }
+
+  .ofs-footer__heading {
+    @include ofs-responsive-margin(7, "bottom");
+    padding-bottom: ofs-spacing(4);
+    @include mq ($until: tablet) {
+      padding-bottom: ofs-spacing(2);
+    }
+    border-bottom: 1px solid $ofs-footer-border;
+  }
+
+  .ofs-footer__navigation {
+    display: flex; // Support: Flexbox
+    margin-right: -$ofs-gutter-half;
+    margin-left: -$ofs-gutter-half;
+    flex-wrap: wrap; // Support: Flexbox
+  }
+
+  .ofs-footer__section {
+    display: inline-block;
+    margin-right: $ofs-gutter-half;
+    margin-bottom: $ofs-gutter;
+    margin-left: $ofs-gutter-half;
+    vertical-align: top;
+    // Ensure columns take up equal width (typically one-half:one-half)
+    flex-grow: 1; // Support: Flexbox
+    flex-shrink: 1; // Support: Flexbox
+    @include mq ($until: desktop) {
+      // Make sure columns do not drop below 200px in width
+      // Will typically result in wrapping, and end up in a single column on smaller screens.
+      flex-basis: 200px; // Support: Flexbox
+    }
+  }
+
+  // Sections two-third:one-third on desktop
+  @include mq ($from: desktop) {
+    .ofs-footer__section:first-child {
+      flex-grow: 2; // Support: Flexbox
+    }
+  }
+
+  .ofs-footer__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    column-gap: $ofs-gutter; // Support: Columns
+  }
+
+  @include mq ($from: desktop) {
+    .ofs-footer__list--columns-2 {
+      column-count: 2; // Support: Columns
+    }
+
+    .ofs-footer__list--columns-3 {
+      column-count: 3; // Support: Columns
+    }
+  }
+
+  .ofs-footer__list-item {
+    @include ofs-responsive-margin(4, "bottom");
+  }
+
+  .ofs-footer__list-item:last-child {
+    margin-bottom: 0;
+  }

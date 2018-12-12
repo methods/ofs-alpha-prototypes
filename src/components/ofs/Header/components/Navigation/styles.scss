@@ -1,0 +1,14 @@
+@import "../../../../../styles/ofs/all.scss";
+
+.ofs-navigation-bar {
+  background-color: $ofs-nav-colour;
+}
+
+.ofs-header__navigation {
+  // @include ofs-responsive-margin(1, "bottom");
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+

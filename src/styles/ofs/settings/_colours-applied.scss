@@ -15,7 +15,11 @@
 /// @type Colour
 /// @access public
 
-$ofs-brand-colour: ofs-colour("blue") !default;
+$ofs-brand-colour: #558BB4 !default;
+
+$ofs-nav-colour: #EEE4BD !default;
+
+$ofs-panel-colour: #EBF1F6 !default;
 
 /// Text colour
 ///
@@ -31,7 +35,7 @@ $ofs-text-colour: ofs-colour("black") !default;
 /// @type Colour
 /// @access public
 
-$ofs-canvas-background-colour: ofs-colour("grey-3") !default;
+$ofs-canvas-background-colour: #558BB4 !default;
 
 /// Body background colour
 ///

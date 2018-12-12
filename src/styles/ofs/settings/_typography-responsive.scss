@@ -79,6 +79,20 @@ $ofs-typography-scale: (
       line-height: 1.1
     )
   ),
+  60: (
+    null: (
+      font-size: 36px,
+      line-height: 38px
+    ),
+    tablet: (
+      font-size: 53px,
+      line-height: 55px
+    ),
+    print: (
+      font-size: 36pt,
+      line-height: 1.15
+    )
+  ),
   48: (
     null: (
       font-size: 32px,

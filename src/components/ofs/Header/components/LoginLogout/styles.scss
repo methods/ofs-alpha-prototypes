@@ -1,0 +1,39 @@
+@import "../../../../../styles/ofs/all.scss";
+
+.ofs-login-logout-item {
+    margin: ofs-spacing(2);
+}
+
+.ofs-signup-btn {
+    padding: 3px ofs-spacing(3);
+    border-radius: 25px;
+    color: $ofs-brand-colour;
+    background-color: $ofs-panel-colour;
+    @include ofs-font($size: 16, $line-height: 19px);
+}
+
+.ofs-login-logout {
+    margin-right: 0px;
+    text-align: right;
+}
+
+.ofs-login-logout__link {
+
+    color: ofs-colour("white");
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      color: ofs-colour("white");
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    // When focussed, the text colour needs to be darker to ensure that colour
+    // contrast is still acceptable
+    &:focus {
+      color: ofs-colour("white");
+    }
+  }

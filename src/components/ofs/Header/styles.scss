@@ -1,0 +1,274 @@
+
+  @import "../../../styles/ofs/all.scss";
+  
+  $ofs-header-background: $ofs-brand-colour;
+  $ofs-header-border-color: $ofs-brand-colour;
+  $ofs-header-border-width: ofs-spacing(2);
+  $ofs-header-text: ofs-colour("white");
+  $ofs-header-link: ofs-colour("white");
+  $ofs-header-link-hover: ofs-colour("white");
+  $ofs-header-link-active: #1d8feb;
+  $ofs-header-nav-item-border-color: #2e3133;
+
+  .ofs-header {
+    @include ofs-font($size: 16);
+
+    // border-bottom: ofs-spacing(2) solid ofs-colour("white");
+    color: $ofs-header-text;
+    background: $ofs-header-background;
+    padding-bottom: ofs-spacing(1)
+  }
+
+  .ofs-header-heading-first {
+    @include ofs-font($size: 60, $weight:regular);
+  }
+  .ofs-header-heading-second {
+    @include ofs-font($size: 60, $weight:bold);
+  }
+
+  .ofs-header__container--full-width {
+    padding: 0 ofs-spacing(3);
+    border-color: $ofs-header-border-color;
+
+    .ofs-header__menu-button {
+      right: ofs-spacing(3);
+    }
+  }
+
+  .ofs-header__container {
+    @include ofs-clearfix;
+    position: relative;
+    margin-bottom: -$ofs-header-border-width;
+    padding-top: ofs-spacing(2);
+    border-bottom: $ofs-header-border-width solid $ofs-header-border-color;
+  }
+
+  .ofs-header__product-name {
+    @include ofs-font($size: 24);
+    display: inline-table;
+    padding-right: ofs-spacing(2);
+  }
+
+  .ofs-header__link {
+    @include ofs-focusable-fill;
+
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      color: $ofs-header-link;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    // When focussed, the text colour needs to be darker to ensure that colour
+    // contrast is still acceptable
+    &:focus {
+      color: $ofs-focus-text-colour;
+    }
+
+    // alphagov/ofs_template includes a specific a:link:focus selector
+    // designed to make unvisited links a slightly darker blue when focussed, so
+    // we need to override the text colour for that combination of selectors.
+    @include ofs-compatibility(ofs_template) {
+      &:link:focus {
+        @include ofs-text-colour;
+      }
+    }
+  }
+
+  .ofs-header__link--homepage {
+    // Font size needs to be set on the link so that the box sizing is correct
+    // in Firefox
+    @include ofs-font($size: false, $weight: bold);
+
+    display: inline-block;
+    font-size: 30px; // We don't have a mixin that produces 30px font size
+    line-height: 30px;
+
+    &:link,
+    &:visited {
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      // Negate the added border
+      margin-bottom: -1px;
+      // Omitting colour will use default value of currentColor – if we
+      // specified currentColor explicitly IE8 would ignore this rule.
+      border-bottom: 1px solid;
+    }
+  }
+
+  .ofs-header__link--service-name {
+    display: inline-block;
+    margin-bottom: ofs-spacing(2);
+    @include ofs-font($size: 24, $weight: bold);
+  }
+
+  .ofs-header__logo {
+    @include ofs-responsive-margin(2, "bottom");
+    padding-right: ofs-spacing(8);
+
+    @include mq ($from: desktop) {
+      width: 33.33%;
+      padding-right: 0;
+      float: left;
+      vertical-align: top;
+    }
+  }
+
+  .ofs-header__content {
+    @include mq ($from: desktop) {
+      width: 66.66%;
+      float: left;
+    }
+  }
+
+  .ofs-header__menu-button {
+    @include ofs-font($size: 16);
+    display: none;
+    position: absolute;
+    top: ofs-spacing(4);
+    right: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: $ofs-header-link;
+    background: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &::after {
+      @include ofs-shape-arrow($direction: down, $base: 10px, $display: inline-block);
+      content: "";
+      margin-left: ofs-spacing(1);
+    }
+
+    @include ofs-focusable;
+
+    @include mq ($from: tablet) {
+      top: ofs-spacing(3);
+    }
+  }
+
+  .ofs-header__menu-button--open {
+    &::after {
+      @include ofs-shape-arrow($direction: up, $base: 10px, $display: inline-block);
+    }
+  }
+
+
+  .js-enabled {
+    .ofs-header__menu-button {
+      display: block;
+      @include mq ($from: desktop) {
+        display: none;
+      }
+    }
+
+    .ofs-header__navigation {
+      display: none;
+      @include mq ($from: desktop) {
+        display: block;
+      }
+    }
+
+    .ofs-header__navigation--open {
+      display: block;
+    }
+  }
+
+
+  .ofs-header__navigation--end {
+    @include mq ($from: desktop) {
+      margin: 0;
+      padding: ofs-spacing(1) 0;
+      text-align: right;
+    }
+  }
+
+  .ofs-header__navigation--no-service-name {
+    padding-top: ofs-spacing(7);
+  }
+
+  .ofs-header__navigation-item {
+    padding: ofs-spacing(2) 0;
+    border-bottom: 1px solid $ofs-header-nav-item-border-color;
+
+    @include mq ($from: desktop) {
+      display: inline-block;
+      margin-right: ofs-spacing(3);
+      padding: ofs-spacing(1) 0;
+      border: 0;
+    }
+
+    a {
+      @include ofs-font($size: 16, $weight: bold);
+      white-space: nowrap;
+    }
+  }
+
+  .ofs-header__navigation-item--active {
+    a {
+      &:link,
+      &:hover,
+      &:visited {
+        color: $ofs-header-link-active;
+      }
+
+      // When focussed, the text colour needs to be darker to ensure that colour
+      // contrast is still acceptable
+      &:focus {
+        color: $ofs-focus-text-colour;
+      }
+    }
+  }
+
+  .ofs-header__navigation-item:last-child {
+    margin-right: 0;
+  }
+
+  @include ofs-media-query($media-type: print) {
+    .ofs-header {
+      border-bottom-width: 0;
+      color: ofs-colour("black");
+      background: transparent;
+    }
+
+    // Hide the inverted crown when printing in browsers that don't support SVG.
+    .ofs-header__logotype-crown-fallback-image {
+      display: none;
+    }
+
+    .ofs-header__link {
+      &:link,
+      &:visited {
+        color: ofs-colour("black");
+      }
+
+      // Do not append link href to GOV.UK link when printing (e.g. '(/)')
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  // Begin adjustments for font baseline offset
+  // These should be removed when the font is updated with the correct baseline
+  .ofs-header__logotype-crown,
+  .ofs-header__logotype-crown-fallback-image {
+    position: relative;
+    top: -4px;
+  }
+
+  .ofs-header {
+    $offset: 3px;
+    padding-top: $offset;
+  }
+  // End adjustments
