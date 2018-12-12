@@ -5,8 +5,8 @@
   $ofs-header-border-color: $ofs-brand-colour;
   $ofs-header-border-width: ofs-spacing(2);
   $ofs-header-text: ofs-colour("white");
-  $ofs-header-link: ofs-colour("white");
-  $ofs-header-link-hover: ofs-colour("white");
+  $ofs-header-link: ofs-colour("black");
+  $ofs-header-link-hover: $ofs-brand-colour;
   $ofs-header-link-active: #1d8feb;
   $ofs-header-nav-item-border-color: #2e3133;
 
@@ -126,112 +126,6 @@
       width: 66.66%;
       float: left;
     }
-  }
-
-  .ofs-header__menu-button {
-    @include ofs-font($size: 16);
-    display: none;
-    position: absolute;
-    top: ofs-spacing(4);
-    right: 0;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    color: $ofs-header-link;
-    background: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-
-    &::after {
-      @include ofs-shape-arrow($direction: down, $base: 10px, $display: inline-block);
-      content: "";
-      margin-left: ofs-spacing(1);
-    }
-
-    @include ofs-focusable;
-
-    @include mq ($from: tablet) {
-      top: ofs-spacing(3);
-    }
-  }
-
-  .ofs-header__menu-button--open {
-    &::after {
-      @include ofs-shape-arrow($direction: up, $base: 10px, $display: inline-block);
-    }
-  }
-
-
-  .js-enabled {
-    .ofs-header__menu-button {
-      display: block;
-      @include mq ($from: desktop) {
-        display: none;
-      }
-    }
-
-    .ofs-header__navigation {
-      display: none;
-      @include mq ($from: desktop) {
-        display: block;
-      }
-    }
-
-    .ofs-header__navigation--open {
-      display: block;
-    }
-  }
-
-
-  .ofs-header__navigation--end {
-    @include mq ($from: desktop) {
-      margin: 0;
-      padding: ofs-spacing(1) 0;
-      text-align: right;
-    }
-  }
-
-  .ofs-header__navigation--no-service-name {
-    padding-top: ofs-spacing(7);
-  }
-
-  .ofs-header__navigation-item {
-    padding: ofs-spacing(2) 0;
-    border-bottom: 1px solid $ofs-header-nav-item-border-color;
-
-    @include mq ($from: desktop) {
-      display: inline-block;
-      margin-right: ofs-spacing(3);
-      padding: ofs-spacing(1) 0;
-      border: 0;
-    }
-
-    a {
-      @include ofs-font($size: 16, $weight: bold);
-      white-space: nowrap;
-    }
-  }
-
-  .ofs-header__navigation-item--active {
-    a {
-      &:link,
-      &:hover,
-      &:visited {
-        color: $ofs-header-link-active;
-      }
-
-      // When focussed, the text colour needs to be darker to ensure that colour
-      // contrast is still acceptable
-      &:focus {
-        color: $ofs-focus-text-colour;
-      }
-    }
-  }
-
-  .ofs-header__navigation-item:last-child {
-    margin-right: 0;
   }
 
   @include ofs-media-query($media-type: print) {

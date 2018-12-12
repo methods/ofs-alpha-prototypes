@@ -1,14 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import "./styles.scss"
 
 export default (props) => {
+    const buttonClass = props.open ? "ofs-header__toggle-menu-button ofs-header__toggle-menu-button--open" : "ofs-header__toggle-menu-button";
+    const navigationClass = props.open ? "ofs-header__navigation ofs-header__navigation--open" : "ofs-header__navigation";
+
     return (
+      <div>
+      <div className="ofs-header__menu-navigation">
+      <div className="ofs-width-container">
+        <div type="button" role="button" onClick={props.toggleVisible} className={buttonClass} aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</div>
+      </div>
+      </div>
+
       <div className="ofs-navigation-bar">
       <div className="ofs-width-container">
-      <button type="button" role="button" onClick={props.toggleVisible} className="ofs-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+
       <nav>
-        <ul id="navigation" className="ofs-header__navigation" aria-label="Top Level Navigation">
+        <ul id="navigation" className={navigationClass} aria-label="Top Level Navigation">
           <li className="ofs-header__navigation-item ofs-header__navigation-item--active">
             <a className="ofs-header__link" href="#1">
               Home
@@ -36,6 +45,7 @@ export default (props) => {
           </li>
         </ul>
       </nav>
+      </div>
       </div>
       </div>
     )
