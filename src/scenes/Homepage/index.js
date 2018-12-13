@@ -14,36 +14,76 @@ export default  (props) => {
 
             <Header />
 
+            <div className="ofs-width-container">
+                <div className="ofs-grid-row">
+                    <div className="ofs-grid-column-full">
+                        <h1 className="ofs-heading-l ofs-jumbotron__title">How do I choose a course?</h1>
+                    </div>
+                </div>
+            </div>
+            
             <VideoJumbotron />
 
             <div className="ofs-width-container">
                 <div className="ofs-grid-row">
-                    <div className="ofs-grid-column-one-half">
-                        <CheckPanel title={data[0].title} imgUrl="assets/icons/subject.png" bodyText={data[0].body} url={data[0].url} />
-                    </div>
-                    <div className="ofs-grid-column-one-half">
-                        <CheckPanel title={data[1].title} imgUrl="assets/icons/howlesson.png" bodyText={data[1].body} url={data[1].url} />
+                    <div className="ofs-grid-column-full">
+                        <h2 className="ofs-heading-l ofs-checklist__title">A useful checklist</h2>
                     </div>
                 </div>
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">
-                        <CheckPanel title={data[2].title} imgUrl="assets/icons/outcomes.png"  bodyText={data[2].body} url={data[2].url} />
+                        <div className="ofs-checklist__left-item">
+                            <CheckPanel title={data[0].title} imgUrl="assets/icons/subject.png" bodyText={data[0].body} url={data[0].url} />
+                        </div>
                     </div>
                     <div className="ofs-grid-column-one-half">
-                        <CheckPanel title={data[3].title} imgUrl="assets/icons/location.png" bodyText={data[3].body} url={data[3].url} />
+                        <div className="ofs-checklist__right-item">
+                            <CheckPanel title={data[1].title} imgUrl="assets/icons/howlesson.png" bodyText={data[1].body} url={data[1].url} />
+                        </div>
                     </div>
+                </div>
+
+                <div className="check-list__section-break">
+                    <hr class="ofs-section-break ofs-section-break--visible" />
+                </div>
+
+                <div className="ofs-grid-row">
+                    <div className="ofs-grid-column-one-half">
+                        <div className="ofs-checklist__left-item">
+                            <CheckPanel title={data[2].title} imgUrl="assets/icons/outcomes.png"  bodyText={data[2].body} url={data[2].url} />
+                        </div>
+                    </div>
+                    <div className="ofs-grid-column-one-half">
+                        <div className="ofs-checklist__right-item">
+                            <CheckPanel title={data[3].title} imgUrl="assets/icons/location.png" bodyText={data[3].body} url={data[3].url} />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="check-list__section-break">
+                    <hr class="ofs-section-break ofs-section-break--visible" />
+                </div>
+
+                <div className="ofs-grid-row">
+                    <div className="ofs-grid-column-one-half">
+                        <div className="ofs-checklist__left-item">
+                            <CheckPanel title={data[4].title} imgUrl="assets/icons/stusupport.png" bodyText={data[4].body} url={data[4].url} />
+                        </div>
+                    </div>
+                    <div className="ofs-grid-column-one-half">
+                        <div className="ofs-checklist__right-item">
+                            <CheckPanel title={data[5].title} imgUrl="assets/icons/stuview.png" bodyText={data[5].body} url={data[5].url} />
+                        </div>
+                    </div>
+                </div>
+                <div className="check-list__section-break">
+                    <hr class="ofs-section-break ofs-section-break--visible" />
                 </div>
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">
-                        <CheckPanel title={data[4].title} imgUrl="assets/icons/stusupport.png" bodyText={data[4].body} url={data[4].url} />
-                    </div>
-                    <div className="ofs-grid-column-one-half">
-                        <CheckPanel title={data[5].title} imgUrl="assets/icons/stuview.png" bodyText={data[5].body} url={data[5].url} />
-                    </div>
-                </div>
-                <div className="ofs-grid-row">
-                    <div className="ofs-grid-column-one-half">
-                        <CheckPanel title={data[6].title} imgUrl="assets/icons/cost.png" bodyText={data[6].body} url={data[6].url} />
+                        <div className="ofs-checklist__left-item">
+                            <CheckPanel title={data[6].title} imgUrl="assets/icons/cost.png" bodyText={data[6].body} url={data[6].url} />
+                        </div>
                     </div>
                 </div>
             </div>

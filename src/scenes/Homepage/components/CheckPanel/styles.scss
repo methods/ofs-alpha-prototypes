@@ -2,15 +2,28 @@
 
 .check-panel {
     background-color: ofs-colour("white");
+    padding: 10px 0 30px 0;
 
+    &__title-row {
+        margin: 10px 0;
+    }
     &__icon {
         display: inline-block;
         vertical-align:middle;
+        
+        img {
+            height: 19px;
+        }
     }
 
     &__title {
         display: inline-block;
         vertical-align:middle;
+        padding-left: ofs-spacing(2);
+
+        &-label {
+            margin-bottom: 0px !important;
+        }
     }
     &__read-article {
         display: inline-block;
@@ -21,6 +34,20 @@
         display: inline-block;
         vertical-align:middle;
         float: right;
+
+        &__link {
+            display: inline-block;
+            vertical-align:middle;
+            padding-right: ofs-spacing(2);
+        }
+
+        &__icon {
+            display: inline-block;
+            vertical-align:middle;
+                    
+            img {
+                height: 19px;
+            }
+        }
     }    
 }
-

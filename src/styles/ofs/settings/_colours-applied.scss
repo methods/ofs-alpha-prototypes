@@ -39,7 +39,7 @@ $ofs-text-colour: ofs-colour("black") !default;
 /// @type Colour
 /// @access public
 
-$ofs-canvas-background-colour: #558BB4 !default;
+$ofs-canvas-background-colour: $ofs-brand-colour !default;
 
 /// Body background colour
 ///

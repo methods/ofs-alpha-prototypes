@@ -6,18 +6,25 @@ export default (props) => {
     return(
         <footer className="ofs-footer " role="contentinfo">
             <div className="ofs-width-container ">
-            <div className="ofs-footer__meta">
-                <div className="ofs-footer__meta-item ofs-footer__meta-item--grow">
-
-                <span className="ofs-footer__licence-description">
-                    All content is available under the
-                    <a className="ofs-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
-                </span>
+                <div>
+                <ul class="ofs-footer__inline-list">
+                    <li class="ofs-footer__inline-list-item">
+                        <a class="ofs-footer__link" href="#1">
+                        About us
+                        </a>
+                    </li>
+                    <li class="ofs-footer__inline-list-item">
+                        <a class="ofs-footer__link" href="#2">
+                        Our data
+                        </a>
+                    </li>
+                    <li class="ofs-footer__inline-list-item">
+                        <a class="ofs-footer__link" href="#3">
+                        Office for students
+                        </a>
+                    </li>
+                    </ul>
                 </div>
-                <div className="ofs-footer__meta-item">
-                <a className="ofs-footer__link ofs-footer__copyright-logo" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
-                </div>
-            </div>
             </div>
         </footer>
     )
