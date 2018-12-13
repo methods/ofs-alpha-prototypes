@@ -7,7 +7,7 @@ export default (props) => {
             <div className="ofs-width-container">
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-full">
-                        <img src="/assets/jumbotron/video.png" alt="Placeholder for a video introduction to the site" />
+                        <img src="/assets/jumbotron/course-carousel.png" alt="Placeholder for a feature that will let you search for a specific course or university" />
                     </div>
                 </div>
             </div>

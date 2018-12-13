@@ -11,8 +11,12 @@ const App = (props) => {
     return (
       <Router>
         <Switch>
-            <Route exact path="/" component={Homepage} />
             <Route exact path="/styleguide" component={Styleguide} />
+            <Route exact path="/" component={Homepage} />
+            <Route exact path="/versions/video" component={Homepage} />
+            <Route exact path="/versions/search" component={Homepage} />
+            <Route exact path="/versions/quiz" component={Homepage} />
+            <Route exact path="/versions/case-studies" component={Homepage} />
         </Switch>
       </Router>
     )

@@ -1,10 +1,16 @@
 import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 import "./styles.scss"
 
 import Header from '../../components/ofs/Header'
 import Footer from '../../components/ofs/Footer'
-import VideoJumbotron from './components/VideoJumbotron'
 import CheckPanel from './components/CheckPanel'
+
+import VideoJumbotron from './components/VideoJumbotron'
+import SearchJumbotron from './components/SearchJumbotron'
+import CaseStudyJumbotron from './components/CaseStudiesJumbotron'
+import QuizJumbotron from './components/QuizJumbotron'
 
 import data from './data/checks'
 
@@ -22,7 +28,15 @@ export default  (props) => {
                 </div>
             </div>
             
-            <VideoJumbotron />
+            <Router>
+                <Switch>
+                    <Route exact path="/" component={VideoJumbotron} />
+                    <Route exact path="/versions/video" component={VideoJumbotron} />
+                    <Route exact path="/versions/search" component={SearchJumbotron} />
+                    <Route exact path="/versions/quiz" component={QuizJumbotron} />
+                    <Route exact path="/versions/case-studies" component={CaseStudyJumbotron} />
+                </Switch>
+            </Router>
 
             <div className="ofs-width-container">
                 <div className="ofs-grid-row">
@@ -44,7 +58,7 @@ export default  (props) => {
                 </div>
 
                 <div className="check-list__section-break">
-                    <hr class="ofs-section-break ofs-section-break--visible" />
+                    <hr className="ofs-section-break ofs-section-break--visible" />
                 </div>
 
                 <div className="ofs-grid-row">
@@ -61,7 +75,7 @@ export default  (props) => {
                 </div>
 
                 <div className="check-list__section-break">
-                    <hr class="ofs-section-break ofs-section-break--visible" />
+                    <hr className="ofs-section-break ofs-section-break--visible" />
                 </div>
 
                 <div className="ofs-grid-row">
@@ -77,7 +91,7 @@ export default  (props) => {
                     </div>
                 </div>
                 <div className="check-list__section-break">
-                    <hr class="ofs-section-break ofs-section-break--visible" />
+                    <hr className="ofs-section-break ofs-section-break--visible" />
                 </div>
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">

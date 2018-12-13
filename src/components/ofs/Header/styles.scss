@@ -39,7 +39,6 @@
     @include ofs-clearfix;
     position: relative;
     margin-bottom: -$ofs-header-border-width;
-    padding-top: ofs-spacing(2);
     border-bottom: $ofs-header-border-width solid $ofs-header-border-color;
   }
 
