@@ -1,0 +1,26 @@
+@import "../../styles.scss";
+
+.check-panel {
+    background-color: ofs-colour("white");
+
+    &__icon {
+        display: inline-block;
+        vertical-align:middle;
+    }
+
+    &__title {
+        display: inline-block;
+        vertical-align:middle;
+    }
+    &__read-article {
+        display: inline-block;
+        vertical-align:middle;
+    }
+    
+    &__save-article {
+        display: inline-block;
+        vertical-align:middle;
+        float: right;
+    }    
+}
+

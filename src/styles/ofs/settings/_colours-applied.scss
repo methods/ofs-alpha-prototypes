@@ -15,11 +15,15 @@
 /// @type Colour
 /// @access public
 
-$ofs-brand-colour: #558BB4 !default;
+$ofs-brand-colour: #387d94 !default;
+$ofs-brand-colour-2: #f7db94 !default;
+$ofs-brand-colour-3: #b892dc !default;
+$ofs-brand-colour-4: #ebeef4 !default;
+$ofs-brand-colour-5: #b7a798 !default;
 
-$ofs-nav-colour: #EEE4BD !default;
+$ofs-nav-colour: $ofs-brand-colour-2;
 
-$ofs-panel-colour: #EBF1F6 !default;
+$ofs-panel-colour: $ofs-brand-colour-4;
 
 /// Text colour
 ///
