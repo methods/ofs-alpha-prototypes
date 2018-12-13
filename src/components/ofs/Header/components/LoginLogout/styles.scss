@@ -4,6 +4,11 @@
     margin: ofs-spacing(2);
 }
 
+.ofs-login-logout__icon {
+  display: inline-block;
+  vertical-align:middle;
+}
+
 .ofs-signup-btn {
     padding: 3px ofs-spacing(3);
     border-radius: 25px;
@@ -15,6 +20,10 @@
 .ofs-login-logout {
     margin-right: 0px;
     text-align: right;
+
+    img {
+      height: 25px;
+    }
 }
 
 .ofs-login-logout__link {

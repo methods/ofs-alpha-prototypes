@@ -23,7 +23,7 @@ export default class Header extends Component {
                 <div className="ofs-header__container ofs-width-container">
                     <div className="ofs-grid-row">
                         <div className="ofs-grid-column-one-half">
-                            <div><span className="ofs-header-heading-first">Uni</span><span className="ofs-header-heading-second">hub</span></div>
+                            <div><span className="ofs-header-heading-first">Uni</span><span className="ofs-header-heading-second">pedia</span></div>
                             <div>Make confident and informed decisions about HE</div>
                         </div>
                         <div className="ofs-grid-column-one-half">

@@ -20,10 +20,10 @@
   }
 
   .ofs-header-heading-first {
-    @include ofs-font($size: 60, $weight:regular);
+    @include ofs-font($size: 60, $weight:bold);
   }
   .ofs-header-heading-second {
-    @include ofs-font($size: 60, $weight:bold);
+    @include ofs-font($size: 60, $weight:regular);
   }
 
   .ofs-header__container--full-width {

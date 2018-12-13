@@ -33,12 +33,12 @@ export default  (props) => {
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__left-item">
-                            <CheckPanel title={data[0].title} imgUrl="assets/icons/subject.png" bodyText={data[0].body} url={data[0].url} />
+                            <CheckPanel title={data[0].title} imgUrl={data[0].imageURL} bodyText={data[0].body} url={data[0].url} />
                         </div>
                     </div>
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__right-item">
-                            <CheckPanel title={data[1].title} imgUrl="assets/icons/howlesson.png" bodyText={data[1].body} url={data[1].url} />
+                            <CheckPanel title={data[1].title} imgUrl={data[1].imageURL} bodyText={data[1].body} url={data[1].url} />
                         </div>
                     </div>
                 </div>
@@ -50,12 +50,12 @@ export default  (props) => {
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__left-item">
-                            <CheckPanel title={data[2].title} imgUrl="assets/icons/outcomes.png"  bodyText={data[2].body} url={data[2].url} />
+                            <CheckPanel title={data[2].title} imgUrl={data[2].imageURL}  bodyText={data[2].body} url={data[2].url} />
                         </div>
                     </div>
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__right-item">
-                            <CheckPanel title={data[3].title} imgUrl="assets/icons/location.png" bodyText={data[3].body} url={data[3].url} />
+                            <CheckPanel title={data[3].title} imgUrl={data[3].imageURL} bodyText={data[3].body} url={data[3].url} />
                         </div>
                     </div>
                 </div>
@@ -67,12 +67,12 @@ export default  (props) => {
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__left-item">
-                            <CheckPanel title={data[4].title} imgUrl="assets/icons/stusupport.png" bodyText={data[4].body} url={data[4].url} />
+                            <CheckPanel title={data[4].title} imgUrl={data[4].imageURL} bodyText={data[4].body} url={data[4].url} />
                         </div>
                     </div>
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__right-item">
-                            <CheckPanel title={data[5].title} imgUrl="assets/icons/stuview.png" bodyText={data[5].body} url={data[5].url} />
+                            <CheckPanel title={data[5].title} imgUrl={data[5].imageURL} bodyText={data[5].body} url={data[5].url} />
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,12 @@ export default  (props) => {
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__left-item">
-                            <CheckPanel title={data[6].title} imgUrl="assets/icons/cost.png" bodyText={data[6].body} url={data[6].url} />
+                            <CheckPanel title={data[6].title} imgUrl={data[6].imageURL} bodyText={data[6].body} url={data[6].url} />
+                        </div>
+                    </div>
+                    <div className="ofs-grid-column-one-half">
+                        <div className="ofs-checklist__right-item">
+                            <CheckPanel title={data[7].title} imgUrl={data[7].imageURL} bodyText={data[7].body} url={data[7].url} />
                         </div>
                     </div>
                 </div>

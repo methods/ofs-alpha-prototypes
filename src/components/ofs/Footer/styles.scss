@@ -4,9 +4,9 @@
   $ofs-footer-background: $ofs-canvas-background-colour;
   $ofs-footer-border-top: #a1acb2;
   $ofs-footer-border: ofs-colour("grey-2");
-  $ofs-footer-text: #454a4c;
+  $ofs-footer-text: ofs-colour("white");
   $ofs-footer-link: $ofs-footer-text;
-  $ofs-footer-link-hover: #171819;
+  $ofs-footer-link-hover: ofs-colour("white");
 
   // Based on the ofs-crest-2x.png image dimensions.
   $ofs-footer-crest-image-width-2x: 250px;
