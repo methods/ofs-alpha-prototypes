@@ -8,8 +8,8 @@ export default (props) => {
 
     return (
         <div className="ofs-like-share">
-            <Link className="ofs-link ofs-like-share__like" to={likeURL}>Like</Link>
-            <Link className="ofs-link ofs-like-share__share" to={shareURL}>Share</Link>
+            <Link className="ofs-link ofs-like-share__like" to={likeURL}><img className="ofs-like-share__icon" src="/assets/icons/like.png" alt="" /> Like</Link>
+            <Link className="ofs-link ofs-like-share__share" to={shareURL}><img className="ofs-like-share__icon" src="/assets/icons/share.png" alt="" /> Share</Link>
         </div>
     )
 }
