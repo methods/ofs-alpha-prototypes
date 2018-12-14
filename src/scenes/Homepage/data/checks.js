@@ -8,7 +8,7 @@ export default [
     },
     {
         title: "Entry requirements",
-        body: "There is no upper age limit to studying at the University. You should be at least 17 years old by 20 September in the year you begin your course. If you are below this age some Universities may still consider you for admission.",
+        body: "Universities and colleges set their own entry requirements for each course. These include qualifications like A levels but often other things like interests, skills and background are taken into account, so it's worth understanding what is involved so you can choose the best course for you.",
         url: "/",
         imageURL: "/assets/icons/entryrequirements.png"
     },
