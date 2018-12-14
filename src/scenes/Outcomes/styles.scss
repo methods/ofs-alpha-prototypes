@@ -3,7 +3,25 @@
 .outcomes-summary {
     background-color: $ofs-brand-colour-4;
 
+
     &__content {
         background-color: ofs-colour("white");
+        padding: 10px;
+    }
+
+    &__links {
+        padding: 10px;
+    }
+
+    &__subject-title {
+        padding-top: 20px;
+
+        &-image {
+            height: 20px;
+        }
+
+        &-label {
+            margin-bottom: 5px !important;
+        }
     }
 }

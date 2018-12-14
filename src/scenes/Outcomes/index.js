@@ -14,7 +14,7 @@ import successData from './data/success';
 import summaryData from './data/summary';
 
 export default (props) => {
-
+    const subjectImgUrl = "/assets/icons/subject.png"
     return (
         <div className="ofs-template__body">
 
@@ -25,14 +25,24 @@ export default (props) => {
             <div className="outcomes-summary">
                 <div className="ofs-width-container">
                     <div className="ofs-grid-row">
-                        <div className="outcomes-summary__content ofs-grid-column-one-half">
-                            <MarkdownContent content={summaryData.paragraph}/>
-                            <MarkdownContent content={summaryData.subject} />
-                            <ReadMoreLink to="/" label="Read more" />
+                        <div className="ofs-grid-column-one-half">
+                            <div className="outcomes-summary__content">
+                                <MarkdownContent content={summaryData.paragraph}/>
+                                
+                                <div className="outcomes-summary__subject-title">
+                                    <h4 className="ofs-heading-s outcomes-summary__subject-title-label"><img className="outcomes-summary__subject-title-image" src={subjectImgUrl} alt=""/> Subject</h4>
+                                </div>
+                                <p className="ofs-body-s">{summaryData.subject}</p>
+                                
+                                
+                                <ReadMoreLink to="/" label="Read more" />
+                            </div>
                         </div>
                         <div className="ofs-grid-column-one-half">
-                            <ReadMoreList title="Career related information" links={[]} />
-                            <ReadMoreList title="Student success" links={[]} />
+                            <div className="outcomes-summary__links">
+                                <ReadMoreList title={summaryData.lists[0].title} links={summaryData.lists[0].links} />
+                                <ReadMoreList title={summaryData.lists[1].title} links={summaryData.lists[1].links} />
+                            </div>
                         </div>
                     </div>
                 </div>
