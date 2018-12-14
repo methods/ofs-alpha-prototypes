@@ -1,1 +1,9 @@
-@import '../../styles/all'
+@import '../../styles/all';
+
+.outcomes-summary {
+    background-color: $ofs-brand-colour-4;
+
+    &__content {
+        background-color: ofs-colour("white");
+    }
+}
