@@ -28,7 +28,7 @@ export default (props) => {
                         <div className="outcomes-summary__content ofs-grid-column-one-half">
                             <MarkdownContent content={summaryData.paragraph}/>
                             <MarkdownContent content={summaryData.subject} />
-                            <ReadMoreLink to="/" />
+                            <ReadMoreLink to="/" label="Read more" />
                         </div>
                         <div className="ofs-grid-column-one-half">
                             <ReadMoreList title="Career related information" links={[]} />
