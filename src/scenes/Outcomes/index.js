@@ -1,6 +1,13 @@
 import React from 'react'
+import Header from '../../components/ofs/Header';
+import Footer from '../../components/ofs/Footer';
+import PageHeader from '../../components/ofs/PageHeader';
 import Jumbotron from '../../components/ofs/Jumbotron';
+import MarkdownContent from '../../components/ofs/MarkdownContent';
+import ReadMoreLink from '../../components/ofs/ReadMoreLink';
+import ReadMoreList from '../../components/ofs/ReadMoreList';
 import Career from './components/Career';
+import Success from './components/Success';
 
 export default (props) => {
 
@@ -19,15 +26,15 @@ export default (props) => {
                             <ReadMoreLink to="/" />
                         </div>
                         <div className="ofs-grid-column-one-half">
-                            <ReadMoreList title="Career related information" links={} />
-                            <ReadMoreList title="Student success" links={} />
+                            <ReadMoreList title="Career related information" links={[]} />
+                            <ReadMoreList title="Student success" links={[]} />
                         </div>
                     </div>
                 </div>
             </div>
 
             <Career />
-            
+
             <Success />
 
             <Jumbotron imgUrl="/assets/jumbotron/case-studies.png"  alt="Placeholder for a feature that will let you browse case studies of other students" />
