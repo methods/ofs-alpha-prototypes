@@ -1,0 +1,21 @@
+@include ofs-exports("ofs/overrides/typography") {
+  // Font size and line height
+
+  // Generate typography override classes for each responsive font map in the
+  // typography scale eg .ofs-\!-font-size-80
+  @each $size in map-keys($ofs-typography-scale) {
+    .ofs-\!-font-size-#{$size} {
+      @include ofs-typography-responsive($size, $important: true);
+    }
+  }
+
+  // Weights
+
+  .ofs-\!-font-weight-regular {
+    @include ofs-typography-weight-regular($important: true);
+  }
+
+  .ofs-\!-font-weight-bold {
+    @include ofs-typography-weight-bold($important: true);
+  }
+}

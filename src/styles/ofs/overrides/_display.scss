@@ -1,0 +1,14 @@
+@include ofs-exports("ofs/overrides/display") {
+
+  .ofs-\!-display-inline {
+    display: inline !important;
+  }
+
+  .ofs-\!-display-inline-block {
+    display: inline-block !important;
+  }
+
+  .ofs-\!-display-block {
+    display: block !important;
+  }
+}
