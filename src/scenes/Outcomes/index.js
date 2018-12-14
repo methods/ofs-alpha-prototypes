@@ -1,5 +1,6 @@
 import React from 'react'
 import Jumbotron from '../../components/ofs/Jumbotron';
+import Career from './components/Career';
 
 export default (props) => {
 
@@ -24,6 +25,10 @@ export default (props) => {
                     </div>
                 </div>
             </div>
+
+            <Career />
+            
+            <Success />
 
             <Jumbotron imgUrl="/assets/jumbotron/case-studies.png"  alt="Placeholder for a feature that will let you browse case studies of other students" />
 
