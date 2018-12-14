@@ -9,7 +9,7 @@
   $chevron-border-width: 1px;
 
   // Colour of chevron
-  $chevron-border-colour: $ofs-secondary-text-colour;
+  $chevron-border-colour: ofs-colour("white");
 
   // Calculated altitude (△↕) of the right-angled isosceles chevron with sides
   // of length 8 (7px + 1px border):
