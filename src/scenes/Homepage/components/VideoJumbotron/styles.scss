@@ -7,7 +7,12 @@
         color: $ofs-brand-colour;
     }
 
-    img {
-        width: 100%;
+    &__video {
+        padding: 10px 0;
+    }
+
+    &__text {
+        padding: 10px 0 0 0;
+        margin-bottom: 20px;
     }
 }
