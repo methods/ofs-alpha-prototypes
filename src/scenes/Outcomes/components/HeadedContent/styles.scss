@@ -1,0 +1,10 @@
+@import "../../styles.scss";
+
+.ofs-content-paragraph {
+    padding: 10px;
+
+    &__header {
+        color: $ofs-brand-colour !important;
+        margin-bottom: 5px !important;
+    }
+}

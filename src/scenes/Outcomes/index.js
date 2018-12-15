@@ -9,8 +9,6 @@ import ReadMoreList from '../../components/ofs/ReadMoreList';
 import Career from './components/Career';
 import Success from './components/Success';
 
-import careerData from './data/career';
-import successData from './data/success';
 import summaryData from './data/summary';
 
 export default (props) => {
