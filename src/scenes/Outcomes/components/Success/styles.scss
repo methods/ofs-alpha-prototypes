@@ -1,1 +1,29 @@
 @import "../../styles.scss";
+
+.ofs-success {
+    &__header {
+        padding: 10px;
+    
+        margin-bottom: 10px !important;
+    }
+
+    &__intro {
+        padding: 0 10px;
+    }
+
+    &__paragraph {
+        padding: 0 10px;
+    }
+
+    &__paragraph-header {
+        padding: 0 10px;
+
+        color: $ofs-brand-colour !important;
+        margin-bottom: 5px !important;
+    }
+
+    &__image {
+        padding: 30px 10px 10px 10px;
+        width: 90%;
+    }
+}
