@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import "./styles.scss"
 
 export default (props) => {
@@ -9,10 +8,10 @@ export default (props) => {
         <div className="ofs-breadcrumbs">
           <ol className="ofs-breadcrumbs__list">
             <li className="ofs-breadcrumbs__list-item">
-              <a className="ofs-breadcrumbs__link" href="#">Home</a>
+              <a className="ofs-breadcrumbs__link" href="/">Home</a>
             </li>
             <li className="ofs-breadcrumbs__list-item">
-              <a className="ofs-breadcrumbs__link" href="#">Choosing a course</a>
+              <a className="ofs-breadcrumbs__link" href="/">Choosing a course</a>
             </li>
           </ol>
         </div>

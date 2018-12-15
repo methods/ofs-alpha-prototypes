@@ -6,7 +6,7 @@ export default (props) => {
 
   function getReadMoreLink(link) {
     return(
-        <li key={link.title}>
+        <li key={link.label}>
           <ReadMoreLink to={link.url} label={link.label} />    
         </li>
     )
@@ -15,8 +15,8 @@ export default (props) => {
   return (
     <div className="ofs-read-more-list">
         <h2 className="ofs-read-more-list__title ofs-heading-m">{props.title}</h2>
-        <ul class="ofs-list">
-        {props.links.map(link => getReadMoreLink(link))}
+        <ul className="ofs-list">
+          {props.links.map(link => getReadMoreLink(link))}
         </ul>
     </div>
     )

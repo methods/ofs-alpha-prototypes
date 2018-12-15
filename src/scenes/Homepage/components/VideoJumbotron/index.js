@@ -11,7 +11,7 @@ export default (props) => {
                     <div className="ofs-grid-column-two-thirds">
 
                         <div className="embed-responsive embed-responsive-16by9">
-                            <iframe className="video-jumbotron__video embed-responsive-item" src={url}></iframe>
+                            <iframe title="Choosing the right higher education course" className="video-jumbotron__video embed-responsive-item" src={url}></iframe>
                         </div>
                     </div>
                     <div className="ofs-grid-column-one-third">

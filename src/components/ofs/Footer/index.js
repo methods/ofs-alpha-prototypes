@@ -7,33 +7,38 @@ export default (props) => {
     return(
         <footer className="ofs-footer " role="contentinfo">
             <div className="ofs-width-container ">
-                <div class="ofs-footer__navigation">
-                    <div class="ofs-footer__section">
-                        <ul class="ofs-footer__list ">
-                        <li class="ofs-footer__list-item">
-                            <a class="ofs-footer__link" href="/versions/video">
+                <div className="ofs-footer__navigation">
+                    <div className="ofs-footer__section">
+                        <ul className="ofs-footer__list ">
+                        <li className="ofs-footer__list-item">
+                            <a className="ofs-footer__link" href="/versions/video">
                                 Homepage 1: Video
                             </a>
                         </li>
-                        <li class="ofs-footer__list-item">
-                            <a class="ofs-footer__link" href="/versions/search">
+                        <li className="ofs-footer__list-item">
+                            <a className="ofs-footer__link" href="/versions/search">
                                 Homepage 2: Search
                             </a>
                         </li>
-                        <li class="ofs-footer__list-item">
-                            <a class="ofs-footer__link" href="/versions/quiz">
+                        <li className="ofs-footer__list-item">
+                            <a className="ofs-footer__link" href="/versions/quiz">
                                 Homepage 3: Quiz
                             </a>
                         </li>
-                        <li class="ofs-footer__list-item">
-                            <a class="ofs-footer__link" href="/versions/case-studies">
+                        <li className="ofs-footer__list-item">
+                            <a className="ofs-footer__link" href="/versions/case-studies">
                                 Homepage 4: Case studies
+                            </a>
+                        </li>
+                        <li className="ofs-footer__list-item">
+                            <a className="ofs-footer__link" href="/outcomes">
+                                Outcomes page 1
                             </a>
                         </li>
                         </ul>
                     </div>
                 </div>
-                <hr class="ofs-footer__section-break" />
+                <hr className="ofs-footer__section-break" />
 
 
                 <div>

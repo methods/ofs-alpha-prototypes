@@ -15,7 +15,7 @@ export default [
     {
         title: "Outcomes",
         body: "What do you want to get out of your course? Find out what information is available to help you choose a course that is most likely to achieve your aims.",
-        url: "/",
+        url: "/outcomes/",
         imageURL: "/assets/icons/outcomes.png"
     },
     {
