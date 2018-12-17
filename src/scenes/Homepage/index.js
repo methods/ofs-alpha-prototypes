@@ -30,7 +30,7 @@ export default  (props) => {
             
             <Router>
                 <Switch>
-                    <Route exact path="/" component={VideoJumbotron} />
+                    <Route exact path="/" component={QuizJumbotron} />
                     <Route exact path="/versions/video" component={VideoJumbotron} />
                     <Route exact path="/versions/search" component={SearchJumbotron} />
                     <Route exact path="/versions/quiz" component={QuizJumbotron} />
