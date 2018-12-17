@@ -9,7 +9,7 @@ export default (props) => {
       <div>
       <div className="ofs-header__menu-navigation">
       <div className="ofs-width-container">
-        <div type="button" role="button" onClick={props.toggleVisible} className={buttonClass} aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</div>
+        <div role="button" onClick={props.toggleVisible} className={buttonClass} aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</div>
       </div>
       </div>
 
