@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.scss';
+import Markdown from 'react-markdown';
 
 export default (props) => {
   return (
@@ -8,7 +9,7 @@ export default (props) => {
             {props.title}
         </div>
         <div className="ofs-body-s">
-            {props.content}
+            <Markdown escapeHtml={true} source={props.content} />
         </div>
     </div>
   )

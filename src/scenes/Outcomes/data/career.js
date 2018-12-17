@@ -2,12 +2,12 @@ export default {
     "sections": [
         {
             "title": "Professional accreditation", 
-            "content": "If your reason for studying is to get into a particular career it might be necessary to take a course accredited by a professional body or it might just give you a head start.",
+            "content": "If your reason for studying is to get into a particular career it might be necessary to take a course accredited by **a professional body** or it might just give you a head start.",
             "hint": "Filter your search results to show only courses with particular accreditations. There is an explanation on the course page of the additional benefit any accreditation gives you over and above the qualification you are studying for."
         },
         {
             "title": "Preparation for employment",
-            "content": "Universities and colleges are required to tell you how they will help prepare you for a job while you are studying with them and what kind of careers support they will provide.",
+            "content": "Universities and colleges **are required** to tell you how they will help prepare you for a job while you are studying with them and what kind of careers support they will provide.",
             "hint": "You can find this information easily from following the link to the higher eduction provider for the course."
         },
         {
