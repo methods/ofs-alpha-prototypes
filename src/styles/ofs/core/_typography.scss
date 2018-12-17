@@ -45,7 +45,7 @@
   }
 
   %ofs-heading-s {
-    @include ofs-text-colour;
+    @include ofs-brand-colour;
     @include ofs-font($size: 19, $weight: bold);
 
     display: block;

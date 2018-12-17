@@ -41,6 +41,14 @@
   }
 }
 
+@mixin ofs-brand-colour {
+  color: $ofs-brand-colour;
+
+  @include ofs-media-query($media-type: print) {
+    color: $ofs-print-text-colour;
+  }
+}
+
 /// Regular font weight helper
 ///
 /// @param {Boolean} $important [false] - Whether to mark declarations as

@@ -3,7 +3,7 @@ import React from 'react'
 import './styles.scss'
 
 export default (props) => {
-
+    
     return(
         <footer className="ofs-footer " role="contentinfo">
             <div className="ofs-width-container ">
