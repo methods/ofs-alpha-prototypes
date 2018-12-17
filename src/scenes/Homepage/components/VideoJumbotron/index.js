@@ -16,7 +16,7 @@ export default (props) => {
                     </div>
                     <div className="ofs-grid-column-one-third">
                         <div className="video-jumbotron__text">
-                            <p className="ofs-body">When you have so many interests for your career choosing the right college course is super tricky! If you have passions, hobbies or just interests.</p>
+                            <p className="ofs-body">We know that choosing the right course for you can feel overwhelming sometimes.</p>
                             <p className="ofs-body ofs-!-font-weight-bold">In this video students share their advice on how you can focus on the right path for you</p>
                             <div><LikeShare /></div>
                         </div>
