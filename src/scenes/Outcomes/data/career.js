@@ -7,7 +7,7 @@ export default {
         },
         {
             "title": "Preparation for employment",
-            "content": "Universities and colleges **are required** to tell you how they will help prepare you for a job while you are studying with them and what kind of careers support they will provide.",
+            "content": "Universities and colleges are required to tell you **how they will help prepare you for a job** while you are studying with them and what kind of careers support they will provide.",
             "hint": "You can find this information easily from following the link to the higher eduction provider for the course."
         },
         {
