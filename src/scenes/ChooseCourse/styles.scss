@@ -1,5 +1,13 @@
 @import "../../styles/all";
 
+.ofs-simple-header {
+    background-color: $ofs-brand-colour-4;
+    padding: 10px;
+
+    &__title {
+        margin: 10px 0 !important;
+    }
+}
 
 .check-list__section-break {
     padding: 0 50px;

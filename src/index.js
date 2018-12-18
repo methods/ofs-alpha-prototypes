@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
-import Homepage from "./scenes/Homepage"
+import ChooseCourse from "./scenes/ChooseCourse"
 import Outcomes from "./scenes/Outcomes"
 import Styleguide from "./scenes/Styleguide"
 
@@ -12,13 +12,14 @@ const App = (props) => {
     return (
       <Router>
         <Switch>
+            <Route exact path="/" component={ChooseCourse} />
             <Route exact path="/styleguide" component={Styleguide} />
-            <Route exact path="/" component={Homepage} />
             <Route exact path="/outcomes" component={Outcomes} />
-            <Route exact path="/versions/video" component={Homepage} />
-            <Route exact path="/versions/search" component={Homepage} />
-            <Route exact path="/versions/quiz" component={Homepage} />
-            <Route exact path="/versions/case-studies" component={Homepage} />
+            <Route exact path="/choose-a-course" component={ChooseCourse} />
+            <Route exact path="/choose-a-course/versions/video" component={ChooseCourse} />
+            <Route exact path="/choose-a-course/versions/search" component={ChooseCourse} />
+            <Route exact path="/choose-a-course/versions/quiz" component={ChooseCourse} />
+            <Route exact path="/choose-a-course/versions/case-studies" component={ChooseCourse} />
         </Switch>
       </Router>
     )

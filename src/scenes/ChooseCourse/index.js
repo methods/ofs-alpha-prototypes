@@ -20,30 +20,27 @@ export default  (props) => {
 
             <Header />
 
-            <div className="ofs-width-container">
-                <div className="ofs-grid-row">
-                    <div className="ofs-grid-column-full">
-                        <h1 className="ofs-heading-l ofs-jumbotron__title">How do I choose a course?</h1>
+            <div className="ofs-simple-header">
+                <div className="ofs-width-container">
+                    <div className="ofs-grid-row">
+                        <div className="ofs-grid-column-full">
+                            <h1 className="ofs-heading-xl ofs-simple-header__title">How do I choose a course?</h1>
+                            <h3 className="ofs-heading-m">There's a lot to consider when choosing a course. Our guide gives advice on what to think about</h3> 
+                        </div>
                     </div>
                 </div>
             </div>
             
             <Router>
                 <Switch>
-                    <Route exact path="/" component={QuizJumbotron} />
-                    <Route exact path="/versions/video" component={VideoJumbotron} />
-                    <Route exact path="/versions/search" component={SearchJumbotron} />
-                    <Route exact path="/versions/quiz" component={QuizJumbotron} />
-                    <Route exact path="/versions/case-studies" component={CaseStudyJumbotron} />
+                    <Route exact path="/choose-a-course/versions/video" component={VideoJumbotron} />
+                    <Route exact path="/choose-a-course/versions/search" component={SearchJumbotron} />
+                    <Route exact path="/choose-a-course/versions/quiz" component={QuizJumbotron} />
+                    <Route exact path="/choose-a-course/versions/case-studies" component={CaseStudyJumbotron} />
                 </Switch>
             </Router>
 
             <div className="ofs-width-container">
-                <div className="ofs-grid-row">
-                    <div className="ofs-grid-column-full">
-                        <h2 className="ofs-heading-l ofs-checklist__title">A useful checklist</h2>
-                    </div>
-                </div>
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-one-half">
                         <div className="ofs-checklist__left-item">
