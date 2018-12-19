@@ -2,7 +2,24 @@ import React from  'react';
 import './styles.scss';
 import LikeShare from '../LikeShare';
 
+function getContent(content) {
+    if (content) {
+        return (
+
+            <div className="ofs-grid-row">
+            <div className="ofs-grid-column-full">
+                <div className="ofs-body ofs-!-font-weight-bold">
+                {content}
+                </div>
+            </div>
+        </div>
+        )
+    }   
+    return ''
+}
+
 export default (props) => {
+    
   return (
     <div className="ofs-page-header">
         <div className="ofs-width-container">
@@ -19,13 +36,8 @@ export default (props) => {
                     </div>
                 </div>
             </div>
-            <div className="ofs-grid-row">
-                <div className="ofs-grid-column-full">
-                    <div className="ofs-body ofs-!-font-weight-bold">
-                      {props.content}
-                    </div>
-                </div>
-            </div>
+
+            { getContent(props.content) }
         </div>
     </div>
   )
