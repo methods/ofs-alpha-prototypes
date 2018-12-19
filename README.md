@@ -5,11 +5,14 @@ This is the main code repository of the alpha phase of the Office for Students p
 Testing will be carried out using Heroku free tier apps that deploy from branches of this repository. See **Repo structure** for details
 
 ### Deployments
-- None
+- [test app](http://ofs-prototype-test.herokuapp.com/)
+- [Prototype 01 - Dec 17 2018 - Choose a course page](http://ofs-prototype-01.herokuapp.com/)
+
 
 ### Useful links
 - [Unistats](https://unistats.ac.uk/)
 - [DFE Search for schools and colleges to compare](https://www.compare-school-performance.service.gov.uk/)
+
 
 ### Technology links
 - [Create React App](https://github.com/facebook/create-react-app)
@@ -17,6 +20,7 @@ Testing will be carried out using Heroku free tier apps that deploy from branche
 - [Deploying Production Build of React App to Heroku](https://medium.com/quick-code/deploying-production-build-of-react-app-to-heroku-2548d8bf6936)
 - [GOVUK design system](https://design-system.service.gov.uk/)
 - [GOVUK front end](https://github.com/alphagov/govuk-frontend)
+
 
 ### Thoughts and bookmarks
 - [Start4Life - structure](https://www.nhs.uk/start4life)
