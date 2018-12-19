@@ -11,27 +11,27 @@ export default (props) => {
                     <div className="ofs-footer__section">
                         <ul className="ofs-footer__list ">
                         <li className="ofs-footer__list-item">
-                            <a className="ofs-footer__link" href="/versions/video">
+                            <a className="ofs-footer__link" href="/choose-course/versions/video">
                                 Homepage 1: Video
                             </a>
                         </li>
                         <li className="ofs-footer__list-item">
-                            <a className="ofs-footer__link" href="/versions/search">
+                            <a className="ofs-footer__link" href="/choose-course/versions/search">
                                 Homepage 2: Search
                             </a>
                         </li>
                         <li className="ofs-footer__list-item">
-                            <a className="ofs-footer__link" href="/versions/quiz">
+                            <a className="ofs-footer__link" href="/choose-course/versions/quiz">
                                 Homepage 3: Quiz
                             </a>
                         </li>
                         <li className="ofs-footer__list-item">
-                            <a className="ofs-footer__link" href="/versions/case-studies">
+                            <a className="ofs-footer__link" href="/choose-course/versions/case-studies">
                                 Homepage 4: Case studies
                             </a>
                         </li>
                         <li className="ofs-footer__list-item">
-                            <a className="ofs-footer__link" href="/outcomes">
+                            <a className="ofs-footer__link" href="/choose-course/outcomes">
                                 Outcomes page 1
                             </a>
                         </li>
