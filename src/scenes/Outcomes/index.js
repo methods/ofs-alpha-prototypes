@@ -4,7 +4,6 @@ import Footer from '../../components/ofs/Footer';
 import PageHeader from '../../components/ofs/PageHeader';
 import Jumbotron from '../../components/ofs/Jumbotron';
 import MarkdownContent from '../../components/ofs/MarkdownContent';
-import ReadMoreLink from '../../components/ofs/ReadMoreLink';
 import ReadMoreList from '../../components/ofs/ReadMoreList';
 import Career from './components/Career';
 import Success from './components/Success';
@@ -12,13 +11,12 @@ import Success from './components/Success';
 import summaryData from './data/summary';
 
 export default (props) => {
-    const subjectImgUrl = "/assets/icons/subject.png"
     return (
         <div className="ofs-template__body">
 
             <Header />
 
-            <PageHeader title="Outcomes" imgUrl="/assets/icons/outcomes.png" content={summaryData.intro} />
+            <PageHeader title="Outcomes" imgUrl="/assets/icons/outcomes.png" />
 
             <div className="outcomes-summary">
                 <div className="ofs-width-container">
@@ -26,14 +24,6 @@ export default (props) => {
                         <div className="ofs-grid-column-one-half">
                             <div className="outcomes-summary__content">
                                 <MarkdownContent content={summaryData.paragraph}/>
-                                
-                                <div className="outcomes-summary__subject-title">
-                                    <h4 className="ofs-heading-s outcomes-summary__subject-title-label"><img className="outcomes-summary__subject-title-image" src={subjectImgUrl} alt=""/> Subject</h4>
-                                </div>
-                                <p className="ofs-body-s">{summaryData.subject}</p>
-                                
-                                
-                                <ReadMoreLink to="/" label="Read more" />
                             </div>
                         </div>
                         <div className="ofs-grid-column-one-half">
