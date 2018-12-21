@@ -10,7 +10,7 @@ export default [
         title: "Entry requirements",
         body: "Universities and colleges set their own entry requirements for each course. These include qualifications like A levels but often other things like interests, skills and background are taken into account, so it's worth understanding what is involved so you can choose the best course for you.",
         url: "/",
-        imageURL: "/assets/icons/entryrequirements.png"
+        imageURL: "/assets/icons/entry.png"
     },
     {
         title: "Outcomes",
@@ -22,7 +22,7 @@ export default [
         title: "How the course is taught",
         body: "Different courses are taught in different ways. It can help to reflect on what your learning style is before you choose a course, for example whether you prefer coursework or exams, and whether you want to think about part time study or distance learning",
         url: "/",
-        imageURL: "/assets/icons/howlesson.png"
+        imageURL: "/assets/icons/taught.png"
     },
     {
         title: "Location",
@@ -34,18 +34,18 @@ export default [
         title: "Costs",
         body: "The financial implications of going to university or college can be intimidating but this doesn't have to put you off. In addition to tuition fees and student loans you can find out what other financial support there might be available such as grants or bursaries.",
         url: "/",
-        imageURL: "/assets/icons/cost.png"
+        imageURL: "/assets/icons/costs.png"
     },
     {
         title: "Student support",
         body: "Going into higher education can be a big step so it's important to know how to get the support you need. This can include things like careers guidance while at university or college, study support or mental health services",
         url: "/",
-        imageURL: "/assets/icons/stusupport.png"
+        imageURL: "/assets/icons/support.png"
     },
     {
         title: "Student views",
         body: "Seeing what other students have said about different courses can help you make a decision. You can find students' views on things like teaching quality, assessment and feeback and student support.",
         url: "/",
-        imageURL: "/assets/icons/stuview.png"
+        imageURL: "/assets/icons/view.png"
     },
 ]
