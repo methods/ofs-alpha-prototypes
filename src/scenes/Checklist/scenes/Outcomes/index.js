@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../../components/ofs/Header';
-import Footer from '../../components/ofs/Footer';
-import PageHeader from '../../components/ofs/PageHeader';
-import Jumbotron from '../../components/ofs/Jumbotron';
-import MarkdownContent from '../../components/ofs/MarkdownContent';
-import ReadMoreList from '../../components/ofs/ReadMoreList';
+import Header from '../../../../components/ofs/Header';
+import Footer from '../../../../components/ofs/Footer';
+import PageHeader from '../../../../components/ofs/PageHeader';
+import Jumbotron from '../../../../components/ofs/Jumbotron';
+import MarkdownContent from '../../../../components/ofs/MarkdownContent';
+import ReadMoreList from '../../../../components/ofs/ReadMoreList';
 import Career from './components/Career';
 import Success from './components/Success';
 
@@ -14,7 +14,7 @@ export default (props) => {
     return (
         <div className="ofs-template__body">
 
-            <Header />
+            <Header activeLink="/choose-a-course" />
 
             <PageHeader title="Outcomes" imgUrl="/assets/icons/outcomes.png" />
 

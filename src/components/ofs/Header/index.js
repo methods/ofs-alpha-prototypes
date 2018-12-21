@@ -7,7 +7,7 @@ import Breadcrumbs from './components/Breadcrumbs'
 export default class Header extends Component {
     constructor(props) {
         super(props)
-        this.state = {open:false}
+        this.state = {open:false, activeLink: props.activeLink}
     }
 
     toggleOpen() {
@@ -32,7 +32,7 @@ export default class Header extends Component {
                     </div>
                 </div>
             </header>
-            <Navigation open={this.state.open} toggleVisible={this.toggleOpen.bind(this)} />
+            <Navigation open={this.state.open} toggleVisible={this.toggleOpen.bind(this)} activeLink={this.state.activeLink} />
 
             </div>
         )

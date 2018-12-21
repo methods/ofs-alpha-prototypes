@@ -18,7 +18,7 @@ export default  (props) => {
     return (
         <div className="ofs-template__body">
 
-            <Header />
+            <Header activeLink="/choose-a-course" />
 
             <div className="ofs-simple-header">
                 <div className="ofs-width-container">
