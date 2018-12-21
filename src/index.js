@@ -14,7 +14,7 @@ const App = (props) => {
         <Switch>
             <Route exact path="/" component={ChooseCourse} />
             <Route exact path="/styleguide" component={Styleguide} />
-            <Route exact path="/outcomes" component={Outcomes} />
+            <Route exact path="/choose-a-course/outcomes" component={Outcomes} />
             <Route exact path="/choose-a-course" component={ChooseCourse} />
             <Route exact path="/choose-a-course/versions/video" component={ChooseCourse} />
             <Route exact path="/choose-a-course/versions/search" component={ChooseCourse} />
