@@ -33,7 +33,7 @@ export default (props) => {
           {getNavigationItem("Is HE for you?", "/", props.activeLink)}
           {getNavigationItem("Student stories", "/", props.activeLink)}
           {getNavigationItem("Choosing a course", "/choose-a-course", props.activeLink)}
-          {getNavigationItem("University finder", "/", props.activeLink)}
+          {getNavigationItem("Search for a course", "/search", props.activeLink)}
         </ul>
       </nav>
       </div>
