@@ -18,7 +18,7 @@ export default  (props) => {
 
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-full">
-                        <h1>Search results</h1>
+                        <h1 className="ofs-heading-xl ofs-search-page-header">Search results</h1>
                     </div>
                 </div>
                 <div className="ofs-grid-row">

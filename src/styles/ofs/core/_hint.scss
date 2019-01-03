@@ -1,0 +1,46 @@
+@include ofs-exports("ofs/core/hint") {
+  .ofs-hint {
+    @include ofs-font($size: 19);
+
+    display: block;
+
+    margin-bottom: ofs-spacing(3);
+
+    color: $ofs-secondary-text-colour;
+  }
+
+  // Reduces margin-bottom of hint when used after the default label (no class)
+  // or ofs-label--s for better vertical alignment.
+
+  // This adjustment will not work when the label is inside the <h1>, however it
+  // is unlikely that the default or ofs-label--s class would be used in this
+  // case.
+
+  // This adjustment will not work in browsers that do not support :not(). 
+  // Users with these browsers will see the default size margin (5px larger).
+
+  .ofs-label:not(.ofs-label--m):not(.ofs-label--l):not(.ofs-label--xl) + .ofs-hint {
+    margin-bottom: ofs-spacing(2);
+  }
+
+  // Reduces margin-bottom of hint when used after the default legend (no class)
+  // or ofs-fieldset__legend--s for better vertical alignment.
+
+  // This adjustment will not work when the legend is outside the <h1>, however
+  // it is unlikely that the default or ofs-fieldset__legend--s class would be
+  // used in this case.
+
+  // This adjustment will not work in browsers that do not support :not(). 
+  // Users with these browsers will see the default size margin (5px larger).
+
+  .ofs-fieldset__legend:not(.ofs-fieldset__legend--m):not(.ofs-fieldset__legend--l):not(.ofs-fieldset__legend--xl) + .ofs-hint {
+    margin-bottom: ofs-spacing(2);
+  }
+
+  // Reduces visual spacing of legend when there is a hint
+
+  .ofs-fieldset__legend + .ofs-hint,
+  .ofs-fieldset__legend + .ofs-hint {
+    margin-top: -(ofs-spacing(1));
+  }
+}
