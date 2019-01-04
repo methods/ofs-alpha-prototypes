@@ -1,0 +1,11 @@
+@import '../../styles.scss';
+
+.ofs-search-item__course-title {
+    margin-bottom: 5px !important;    
+}
+
+.ofs-search-item {
+    padding-bottom: ofs-spacing(1);
+    margin-bottom: ofs-spacing(4);
+    border-bottom: 1px solid #dee0e2;
+}

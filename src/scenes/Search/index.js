@@ -9,6 +9,8 @@ import SearchSummary from './components/SearchSummary'
 import SearchItemList from './components/SearchItemList'
 import FilterColumn from './components/FilterColumn'
 
+import searchData from './data';
+
 export default  (props) => {
     return (
         <div className="ofs-template__body">
@@ -23,7 +25,7 @@ export default  (props) => {
                 </div>
                 <div className="ofs-grid-row">
                     <div className="ofs-grid-column-full">
-                        <SearchSummary />
+                        <SearchSummary count={searchData.length} />
                     </div>
                 </div>
                 <div className="ofs-grid-row">
@@ -31,7 +33,7 @@ export default  (props) => {
                         <FilterColumn />
                     </div>
                     <div className="ofs-grid-column-two-thirds">
-                        <SearchItemList />
+                        <SearchItemList items={searchData} />
                     </div>
                 </div>
             </div>

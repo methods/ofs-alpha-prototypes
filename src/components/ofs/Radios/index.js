@@ -15,9 +15,9 @@ export default class Radios extends Component {
     getRadioDiv(radioGroup, value) {
         const inputId = `${radioGroup}-${value}`
         return (
-            <div class="ofs-radios__item">
-                <input class="ofs-radios__input" id={inputId} name={radioGroup} type="radio" value={value} checked={value === this.state.selectedOption} onChange={this.handleOptionChange} />
-                <label class="ofs-label ofs-radios__label" for={inputId}>
+            <div className="ofs-radios__item" key={inputId}>
+                <input className="ofs-radios__input" id={inputId} name={radioGroup} type="radio" value={value} checked={value === this.state.selectedOption} onChange={this.handleOptionChange} />
+                <label className="ofs-label ofs-radios__label" htmlFor={inputId}>
                     {value}
                 </label>
             </div>
@@ -40,12 +40,12 @@ export default class Radios extends Component {
         const groupId = this.props.groupId ? this.props.groupId : ""
 
         return (
-            <div class="ofs-form-group">
-                <fieldset class="ofs-fieldset">
+            <div className="ofs-form-group">
+                <fieldset className="ofs-fieldset">
                     <label className="ofs-label--s" htmlFor={groupId}>
                         {title}
                     </label>
-                    <div class="ofs-radios" id={groupId}>
+                    <div className="ofs-radios" id={groupId}>
                         {values.map(value => this.getRadioDiv(groupId, value))}
                     </div>
                 </fieldset>
