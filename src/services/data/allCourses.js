@@ -1,0 +1,10429 @@
+export default [
+    {
+    "_id":"5c2e7c2e00f91b809b2f9bb5",
+    "application_provider":"10001143",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Bromley College of Further and Higher Education",
+        "public_ukprn":"10000948",
+        "ukprn_name":"Bromley College of Further and Higher Education",
+        "ukprn":"10000948"
+    },
+    "kis_course_id":"KCC112",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.lsec.ac.uk/courses/business/259-he/1739-business-studies-he-canterbury-christ-church-university-bsc-hons?highlight=WyJidXNpbmVzcyIsIididXNpbmVzcyIsImJ1c2luZXNzJyIsInN0dWRpZXMiLCJidXNpbmVzcyBzdHVkaWVzIl0="
+        },
+        "course_page":{
+            "english":"https://www.lsec.ac.uk/courses/business/259-he/1739-business-studies-he-canterbury-christ-church-university-bsc-hons?highlight=WyJidXNpbmVzcyIsIididXNpbmVzcyIsImJ1c2luZXNzJyIsInN0dWRpZXMiLCJidXNpbmVzcyBzdHVkaWVzIl0="
+        },
+        "employment_details":{
+            "english":"https://www.lsec.ac.uk/courses/business/259-he/1739-business-studies-he-canterbury-christ-church-university-bsc-hons?highlight=WyJidXNpbmVzcyIsIididXNpbmVzcyIsImJ1c2luZXNzJyIsInN0dWRpZXMiLCJidXNpbmVzcyBzdHVkaWVzIl0="
+        },
+        "financial_support_details":{
+            "english":"https://www.lsec.ac.uk/higher-education/support-for-students"
+        },
+        "institution":"https://localhost:10000/institutions/10000948",
+        "learning_and_teaching_methods":{
+            "english":"https://www.lsec.ac.uk/courses/business/259-he/1739-business-studies-he-canterbury-christ-church-university-bsc-hons?highlight=WyJidXNpbmVzcyIsIididXNpbmVzcyIsImJ1c2luZXNzJyIsInN0dWRpZXMiLCJidXNpbmVzcyBzdHVkaWVzIl0="
+        },
+        "self":"https://localhost:10000/institutions/10000948/courses/Business Studies"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.38666",
+        "longitude":"0.034822"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":10,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":70,
+                "proportion_of_students_dormant_after_first_year_on_course":10,
+                "proportion_of_students_gaining_intended_award_or_higher":20
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":15,
+                "proportion_of_students_assumed_to_be_unemployed":15,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":60,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":70,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":71,
+                "subject_code":"CAH17-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":10,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":71,
+                "subject_code":"CAH17-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business, Research and Administrative Professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business and Public Service Associate Professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, Directors and Senior Officials",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Sales Occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Administrative Occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Leisure, Travel and Related Personal Service Occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"Business Studies"
+    },
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+},
+{
+    "_id":"5c2e835e00f91b809b333933",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"London School of Economics and Political Science",
+        "public_ukprn":"10004063",
+        "ukprn_name":"London School of Economics and Political Science",
+        "ukprn":"10004063"
+    },
+    "kis_course_id":"V300-UBEH",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.lse.ac.uk/Study-at-LSE/Undergraduate/Degree-programmes-2019/BSc-Economic-History"
+        },
+        "course_page":{
+            "english":"https://www.lse.ac.uk/Study-at-LSE/Undergraduate/Degree-programmes-2019/BSc-Economic-History"
+        },
+        "employment_details":{
+            "english":"https://info.lse.ac.uk/current-students/careers/what-graduates-do"
+        },
+        "financial_support_details":{
+            "english":"https://www.lse.ac.uk/study-at-lse/Undergraduate/Fees-and-funding"
+        },
+        "institution":"https://localhost:10000/institutions/10004063",
+        "learning_and_teaching_methods":{
+            "english":"https://www.lse.ac.uk/Study-at-LSE/Undergraduate/Degree-programmes-2019/BSc-Economic-History"
+        },
+        "self":"https://localhost:10000/institutions/10004063/courses/Economic History"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.513636",
+        "longitude":"-0.116773"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":35,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":100
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":20,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":15,
+                "proportion_of_students_in_work":80,
+                "proportion_of_students_in_work_or_study":95,
+                "response_rate":80
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":80
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":42500,
+                "lower_quartile_range":26000,
+                "median":35500,
+                "number_of_graduates":95,
+                "subject_code":"CAH20-01-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":24,
+                "response_rate":90
+            }
+        ]
+    },
+    "title":{
+        "english":"Economic History"
+    },
+    "ucas_code_id":"A32-C28",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+},/* 3 */
+{
+    "_id":"5c2f18ad00f91b809b38adae",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Northampton",
+        "public_ukprn":"10007138",
+        "ukprn_name":"The University of Northampton",
+        "ukprn":"10007138"
+    },
+    "kis_course_id":"SUBCREWSUBEDST",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://tundrasearch.northampton.ac.uk/results/showimage.aspx?index=602643"
+        },
+        "course_page":{
+            "english":"https://www.northampton.ac.uk/study/courses/education-studies-joint-honours-babsc-hons/"
+        },
+        "employment_details":{
+            "english":"https://www.northampton.ac.uk/study/courses/education-studies-joint-honours-babsc-hons/"
+        },
+        "financial_support_details":{
+            "english":"https://www.northampton.ac.uk/study/fees-and-funding/"
+        },
+        "institution":"https://localhost:10000/institutions/10007138",
+        "learning_and_teaching_methods":{
+            "english":"http://tundrasearch.northampton.ac.uk/results/showimage.aspx?index=602643"
+        },
+        "self":"https://localhost:10000/institutions/10007138/courses/Education Studies and Creative Writing"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.230494",
+        "longitude":"-0.888423"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {}
+        ],
+        "employment":[ 
+            {}
+        ],
+        "job_type":[ 
+            {}
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":23000,
+                "lower_quartile_range":11000,
+                "median":16500,
+                "number_of_graduates":50,
+                "subject_code":"CAH22-01-01"
+            }
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"Education Studies and Creative Writing"
+    },
+    "ucas_code_id":"A21-G37",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+},
+{
+    "_id":"5c2f178700f91b809b37dfba",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Liverpool",
+        "public_ukprn":"10006842",
+        "ukprn_name":"The University of Liverpool",
+        "ukprn":"10006842"
+    },
+    "kis_course_id":"BA_TPHENG",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/module-details/"
+        },
+        "course_page":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/overview/"
+        },
+        "employment_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/career-prospects/"
+        },
+        "financial_support_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/fees-finance/"
+        },
+        "institution":"https://localhost:10000/institutions/10006842",
+        "learning_and_teaching_methods":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/module-details/"
+        },
+        "self":"https://localhost:10000/institutions/10006842/courses/Philosophy with English"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.40595",
+        "longitude":"-2.965622"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":75,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":75,
+                "proportion_of_students_dormant_after_first_year_on_course":13,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":11,
+                "subject_code":"CAH20-02-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":180,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":96,
+                "proportion_of_students_dormant_after_first_year_on_course":2,
+                "proportion_of_students_leaving_course":2,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":30,
+                "proportion_of_students_in_work":50,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":90,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":70,
+                "subject_code":"CAH20-02-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":100,
+                "proportion_of_students_assumed_to_be_unemployed":1,
+                "proportion_of_students_in_study":23,
+                "proportion_of_students_in_work":65,
+                "proportion_of_students_in_work_and_study":6,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":4,
+                "response_rate":75,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":75,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":70,
+                "subject_code":"CAH20-02-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":70,
+                "proportion_of_students_in_professional_or_managerial_jobs":60,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":40,
+                "response_rate":75,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":24
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":65
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":8
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":7
+                    }, 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":7
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":25000,
+                "lower_quartile_range":16000,
+                "median":21500,
+                "number_of_graduates":215,
+                "subject_code":"CAH19-01-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":24000,
+                "lower_quartile_range":17000,
+                "median":21000,
+                "number_of_graduates":40,
+                "subject_code":"CAH20-02-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":65,
+                "subject_code":"CAH19-01-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "response_rate":90,
+                "subject_code":"CAH20-02-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Philosophy with English"
+    },
+    "ucas_code_id":"A43-I11",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+},
+{
+    "_id":"5c2f1fb900f91b809b3d97aa",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Warwick",
+        "public_ukprn":"10007163",
+        "ukprn_name":"The University of Warwick",
+        "ukprn":"10007163"
+    },
+    "kis_course_id":"U-HH31",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://warwick.ac.uk/study/undergraduate/courses-2019/systemsengineeringmeng"
+        },
+        "course_page":{
+            "english":"https://warwick.ac.uk/study/undergraduate/courses-2019/systemsengineeringmeng"
+        },
+        "employment_details":{
+            "english":"https://warwick.ac.uk/study/undergraduate/courses-2019/systemsengineeringmeng"
+        },
+        "financial_support_details":{
+            "english":"http://www2.warwick.ac.uk/study/undergraduate/studentfunding/"
+        },
+        "institution":"https://localhost:10000/institutions/10007163",
+        "learning_and_teaching_methods":{
+            "english":"https://warwick.ac.uk/study/undergraduate/courses-2019/systemsengineeringmeng"
+        },
+        "self":"https://localhost:10000/institutions/10007163/courses/Systems Engineering"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.380345",
+        "longitude":"-1.56062"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"056",
+        "label":"MEng",
+        "level":"F",
+        "name":"Master of Engineering"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":100,
+                "subject_code":"CAH10-01-08"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":40,
+                "proportion_of_students_in_study":20,
+                "proportion_of_students_in_work":75,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":95,
+                "subject_code":"CAH10-01-08"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":30,
+                "proportion_of_students_in_professional_or_managerial_jobs":95,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":5,
+                "response_rate":95,
+                "subject_code":"CAH10-01-08"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":43500,
+                "lower_quartile_range":31500,
+                "median":37500,
+                "number_of_graduates":30,
+                "subject_code":"CAH10-01-08"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":75,
+                "subject_code":"CAH10-01-08"
+            }
+        ]
+    },
+    "title":{
+        "english":"Systems Engineering"
+    },
+    "ucas_code_id":"A43-I42",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 6 */
+{
+    "_id":"5c2f15d200f91b809b36adf4",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of West London",
+        "public_ukprn":"10006566",
+        "ukprn_name":"The University of West London",
+        "ukprn":"10006566"
+    },
+    "kis_course_id":"HMFSBN001E",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/32222"
+        },
+        "course_page":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/32222"
+        },
+        "employment_details":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/32222"
+        },
+        "financial_support_details":{
+            "english":"http://www.uwl.ac.uk/KISstudentsupport"
+        },
+        "institution":"https://localhost:10000/institutions/10006566",
+        "learning_and_teaching_methods":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/32222"
+        },
+        "self":"https://localhost:10000/institutions/10006566/courses/Hospitality Management and Food Studies"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.50661",
+        "longitude":"-0.30339"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":50,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":80,
+                "proportion_of_students_dormant_after_first_year_on_course":10,
+                "proportion_of_students_leaving_course":10,
+                "subject_code":"CAH17-01-06"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_in_study":25,
+                "proportion_of_students_in_work":65,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":95,
+                "subject_code":"CAH17-01-06"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":10,
+                "proportion_of_students_in_professional_or_managerial_jobs":90,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":10,
+                "response_rate":95,
+                "subject_code":"CAH17-01-06"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":40
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":33000,
+                "lower_quartile_range":19500,
+                "median":27000,
+                "number_of_graduates":30,
+                "subject_code":"CAH17-01-06"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":23,
+                "response_rate":70,
+                "subject_code":"CAH17-01-06"
+            }
+        ]
+    },
+    "title":{
+        "english":"Hospitality Management and Food Studies"
+    },
+    "ucas_code_id":"A17-G45",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 7 */
+{
+    "_id":"5c2e840900f91b809b338d71",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Loughborough University",
+        "public_ukprn":"10004113",
+        "ukprn_name":"Loughborough University",
+        "ukprn":"10004113"
+    },
+    "kis_course_id":"KISHJ79",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.lboro.ac.uk/students/programme-specifications/2018/design-school/undergraduate/name-1038355-en.html"
+        },
+        "course_page":{
+            "english":"http://www.lboro.ac.uk/study/undergraduate/courses/a-z/product-design-and-technology/#default"
+        },
+        "employment_details":{
+            "english":"http://www.lboro.ac.uk/services/careers/students-and-graduates/research-your-career/schools/lds/"
+        },
+        "financial_support_details":{
+            "english":"http://www.lboro.ac.uk/study/undergraduate/fees-finance/"
+        },
+        "institution":"https://localhost:10000/institutions/10004113",
+        "learning_and_teaching_methods":{
+            "english":"http://www.lboro.ac.uk/students/programme-specifications/2018/design-school/undergraduate/name-1038355-en.html"
+        },
+        "self":"https://localhost:10000/institutions/10004113/courses/Product Design and Technology"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.768455",
+        "longitude":"-1.228838"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"2",
+        "label":"Compulsory"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":45,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":100
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":50,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_work":85,
+                "proportion_of_students_in_work_or_study":90,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":90
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":40,
+                "proportion_of_students_in_professional_or_managerial_jobs":90,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":10,
+                "response_rate":90
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":45
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":34500,
+                "lower_quartile_range":25500,
+                "median":30500,
+                "number_of_graduates":130,
+                "subject_code":"CAH10-01-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":14,
+                "response_rate":80
+            }
+        ]
+    },
+    "title":{
+        "english":"Product Design and Technology"
+    },
+    "ucas_code_id":"A18-D58",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 8 */
+{
+    "_id":"5c2e841300f91b809b33929c",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"2",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Loughborough University",
+        "public_ukprn":"10004113",
+        "ukprn_name":"Loughborough University",
+        "ukprn":"10004113"
+    },
+    "kis_course_id":"KISL1FP",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.lboro.ac.uk/students/programme-specifications/2018/lgf/name-1038459-en.html"
+        },
+        "course_page":{
+            "english":"http://www.lboro.ac.uk/study/undergraduate/courses/foundation/economics-with-international-year/"
+        },
+        "employment_details":{
+            "english":"http://www.lboro.ac.uk/services/careers/students-and-graduates/research-your-career/schools/"
+        },
+        "financial_support_details":{
+            "english":"http://www.lboro.ac.uk/study/undergraduate/fees-finance/"
+        },
+        "institution":"https://localhost:10000/institutions/10004113",
+        "learning_and_teaching_methods":{
+            "english":"http://www.lboro.ac.uk/students/programme-specifications/2018/lgf/name-1038459-en.html"
+        },
+        "self":"https://localhost:10000/institutions/10004113/courses/Economics with an International Foundation Year"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.768455",
+        "longitude":"-1.228838"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":185,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":98,
+                "proportion_of_students_dormant_after_first_year_on_course":1,
+                "proportion_of_students_leaving_course":1,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":105,
+                "proportion_of_students_assumed_to_be_unemployed":7,
+                "proportion_of_students_in_study":6,
+                "proportion_of_students_in_work":76,
+                "proportion_of_students_in_work_and_study":8,
+                "proportion_of_students_in_work_or_study":89,
+                "proportion_of_students_who_are_not_available_for_work_or_study":4,
+                "response_rate":86,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":90,
+                "proportion_of_students_in_professional_or_managerial_jobs":92,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":8,
+                "response_rate":86,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":50
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":26
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":3
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Sports and fitness occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Process, plant and machine operatives",
+                        "percentage_of_students":1
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":1
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Architects, town planners and surveyors",
+                        "percentage_of_students":1
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":41500,
+                "lower_quartile_range":25500,
+                "median":32000,
+                "number_of_graduates":215,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":92,
+                "subject_code":"CAH15-02-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Economics with an International Foundation Year"
+    },
+    "ucas_code_id":"A18-C02",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 9 */
+{
+    "_id":"5c2e86b600f91b809b34e674",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Oxford Brookes University",
+        "public_ukprn":"10004930",
+        "ukprn_name":"Oxford Brookes University",
+        "ukprn":"10004930"
+    },
+    "kis_course_id":"MC10-DPHQ",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.brookes.ac.uk/courses/combination/mc10-dphq/three/"
+        },
+        "course_page":{
+            "english":"https://www.brookes.ac.uk/courses/combination/mc10-dphq/"
+        },
+        "employment_details":{
+            "english":"https://www.brookes.ac.uk/courses/combination/mc10-dphq/eight/"
+        },
+        "financial_support_details":{
+            "english":"https://www.brookes.ac.uk/courses/combination/mc10-dphq/five/"
+        },
+        "institution":"https://localhost:10000/institutions/10004930",
+        "learning_and_teaching_methods":{
+            "english":"https://www.brookes.ac.uk/courses/combination/mc10-dphq/three/"
+        },
+        "self":"https://localhost:10000/institutions/10004930/courses/Business Management and Communication, Media and Culture"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.754579",
+        "longitude":"-1.223266"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":25,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":100
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":10,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":80,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":70
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":30,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":80,
+                "subject_code":"CAH18-01-05"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":150,
+                "proportion_of_students_in_professional_or_managerial_jobs":81,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":19,
+                "response_rate":80,
+                "subject_code":"CAH17-01-04"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":37
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":30
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Architects, town planners and surveyors",
+                        "percentage_of_students":20
+                    }, 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":7
+                    }, 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":4
+                    }, 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":4
+                    }, 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":4
+                    }, 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":3
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":3
+                    }, 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":2
+                    }, 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":26000,
+                "lower_quartile_range":18500,
+                "median":22500,
+                "number_of_graduates":80,
+                "subject_code":"CAH18-01-05"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":35000,
+                "lower_quartile_range":22500,
+                "median":28000,
+                "number_of_graduates":280,
+                "subject_code":"CAH17-01-04"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":65,
+                "subject_code":"CAH18-01-05"
+            }, 
+            {
+                "aggregation_level":13,
+                "response_rate":59,
+                "subject_code":"CAH17-01-04"
+            }
+        ]
+    },
+    "title":{
+        "english":"Business Management and Communication, Media and Culture"
+    },
+    "ucas_code_id":"A06-B82",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 10 */
+{
+    "_id":"5c2e7d8b00f91b809b304d8d",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Canterbury Christ Church University",
+        "public_ukprn":"10001143",
+        "ukprn_name":"Canterbury Christ Church University",
+        "ukprn":"10001143"
+    },
+    "kis_course_id":"PMDDGEK2FR2",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.canterbury.ac.uk/study-here/courses/undergraduate/english-language-19-20.aspx"
+        },
+        "course_page":{
+            "english":"https://www.canterbury.ac.uk/study-here/courses/undergraduate/english-language-19-20.aspx"
+        },
+        "employment_details":{
+            "english":"http://www.canterbury.ac.uk/career-development/information-for-prospective-students.aspx"
+        },
+        "financial_support_details":{
+            "english":"http://www.canterbury.ac.uk/study-here/fees-and-funding/undergraduate-fees-funding/scholarships-bursaries-and-financial-support.aspx"
+        },
+        "institution":"https://localhost:10000/institutions/10001143",
+        "learning_and_teaching_methods":{
+            "english":"https://www.canterbury.ac.uk/study-here/courses/undergraduate/english-language-19-20.aspx"
+        },
+        "self":"https://localhost:10000/institutions/10001143/courses/English Language/French"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.279569",
+        "longitude":"1.088586"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":15,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":80,
+                "proportion_of_students_dormant_after_first_year_on_course":15,
+                "proportion_of_students_leaving_course":5,
+                "subject_code":"CAH19-03-01"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":45,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":85,
+                "proportion_of_students_dormant_after_first_year_on_course":10,
+                "proportion_of_students_gained_lower_award":5,
+                "subject_code":"CAH19-03"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":40,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":10,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":90,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":80,
+                "subject_code":"CAH19-03"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":30,
+                "proportion_of_students_in_professional_or_managerial_jobs":35,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":65,
+                "response_rate":80,
+                "subject_code":"CAH19-03"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":21500,
+                "lower_quartile_range":10500,
+                "median":18000,
+                "number_of_graduates":35,
+                "subject_code":"CAH19-03"
+            }
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"English Language/French"
+    },
+    "ucas_code_id":"A19-F06",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 11 */
+{
+    "_id":"5c2f25fd00f91b809b41de1c",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Bristol",
+        "public_ukprn":"10007786",
+        "ukprn_name":"The University of Bristol",
+        "ukprn":"10007786"
+    },
+    "kis_course_id":"9SPAI003UU-201718",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.bris.ac.uk/esu/unitprogcat/RouteStructure.jsa?byCohort=N&ayrCode=19%2F20&programmeCode=9SPAI003U,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+        },
+        "course_page":{
+            "english":"http://www.bristol.ac.uk/study/undergraduate/2019/politics-international-relations/bsc-politics-and-international-relations-with-stu/"
+        },
+        "employment_details":{
+            "english":"http://www.bris.ac.uk/careers/be-inspired/bristol-graduates/"
+        },
+        "financial_support_details":{
+            "english":"http://www.bris.ac.uk/studentfunding"
+        },
+        "institution":"https://localhost:10000/institutions/10007786",
+        "learning_and_teaching_methods":{
+            "english":"https://www.bris.ac.uk/esu/unitprogcat/RouteStructure.jsa?byCohort=N&ayrCode=19%2F20&programmeCode=9SPAI003U"
+        },
+        "self":"https://localhost:10000/institutions/10007786/courses/Politics and International Relations with Study Abroad"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.459064",
+        "longitude":"-2.603292"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":160,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":96,
+                "proportion_of_students_dormant_after_first_year_on_course":2,
+                "proportion_of_students_leaving_course":3,
+                "subject_code":"CAH15-03-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":75,
+                "proportion_of_students_assumed_to_be_unemployed":6,
+                "proportion_of_students_in_study":30,
+                "proportion_of_students_in_work":56,
+                "proportion_of_students_in_work_or_study":86,
+                "proportion_of_students_who_are_not_available_for_work_or_study":8,
+                "response_rate":74,
+                "subject_code":"CAH15-03-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":45,
+                "proportion_of_students_in_professional_or_managerial_jobs":80,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":20,
+                "response_rate":75,
+                "subject_code":"CAH15-03-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":45
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":41000,
+                "lower_quartile_range":26000,
+                "median":32500,
+                "number_of_graduates":90,
+                "subject_code":"CAH15-03-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":65,
+                "subject_code":"CAH15-03-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Politics and International Relations with Study Abroad"
+    },
+    "ucas_code_id":"A15-J37",
+    "year_abroad":{
+        "code":"2",
+        "label":"Compulsory"
+    }
+}
+
+,/* 12 */
+{
+    "_id":"5c2f15c400f91b809b36a526",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of West London",
+        "public_ukprn":"10006566",
+        "ukprn_name":"The University of West London",
+        "ukprn":"10006566"
+    },
+    "kis_course_id":"CYBSEC001E",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35705"
+        },
+        "course_page":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35705"
+        },
+        "employment_details":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35705"
+        },
+        "financial_support_details":{
+            "english":"http://www.uwl.ac.uk/KISstudentsupport"
+        },
+        "institution":"https://localhost:10000/institutions/10006566",
+        "learning_and_teaching_methods":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35705"
+        },
+        "self":"https://localhost:10000/institutions/10006566/courses/Cyber Security"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.50661",
+        "longitude":"-0.30339"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":95,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":66,
+                "proportion_of_students_dormant_after_first_year_on_course":18,
+                "proportion_of_students_gaining_intended_award_or_higher":4,
+                "proportion_of_students_gained_lower_award":4,
+                "proportion_of_students_leaving_course":8,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":20,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":20,
+                "proportion_of_students_in_work":45,
+                "proportion_of_students_in_work_and_study":30,
+                "proportion_of_students_in_work_or_study":95,
+                "response_rate":75,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":10,
+                "proportion_of_students_in_professional_or_managerial_jobs":75,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":75,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Leisure, travel and related personal service occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Process, plant and machine operatives",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":22,
+                "response_rate":80,
+                "subject_code":"CAH11-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Cyber Security"
+    },
+    "ucas_code_id":"A17-F89",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 13 */
+{
+    "_id":"5c2f25ff00f91b809b41df74",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Bristol",
+        "public_ukprn":"10007786",
+        "ukprn_name":"The University of Bristol",
+        "ukprn":"10007786"
+    },
+    "kis_course_id":"9SPOL023UU-201718",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.bris.ac.uk/esu/unitprogcat/RouteStructureCohort.jsa?byCohort=Y&ayrCode=19%2F20&programmeCode=9SPOL023U,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+        },
+        "course_page":{
+            "english":"http://www.bristol.ac.uk/study/undergraduate/2019/criminology/bsc-criminology-with-study-abroad/"
+        },
+        "employment_details":{
+            "english":"http://www.bris.ac.uk/careers/be-inspired/bristol-graduates/"
+        },
+        "financial_support_details":{
+            "english":"http://www.bris.ac.uk/studentfunding"
+        },
+        "institution":"https://localhost:10000/institutions/10007786",
+        "learning_and_teaching_methods":{
+            "english":"https://www.bris.ac.uk/esu/unitprogcat/RouteStructureCohort.jsa?byCohort=Y&ayrCode=19%2F20&programmeCode=9SPOL023U"
+        },
+        "self":"https://localhost:10000/institutions/10007786/courses/Criminology with Study Abroad"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.459064",
+        "longitude":"-2.603292"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":45,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":85,
+                "proportion_of_students_dormant_after_first_year_on_course":10,
+                "subject_code":"CAH15-01-03"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":11,
+                "number_of_students":300,
+                "proportion_of_students_assumed_to_be_unemployed":6,
+                "proportion_of_students_in_study":18,
+                "proportion_of_students_in_work":64,
+                "proportion_of_students_in_work_and_study":2,
+                "proportion_of_students_in_work_or_study":84,
+                "proportion_of_students_who_are_not_available_for_work_or_study":11,
+                "response_rate":70,
+                "subject_code":"CAH15"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":11,
+                "number_of_students":195,
+                "proportion_of_students_in_professional_or_managerial_jobs":80,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":20,
+                "response_rate":70,
+                "subject_code":"CAH15"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":30500,
+                "lower_quartile_range":22500,
+                "median":26500,
+                "number_of_graduates":35,
+                "subject_code":"CAH15-01-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":11,
+                "response_rate":69,
+                "subject_code":"CAH15"
+            }
+        ]
+    },
+    "title":{
+        "english":"Criminology with Study Abroad"
+    },
+    "ucas_code_id":"A15-H88",
+    "year_abroad":{
+        "code":"2",
+        "label":"Compulsory"
+    }
+}
+
+,/* 14 */
+{
+    "_id":"5c2e82b100f91b809b32e3b6",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Liverpool John Moores University",
+        "public_ukprn":"10003957",
+        "ukprn_name":"Liverpool John Moores University",
+        "ukprn":"10003957"
+    },
+    "kis_course_id":"3500007490",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/english-media-and-cultural-studies"
+        },
+        "course_page":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/english-media-and-cultural-studies"
+        },
+        "employment_details":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/english-media-and-cultural-studies"
+        },
+        "financial_support_details":{
+            "english":"https://www.ljmu.ac.uk/discover/fees-and-finance"
+        },
+        "institution":"https://localhost:10000/institutions/10003957",
+        "learning_and_teaching_methods":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/english-media-and-cultural-studies"
+        },
+        "self":"https://localhost:10000/institutions/10003957/courses/English, Media and Cultural Studies"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.405128",
+        "longitude":"-2.972516"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":35,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":90,
+                "proportion_of_students_leaving_course":10
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":25,
+                "proportion_of_students_in_study":20,
+                "proportion_of_students_in_work":80,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":85
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":20,
+                "proportion_of_students_in_professional_or_managerial_jobs":40,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":60,
+                "response_rate":85
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":22500,
+                "lower_quartile_range":15000,
+                "median":18500,
+                "number_of_graduates":145,
+                "subject_code":"CAH18-01-05"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":22500,
+                "lower_quartile_range":13500,
+                "median":18500,
+                "number_of_graduates":180,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":24,
+                "response_rate":55
+            }
+        ]
+    },
+    "title":{
+        "english":"English, Media and Cultural Studies"
+    },
+    "ucas_code_id":"A11-A49",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 15 */
+{
+    "_id":"5c2f238200f91b809b40365a",
+    "country":{
+        "code":"XH",
+        "name":"Scotland"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Edinburgh Napier University",
+        "public_ukprn":"10007772",
+        "ukprn_name":"Edinburgh Napier University",
+        "ukprn":"10007772"
+    },
+    "kis_course_id":"U32101",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.napier.ac.uk/courses/ba-hons-accounting-undergraduate-fulltime"
+        },
+        "course_page":{
+            "english":"http://www.napier.ac.uk/courses/ba-hons-accounting-undergraduate-fulltime"
+        },
+        "employment_details":{
+            "english":"http://my.napier.ac.uk/Careers-and-Development/Pages/Careers-and-Development.aspx"
+        },
+        "financial_support_details":{
+            "english":"http://my.napier.ac.uk/Finance/Pages/Finance.aspx"
+        },
+        "institution":"https://localhost:10000/institutions/10007772",
+        "learning_and_teaching_methods":{
+            "english":"http://www.napier.ac.uk/courses/ba-hons-accounting-undergraduate-fulltime"
+        },
+        "self":"https://localhost:10000/institutions/10007772/courses/Accounting"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"55.918163",
+        "longitude":"-3.239726"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":80,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":65,
+                "proportion_of_students_dormant_after_first_year_on_course":5,
+                "proportion_of_students_gaining_intended_award_or_higher":19,
+                "proportion_of_students_leaving_course":11,
+                "subject_code":"CAH17-01"
+            }
+        ],
+        "employment":[ 
+            {}
+        ],
+        "job_type":[ 
+            {}
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Conservation and environment professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Quality and regulatory professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"Accounting"
+    },
+    "ucas_code_id":"A25-B99",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 16 */
+{
+    "_id":"5c2f19fe00f91b809b39985e",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"1",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Central Lancashire",
+        "public_ukprn":"10007141",
+        "ukprn_name":"The University of Central Lancashire",
+        "ukprn":"10007141"
+    },
+    "kis_course_id":"ULMOLAGEK",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.uclan.ac.uk/courses/ba_hons_modern_languages.php"
+        },
+        "course_page":{
+            "english":"http://www.uclan.ac.uk/courses/ba_hons_modern_languages.php"
+        },
+        "employment_details":{
+            "english":"http://www.uclan.ac.uk/courses/ba_hons_modern_languages.php"
+        },
+        "financial_support_details":{
+            "english":"http://www.uclan.ac.uk/study_here/fees_and_finance/bursaries_scholarships.php"
+        },
+        "institution":"https://localhost:10000/institutions/10007141",
+        "learning_and_teaching_methods":{
+            "english":"https://www.uclan.ac.uk/courses/ba_hons_modern_languages.php"
+        },
+        "self":"https://localhost:10000/institutions/10007141/courses/Modern Languages (German and Korean)"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.7616",
+        "longitude":"-2.708473"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":100,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":87,
+                "proportion_of_students_dormant_after_first_year_on_course":4,
+                "proportion_of_students_gaining_intended_award_or_higher":1,
+                "proportion_of_students_gained_lower_award":2,
+                "proportion_of_students_leaving_course":6,
+                "subject_code":"CAH19-03-06"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":130,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":88,
+                "proportion_of_students_dormant_after_first_year_on_course":3,
+                "proportion_of_students_gaining_intended_award_or_higher":1,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":7,
+                "subject_code":"CAH19-03"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":65,
+                "proportion_of_students_in_work_or_study":75,
+                "proportion_of_students_who_are_not_available_for_work_or_study":15,
+                "response_rate":85,
+                "subject_code":"CAH19-03-06"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":35,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":15,
+                "proportion_of_students_in_work":55,
+                "proportion_of_students_in_work_or_study":75,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":85,
+                "subject_code":"CAH19-03"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":20,
+                "proportion_of_students_in_professional_or_managerial_jobs":60,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":40,
+                "response_rate":85,
+                "subject_code":"CAH19-03"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":20,
+                "proportion_of_students_in_professional_or_managerial_jobs":60,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":40,
+                "response_rate":85,
+                "subject_code":"CAH19-03-06"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":20
+                    }, 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":20
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":15
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":0
+                    }, 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":20500,
+                "lower_quartile_range":11500,
+                "median":17000,
+                "number_of_graduates":35,
+                "subject_code":"CAH19-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":11,
+                "response_rate":85,
+                "subject_code":"CAH19"
+            }
+        ]
+    },
+    "title":{
+        "english":"Modern Languages (German and Korean)"
+    },
+    "ucas_code_id":"A02-D69",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 17 */
+{
+    "_id":"5c2f1ae900f91b809b3a3ce2",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"University of Hertfordshire",
+        "public_ukprn":"10007147",
+        "ukprn_name":"University of Hertfordshire",
+        "ukprn":"10007147"
+    },
+    "kis_course_id":"APJHPSYSS-JOINT_HONS_PSYCH_SPS",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.herts.ac.uk/courses/sports-studies-and-psychology"
+        },
+        "course_page":{
+            "english":"http://www.herts.ac.uk/courses/sports-studies-and-psychology"
+        },
+        "employment_details":{
+            "english":"http://www.herts.ac.uk/courses/sports-studies-and-psychology"
+        },
+        "financial_support_details":{
+            "english":"https://www.herts.ac.uk/study/fees-and-funding"
+        },
+        "institution":"https://localhost:10000/institutions/10007147",
+        "learning_and_teaching_methods":{
+            "english":"http://www.herts.ac.uk/courses/sports-studies-and-psychology"
+        },
+        "self":"https://localhost:10000/institutions/10007147/courses/Psychology And Sports Studies"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.752887",
+        "longitude":"-0.242173"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {}
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":10,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":80,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":90,
+                "response_rate":70,
+                "subject_code":"CAH04-01-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":10,
+                "proportion_of_students_in_professional_or_managerial_jobs":50,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":50,
+                "response_rate":70,
+                "subject_code":"CAH04-01-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Sports and fitness occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":26000,
+                "lower_quartile_range":14500,
+                "median":20000,
+                "number_of_graduates":20,
+                "subject_code":"CAH03-02-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":26500,
+                "lower_quartile_range":16500,
+                "median":21000,
+                "number_of_graduates":25,
+                "subject_code":"CAH04-01-01"
+            }
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"Psychology And Sports Studies"
+    },
+    "ucas_code_id":"A21-E08",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 18 */
+{
+    "_id":"5c2f1c5500f91b809b3b3b70",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Kent",
+        "public_ukprn":"10007150",
+        "ukprn_name":"The University of Kent",
+        "ukprn":"10007150"
+    },
+    "kis_course_id":"PHYS!ASTRO-4_MPHYS_F3FN",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/27/physics-with-astrophysics-mphys/#teaching"
+        },
+        "course_page":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/27/physics-with-astrophysics-mphys"
+        },
+        "employment_details":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/27/physics-with-astrophysics-mphys/#careers"
+        },
+        "financial_support_details":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/27/physics-with-astrophysics-mphys/#funding"
+        },
+        "institution":"https://localhost:10000/institutions/10007150",
+        "learning_and_teaching_methods":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/27/physics-with-astrophysics-mphys/#teaching"
+        },
+        "self":"https://localhost:10000/institutions/10007150/courses/Physics with Astrophysics"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.298491",
+        "longitude":"1.070918"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"074",
+        "label":"MPhys",
+        "level":"F",
+        "name":"Master of Physics"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":15,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":100
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_assumed_to_be_unemployed":15,
+                "proportion_of_students_in_study":50,
+                "proportion_of_students_in_work":35,
+                "proportion_of_students_in_work_or_study":85,
+                "response_rate":80,
+                "subject_code":"CAH07-01-02"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":50,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":30,
+                "proportion_of_students_in_work":55,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":90,
+                "response_rate":80,
+                "subject_code":"CAH07-01-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":10,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":80,
+                "subject_code":"CAH07-01-02"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":30,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":80,
+                "subject_code":"CAH07-01-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":20
+                    }, 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":20
+                    }, 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":15
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":15
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Leisure, travel and related personal service occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":0
+                    }, 
+                    {
+                        "job":"Health professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":29500,
+                "lower_quartile_range":20500,
+                "median":25000,
+                "number_of_graduates":50,
+                "subject_code":"CAH07-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":29000,
+                "lower_quartile_range":20000,
+                "median":24500,
+                "number_of_graduates":45,
+                "subject_code":"CAH07-01-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":12,
+                "response_rate":75,
+                "subject_code":"CAH07-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "response_rate":75,
+                "subject_code":"CAH07-01-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Physics with Astrophysics"
+    },
+    "ucas_code_id":"A09-A81",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 19 */
+{
+    "_id":"5c2f1c3200f91b809b3b22bb",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Kent",
+        "public_ukprn":"10007150",
+        "ukprn_name":"The University of Kent",
+        "ukprn":"10007150"
+    },
+    "kis_course_id":"ENVIROSOCSCI_BA_L9D4",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/63/environmental-social-science/#teaching"
+        },
+        "course_page":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/63/environmental-social-science"
+        },
+        "employment_details":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/63/environmental-social-science/#careers"
+        },
+        "financial_support_details":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/63/environmental-social-science/#funding"
+        },
+        "institution":"https://localhost:10000/institutions/10007150",
+        "learning_and_teaching_methods":{
+            "english":"http://kent.ac.uk/courses/undergraduate/2019/63/environmental-social-science/#teaching"
+        },
+        "self":"https://localhost:10000/institutions/10007150/courses/Environmental Social Sciences"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.298491",
+        "longitude":"1.070918"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":10,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":90,
+                "proportion_of_students_dormant_after_first_year_on_course":10
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":15,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":10,
+                "proportion_of_students_in_work":75,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":85,
+                "subject_code":"CAH06-01-03"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":200,
+                "proportion_of_students_assumed_to_be_unemployed":6,
+                "proportion_of_students_in_study":26,
+                "proportion_of_students_in_work":60,
+                "proportion_of_students_in_work_and_study":6,
+                "proportion_of_students_in_work_or_study":93,
+                "proportion_of_students_who_are_not_available_for_work_or_study":2,
+                "response_rate":75,
+                "subject_code":"CAH15-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":75,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":85,
+                "subject_code":"CAH06-01-03"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":125,
+                "proportion_of_students_in_professional_or_managerial_jobs":60,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":40,
+                "response_rate":75,
+                "subject_code":"CAH15-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":25
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":27
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":8
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Conservation and environment professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":8
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":6
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":6
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":6
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":3
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":24500,
+                "lower_quartile_range":15500,
+                "median":20000,
+                "number_of_graduates":300,
+                "subject_code":"CAH15-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":12,
+                "response_rate":75,
+                "subject_code":"CAH15-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Environmental Social Sciences"
+    },
+    "ucas_code_id":"A08-J45",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 20 */
+{
+    "_id":"5c2f18d900f91b809b38cc54",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Northampton",
+        "public_ukprn":"10007138",
+        "ukprn_name":"The University of Northampton",
+        "ukprn":"10007138"
+    },
+    "kis_course_id":"SUBHEALSUBTWDE",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://tundrasearch.northampton.ac.uk/results/showimage.aspx?index=603042"
+        },
+        "course_page":{
+            "english":"https://www.northampton.ac.uk/study/courses/international-development-joint-honours-babsc-hons/"
+        },
+        "employment_details":{
+            "english":"https://www.northampton.ac.uk/study/courses/international-development-joint-honours-babsc-hons/"
+        },
+        "financial_support_details":{
+            "english":"https://www.northampton.ac.uk/study/fees-and-funding/"
+        },
+        "institution":"https://localhost:10000/institutions/10007138",
+        "learning_and_teaching_methods":{
+            "english":"http://tundrasearch.northampton.ac.uk/results/showimage.aspx?index=603042"
+        },
+        "self":"https://localhost:10000/institutions/10007138/courses/International Development and Health Studies"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.230494",
+        "longitude":"-0.888423"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "qualification":{
+        "code":"082",
+        "label":"BA/BSc",
+        "level":"F",
+        "name":"Bachelor of Arts, Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":10,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":85,
+                "proportion_of_students_dormant_after_first_year_on_course":10,
+                "proportion_of_students_gaining_intended_award_or_higher":5,
+                "subject_code":"CAH15-01-01"
+            }, 
+            {
+                "aggregation_level":21,
+                "number_of_students":15,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":80,
+                "proportion_of_students_dormant_after_first_year_on_course":5,
+                "proportion_of_students_gaining_intended_award_or_higher":5,
+                "proportion_of_students_leaving_course":5,
+                "subject_code":"CAH15"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":15,
+                "proportion_of_students_in_work":100,
+                "proportion_of_students_in_work_or_study":100,
+                "response_rate":65,
+                "subject_code":"CAH15-01-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":60,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":40,
+                "response_rate":65,
+                "subject_code":"CAH15-01-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":25
+                    }, 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":30
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":15
+                    }, 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":15
+                    }, 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Welfare professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":21,
+                "higher_quartile_range":28000,
+                "lower_quartile_range":16500,
+                "median":19000,
+                "number_of_graduates":20,
+                "subject_code":"CAH15"
+            }
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"International Development and Health Studies"
+    },
+    "ucas_code_id":"A21-I58",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 21 */
+{
+    "_id":"5c2f217d00f91b809b3ed138",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of York",
+        "public_ukprn":"10007167",
+        "ukprn_name":"The University of York",
+        "ukprn":"10007167"
+    },
+    "kis_course_id":"UUMELESNTC4~UMELESNTC4",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.york.ac.uk/electronics/undergraduate/courses/nanotechnology/nanotechnology_h6fh/#course-assessment"
+        },
+        "course_page":{
+            "english":"http://www.york.ac.uk/electronics/undergraduate/courses/nanotechnology/nanotechnology_h6fh/"
+        },
+        "employment_details":{
+            "english":"http://www.york.ac.uk/electronics/undergraduate/courses/nanotechnology/nanotechnology_h6fh/#course-careers"
+        },
+        "financial_support_details":{
+            "english":"http://www.york.ac.uk/ug-financial-support"
+        },
+        "institution":"https://localhost:10000/institutions/10007167",
+        "learning_and_teaching_methods":{
+            "english":"http://www.york.ac.uk/electronics/undergraduate/courses/nanotechnology/nanotechnology_h6fh/#course-teaching"
+        },
+        "self":"https://localhost:10000/institutions/10007167/courses/Electronic Engineering with Nanotechnology"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.948333",
+        "longitude":"-1.053611"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"056",
+        "label":"MEng",
+        "level":"F",
+        "name":"Master of Engineering"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":150,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":83,
+                "proportion_of_students_dormant_after_first_year_on_course":3,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":14,
+                "subject_code":"CAH10-01-08"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":70,
+                "proportion_of_students_assumed_to_be_unemployed":3,
+                "proportion_of_students_in_study":16,
+                "proportion_of_students_in_work":78,
+                "proportion_of_students_in_work_and_study":1,
+                "proportion_of_students_in_work_or_study":96,
+                "proportion_of_students_who_are_not_available_for_work_or_study":1,
+                "response_rate":75,
+                "subject_code":"CAH10-01-08"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":55,
+                "proportion_of_students_in_professional_or_managerial_jobs":87,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":13,
+                "response_rate":75,
+                "subject_code":"CAH10-01-08"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":46
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":37
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Skilled trades occupations",
+                        "percentage_of_students":6
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Quality and regulatory professionals",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":36000,
+                "lower_quartile_range":21500,
+                "median":29500,
+                "number_of_graduates":75,
+                "subject_code":"CAH10-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":85,
+                "subject_code":"CAH10-01-08"
+            }
+        ]
+    },
+    "title":{
+        "english":"Electronic Engineering with Nanotechnology"
+    },
+    "ucas_code_id":"A30-I80",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 22 */
+{
+    "_id":"5c2e7a4400f91b809b2e98b8",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"2",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"ARU Peterborough Campus",
+        "public_ukprn":"10000291",
+        "ukprn_name":"ARU Peterborough Campus",
+        "ukprn":"10000291"
+    },
+    "kis_course_id":"K00237",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.anglia.ac.uk/study/undergraduate/international-business-management-with-foundation-year-london"
+        },
+        "course_page":{
+            "english":"https://www.anglia.ac.uk/study/undergraduate/international-business-management-with-foundation-year-london"
+        },
+        "employment_details":{
+            "english":"https://www.anglia.ac.uk/study/undergraduate/international-business-management-with-foundation-year-london"
+        },
+        "financial_support_details":{
+            "english":"https://www.anglia.ac.uk/study/undergraduate/international-business-management-with-foundation-year-london"
+        },
+        "institution":"https://localhost:10000/institutions/10000291",
+        "learning_and_teaching_methods":{
+            "english":"https://www.anglia.ac.uk/study/undergraduate/international-business-management-with-foundation-year-london"
+        },
+        "self":"https://localhost:10000/institutions/10000291/courses/International Business Management"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.518754",
+        "longitude":"-0.105656"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":30,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":55,
+                "proportion_of_students_dormant_after_first_year_on_course":5,
+                "proportion_of_students_gained_lower_award":5,
+                "proportion_of_students_leaving_course":30
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":60,
+                "proportion_of_students_assumed_to_be_unemployed":11,
+                "proportion_of_students_in_study":8,
+                "proportion_of_students_in_work":67,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":80,
+                "proportion_of_students_who_are_not_available_for_work_or_study":8,
+                "response_rate":77,
+                "subject_code":"CAH17-01-02"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":40,
+                "proportion_of_students_in_professional_or_managerial_jobs":45,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":55,
+                "response_rate":75,
+                "subject_code":"CAH17-01-02"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Therapy professionals",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":27000,
+                "lower_quartile_range":16000,
+                "median":21000,
+                "number_of_graduates":200,
+                "subject_code":"CAH17-01-02"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":55,
+                "subject_code":"CAH17-01-02"
+            }
+        ]
+    },
+    "title":{
+        "english":"International Business Management"
+    },
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 23 */
+{
+    "_id":"5c2f15c500f91b809b36a5ea",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"2",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of West London",
+        "public_ukprn":"10006566",
+        "ukprn_name":"The University of West London",
+        "ukprn":"10006566"
+    },
+    "kis_course_id":"EAREDU003W",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35830"
+        },
+        "course_page":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35830"
+        },
+        "employment_details":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35830"
+        },
+        "financial_support_details":{
+            "english":"http://www.uwl.ac.uk/students/support-services-for-students"
+        },
+        "institution":"https://localhost:10000/institutions/10006566",
+        "learning_and_teaching_methods":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35830"
+        },
+        "self":"https://localhost:10000/institutions/10006566/courses/Early Years Education"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.50661",
+        "longitude":"-0.30339"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {}
+        ],
+        "employment":[ 
+            {}
+        ],
+        "job_type":[ 
+            {}
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"Early Years Education"
+    },
+    "ucas_code_id":"A17-F93",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 24 */
+{
+    "_id":"5c2f25a900f91b809b41aa2c",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"1",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Bradford",
+        "public_ukprn":"10007785",
+        "ukprn_name":"The University of Bradford",
+        "ukprn":"10007785"
+    },
+    "kis_course_id":"ULAW4UFI-D003",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.brad.ac.uk/media-v8/aqeo/programme-specifications/2018-19/LLB-Law-18-19.pdf"
+        },
+        "course_page":{
+            "english":"https://www.bradford.ac.uk/courses/ug/criminal-law-llb/"
+        },
+        "employment_details":{
+            "english":"https://www.bradford.ac.uk/courses/ug/criminal-law-llb/"
+        },
+        "financial_support_details":{
+            "english":"https://www.bradford.ac.uk/money/fees/undergraduate-home-eu/student-loans/"
+        },
+        "institution":"https://localhost:10000/institutions/10007785",
+        "learning_and_teaching_methods":{
+            "english":"https://www.brad.ac.uk/media-v8/aqeo/programme-specifications/2018-19/LLB-Law-18-19.pdf"
+        },
+        "self":"https://localhost:10000/institutions/10007785/courses/Law (Criminal Law)"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.791014",
+        "longitude":"-1.767163"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"039",
+        "label":"LLB",
+        "level":"F",
+        "name":"Bachelor of Laws"
+    },
+    "sandwich_year":{
+        "code":"2",
+        "label":"Compulsory"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":100,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":79,
+                "proportion_of_students_dormant_after_first_year_on_course":5,
+                "proportion_of_students_gained_lower_award":3,
+                "proportion_of_students_leaving_course":13,
+                "subject_code":"CAH16-01-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":50,
+                "proportion_of_students_assumed_to_be_unemployed":15,
+                "proportion_of_students_in_study":40,
+                "proportion_of_students_in_work":45,
+                "proportion_of_students_in_work_or_study":85,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":70,
+                "subject_code":"CAH16-01-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":20,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":70,
+                "subject_code":"CAH16-01-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":40
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":21000,
+                "lower_quartile_range":12500,
+                "median":16500,
+                "number_of_graduates":190,
+                "subject_code":"CAH16-01-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":70,
+                "subject_code":"CAH16-01-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Law (Criminal Law)"
+    },
+    "ucas_code_id":"A11-D15",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 25 */
+{
+    "_id":"5c2f15fd00f91b809b36cc38",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Birmingham",
+        "public_ukprn":"10006840",
+        "ukprn_name":"The University of Birmingham",
+        "ukprn":"10006840"
+    },
+    "kis_course_id":"K0046",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.birmingham.ac.uk/undergraduate/courses/english/english.aspx#LearningAndTeachingTab"
+        },
+        "course_page":{
+            "english":"https://www.birmingham.ac.uk/undergraduate/courses/english/english.aspx"
+        },
+        "employment_details":{
+            "english":"https://www.birmingham.ac.uk/undergraduate/courses/english/english.aspx#EmployabilityTab"
+        },
+        "financial_support_details":{
+            "english":"http://www.birmingham.ac.uk/students/fees/undergraduate/index.aspx"
+        },
+        "institution":"https://localhost:10000/institutions/10006840",
+        "learning_and_teaching_methods":{
+            "english":"https://www.birmingham.ac.uk/undergraduate/courses/english/english.aspx#LearningAndTeachingTab"
+        },
+        "self":"https://localhost:10000/institutions/10006840/courses/English"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.44897",
+        "longitude":"-1.93086"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":140,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":95,
+                "proportion_of_students_dormant_after_first_year_on_course":1,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":3
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":80,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":19,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_and_study":6,
+                "proportion_of_students_in_work_or_study":95,
+                "response_rate":70,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":55,
+                "proportion_of_students_in_professional_or_managerial_jobs":75,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":70,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":42
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":13
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":9
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":7
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":3
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":3
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":27500,
+                "lower_quartile_range":19000,
+                "median":23500,
+                "number_of_graduates":205,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":90,
+                "subject_code":"CAH19-01-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"English"
+    },
+    "ucas_code_id":"A04-I34",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 26 */
+{
+    "_id":"5c2e849000f91b809b33d084",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The Manchester Metropolitan University",
+        "public_ukprn":"10004180",
+        "ukprn_name":"The Manchester Metropolitan University",
+        "ukprn":"10004180"
+    },
+    "kis_course_id":"K0489",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www2.mmu.ac.uk/study/undergraduate/course/bsc-business-technology"
+        },
+        "course_page":{
+            "english":"https://www2.mmu.ac.uk/study/undergraduate/course/bsc-business-technology"
+        },
+        "employment_details":{
+            "english":"https://www2.mmu.ac.uk/study/undergraduate/course/bsc-business-technology"
+        },
+        "financial_support_details":{
+            "english":"http://www2.mmu.ac.uk/study/undergraduate/money-matters/"
+        },
+        "institution":"https://localhost:10000/institutions/10004180",
+        "learning_and_teaching_methods":{
+            "english":"https://www2.mmu.ac.uk/study/undergraduate/course/bsc-business-technology"
+        },
+        "self":"https://localhost:10000/institutions/10004180/courses/Business Technology"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.470692",
+        "longitude":"-2.239521"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":20,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":70,
+                "proportion_of_students_dormant_after_first_year_on_course":15,
+                "proportion_of_students_gained_lower_award":5,
+                "proportion_of_students_leaving_course":5
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":22,
+                "number_of_students":370,
+                "proportion_of_students_assumed_to_be_unemployed":14,
+                "proportion_of_students_in_study":10,
+                "proportion_of_students_in_work":68,
+                "proportion_of_students_in_work_and_study":4,
+                "proportion_of_students_in_work_or_study":82,
+                "proportion_of_students_who_are_not_available_for_work_or_study":4,
+                "response_rate":68,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":22,
+                "number_of_students":250,
+                "proportion_of_students_in_professional_or_managerial_jobs":79,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":21,
+                "response_rate":68,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":54
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":8
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":7
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":6
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":6
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":3
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":30000,
+                "lower_quartile_range":18000,
+                "median":23000,
+                "number_of_graduates":80,
+                "subject_code":"CAH11-01-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":12,
+                "response_rate":72,
+                "subject_code":"CAH11-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Business Technology"
+    },
+    "ucas_code_id":"A31-G76",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 27 */
+{
+    "_id":"5c2e86c500f91b809b34edef",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"1",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Oxford Brookes University",
+        "public_ukprn":"10004930",
+        "ukprn_name":"Oxford Brookes University",
+        "ukprn":"10004930"
+    },
+    "kis_course_id":"MC10-HB",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-hb/three/"
+        },
+        "course_page":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-hb/"
+        },
+        "employment_details":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-hb/eight/"
+        },
+        "financial_support_details":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-hb/five/"
+        },
+        "institution":"https://localhost:10000/institutions/10004930",
+        "learning_and_teaching_methods":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-hb/three/"
+        },
+        "self":"https://localhost:10000/institutions/10004930/courses/Human Biology"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.754579",
+        "longitude":"-1.223266"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":15,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":10,
+                "proportion_of_students_dormant_after_first_year_on_course":40,
+                "proportion_of_students_gaining_intended_award_or_higher":45,
+                "proportion_of_students_leaving_course":10,
+                "subject_code":"CAH02-03"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":15,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":80,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":75,
+                "subject_code":"CAH02-03"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":100,
+                "response_rate":75,
+                "subject_code":"CAH02-03"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Nursing and midwifery professionals",
+                        "percentage_of_students":55
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Health associate professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Health professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Sports and fitness occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":35000,
+                "lower_quartile_range":15500,
+                "median":27000,
+                "number_of_graduates":70,
+                "subject_code":"CAH02-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":22,
+                "response_rate":65,
+                "subject_code":"CAH02-03"
+            }
+        ]
+    },
+    "title":{
+        "english":"Human Biology"
+    },
+    "ucas_code_id":"A06-D40",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 28 */
+{
+    "_id":"5c2f1ca100f91b809b3b7036",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Lincoln",
+        "public_ukprn":"10007151",
+        "ukprn_name":"The University of Lincoln",
+        "ukprn":"10007151"
+    },
+    "kis_course_id":"MTHPHYUB",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.lincoln.ac.uk/about/courses/MTHPHYUB_2019-20.pdf"
+        },
+        "course_page":{
+            "english":"http://www.lincoln.ac.uk/home/course/MTHPHYUB"
+        },
+        "employment_details":{
+            "english":"http://www.lincoln.ac.uk/home/course/MTHPHYUB"
+        },
+        "financial_support_details":{
+            "english":"http://www.lincoln.ac.uk/home/studyatlincoln/undergraduatecourses/feesandfunding/"
+        },
+        "institution":"https://localhost:10000/institutions/10007151",
+        "learning_and_teaching_methods":{
+            "english":"http://www.lincoln.ac.uk/about/courses/MTHPHYUB_2019-20.pdf"
+        },
+        "self":"https://localhost:10000/institutions/10007151/courses/Mathematics and Physics"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.228855",
+        "longitude":"-0.549237"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":10,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":100,
+                "subject_code":"CAH07-01-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":95,
+                "proportion_of_students_leaving_course":5,
+                "subject_code":"CAH09-01-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":11,
+                "number_of_students":45,
+                "proportion_of_students_in_study":45,
+                "proportion_of_students_in_work":50,
+                "proportion_of_students_in_work_or_study":100,
+                "response_rate":90,
+                "subject_code":"CAH07"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":11,
+                "number_of_students":25,
+                "proportion_of_students_in_professional_or_managerial_jobs":65,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":40,
+                "response_rate":90,
+                "subject_code":"CAH07"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":11,
+                "response_rate":70,
+                "subject_code":"CAH07"
+            }
+        ]
+    },
+    "title":{
+        "english":"Mathematics and Physics"
+    },
+    "ucas_code_id":"A34-A24",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 29 */
+{
+    "_id":"5c2e7fc200f91b809b3169c3",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"2",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Goldsmiths College",
+        "public_ukprn":"10002718",
+        "ukprn_name":"Goldsmiths College",
+        "ukprn":"10002718"
+    },
+    "kis_course_id":"KI611",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.gold.ac.uk/ug/foundation-computing/"
+        },
+        "course_page":{
+            "english":"http://www.gold.ac.uk/ug/foundation-computing/"
+        },
+        "employment_details":{
+            "english":"http://www.gold.ac.uk/ug/foundation-computing/"
+        },
+        "financial_support_details":{
+            "english":"http://www.gold.ac.uk/ug/fees-funding/"
+        },
+        "institution":"https://localhost:10000/institutions/10002718",
+        "learning_and_teaching_methods":{
+            "english":"http://www.gold.ac.uk/ug/foundation-computing/"
+        },
+        "self":"https://localhost:10000/institutions/10002718/courses/Games Programming (Integrated Degree)"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.474143",
+        "longitude":"-0.035401"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":20,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":95,
+                "proportion_of_students_dormant_after_first_year_on_course":5
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":60,
+                "proportion_of_students_assumed_to_be_unemployed":21,
+                "proportion_of_students_in_study":6,
+                "proportion_of_students_in_work":62,
+                "proportion_of_students_in_work_and_study":3,
+                "proportion_of_students_in_work_or_study":71,
+                "proportion_of_students_who_are_not_available_for_work_or_study":8,
+                "response_rate":83,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":40,
+                "proportion_of_students_in_professional_or_managerial_jobs":75,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":85,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Skilled trades occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":12,
+                "response_rate":70,
+                "subject_code":"CAH11-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Games Programming (Integrated Degree)"
+    },
+    "ucas_code_id":"A17-C20",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 30 */
+{
+    "_id":"5c2f14fd00f91b809b361a84",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Southampton Solent University",
+        "public_ukprn":"10006022",
+        "ukprn_name":"Southampton Solent University",
+        "ukprn":"10006022"
+    },
+    "kis_course_id":"BENGLPRF",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.solent.ac.uk/courses/undergraduate/english-and-public-relations-ba"
+        },
+        "course_page":{
+            "english":"https://www.solent.ac.uk/courses/undergraduate/english-and-public-relations-ba"
+        },
+        "employment_details":{
+            "english":"https://www.solent.ac.uk/courses/undergraduate/english-and-public-relations-ba"
+        },
+        "financial_support_details":{
+            "english":"http://www.solent.ac.uk/studying/fees/financial-support/financial-support.aspx"
+        },
+        "institution":"https://localhost:10000/institutions/10006022",
+        "learning_and_teaching_methods":{
+            "english":"https://www.solent.ac.uk/courses/undergraduate/english-and-public-relations-ba"
+        },
+        "self":"https://localhost:10000/institutions/10006022/courses/English And Public Relations"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"50.907916",
+        "longitude":"-1.400318"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":20,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":65,
+                "proportion_of_students_gaining_intended_award_or_higher":20,
+                "proportion_of_students_gained_lower_award":15,
+                "subject_code":"CAH18-01-02"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":30,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":90,
+                "proportion_of_students_gained_lower_award":5,
+                "proportion_of_students_leaving_course":5,
+                "subject_code":"CAH19-01-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_in_study":10,
+                "proportion_of_students_in_work":75,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":80,
+                "subject_code":"CAH19-01-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "number_of_students":25,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":90,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":95,
+                "response_rate":80,
+                "subject_code":"CAH18-01-02"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":20,
+                "proportion_of_students_in_professional_or_managerial_jobs":85,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":15,
+                "response_rate":80,
+                "subject_code":"CAH19-01-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "number_of_students":20,
+                "proportion_of_students_in_professional_or_managerial_jobs":80,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":20,
+                "response_rate":80,
+                "subject_code":"CAH18-01-02"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":45
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":45
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":20
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":15
+                    }, 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Leisure, travel and related personal service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":0
+                    }, 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":0
+                    }, 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":0
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":23000,
+                "lower_quartile_range":13000,
+                "median":18500,
+                "number_of_graduates":145,
+                "subject_code":"CAH19-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":27000,
+                "lower_quartile_range":18500,
+                "median":22500,
+                "number_of_graduates":30,
+                "subject_code":"CAH18-01-02"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":23,
+                "response_rate":65,
+                "subject_code":"CAH19-01-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "response_rate":85,
+                "subject_code":"CAH18-01-02"
+            }
+        ]
+    },
+    "title":{
+        "english":"English And Public Relations"
+    },
+    "ucas_code_id":"A35-A61",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 31 */
+{
+    "_id":"5c2e7b7600f91b809b2f3c4a",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":false,
+    "institution":{
+        "public_ukprn_name":"Blackpool and the Fylde College",
+        "public_ukprn":"10000754",
+        "ukprn_name":"Blackpool and the Fylde College",
+        "ukprn":"10000754"
+    },
+    "kis_course_id":"IH1HE07",
+    "length_of_course":{
+        "code":"2",
+        "label":"2 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.blackpool.ac.uk/sites/default/files/specifications/IH1HE07.pdf"
+        },
+        "course_page":{
+            "english":"http://www.blackpool.ac.uk/course/IH1HE07"
+        },
+        "employment_details":{
+            "english":"http://www.blackpool.ac.uk/highereducation/employability"
+        },
+        "financial_support_details":{
+            "english":"http://www.blackpool.ac.uk/university/helearningsupport"
+        },
+        "institution":"https://localhost:10000/institutions/10000754",
+        "learning_and_teaching_methods":{
+            "english":"https://www.blackpool.ac.uk/sites/default/files/specifications/IH1HE07.pdf"
+        },
+        "self":"https://localhost:10000/institutions/10000754/courses/Network Engineering (System Administration)"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.858185",
+        "longitude":"-3.031861"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"036",
+        "label":"FdSc",
+        "level":"U",
+        "name":"Foundation Degree of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":40,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":90,
+                "proportion_of_students_leaving_course":10,
+                "subject_code":"CAH11-01-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":60,
+                "proportion_of_students_in_work":15,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":80,
+                "proportion_of_students_who_are_not_available_for_work_or_study":15,
+                "response_rate":77,
+                "subject_code":"CAH11-01-01"
+            }
+        ],
+        "job_type":[ 
+            {}
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":23500,
+                "lower_quartile_range":13500,
+                "median":17500,
+                "number_of_graduates":30,
+                "subject_code":"CAH11-01-01"
+            }
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"Network Engineering (System Administration)"
+    },
+    "ucas_code_id":"A28-D90",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 32 */
+{
+    "_id":"5c2e82c000f91b809b32eafe",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"2",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Liverpool John Moores University",
+        "public_ukprn":"10003957",
+        "ukprn_name":"Liverpool John Moores University",
+        "ukprn":"10003957"
+    },
+    "kis_course_id":"4500006561",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/biochemistry-with-foundation-year"
+        },
+        "course_page":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/biochemistry-with-foundation-year"
+        },
+        "employment_details":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/biochemistry-with-foundation-year"
+        },
+        "financial_support_details":{
+            "english":"https://www.ljmu.ac.uk/discover/fees-and-funding/undergraduate-finance"
+        },
+        "institution":"https://localhost:10000/institutions/10003957",
+        "learning_and_teaching_methods":{
+            "english":"https://www.ljmu.ac.uk/study/courses/undergraduates/2019/biochemistry-with-foundation-year"
+        },
+        "self":"https://localhost:10000/institutions/10003957/courses/Biochemistry"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.405128",
+        "longitude":"-2.972516"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":50,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":80,
+                "proportion_of_students_leaving_course":20,
+                "subject_code":"CAH03-01-08"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":30,
+                "proportion_of_students_assumed_to_be_unemployed":15,
+                "proportion_of_students_in_study":40,
+                "proportion_of_students_in_work":45,
+                "proportion_of_students_in_work_or_study":85,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":75,
+                "subject_code":"CAH03-01-08"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":80,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":20,
+                "response_rate":75,
+                "subject_code":"CAH03-01-08"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":30
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Quality and regulatory professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Process, plant and machine operatives",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":25000,
+                "lower_quartile_range":16500,
+                "median":20500,
+                "number_of_graduates":25,
+                "subject_code":"CAH03-01-08"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":75,
+                "subject_code":"CAH03-01-08"
+            }
+        ]
+    },
+    "title":{
+        "english":"Biochemistry"
+    },
+    "ucas_code_id":"A10-J66",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 33 */
+{
+    "_id":"5c2e86a200f91b809b34dc7a",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"1",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Oxford Brookes University",
+        "public_ukprn":"10004930",
+        "ukprn_name":"Oxford Brookes University",
+        "ukprn":"10004930"
+    },
+    "kis_course_id":"MC10-AB",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-ab/three/"
+        },
+        "course_page":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-ab/"
+        },
+        "employment_details":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-ab/eight/"
+        },
+        "financial_support_details":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-ab/five/"
+        },
+        "institution":"https://localhost:10000/institutions/10004930",
+        "learning_and_teaching_methods":{
+            "english":"https://www.brookes.ac.uk/courses/single/mc10-ab/three/"
+        },
+        "self":"https://localhost:10000/institutions/10004930/courses/Animal Biology and Conservation"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.754579",
+        "longitude":"-1.223266"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":30,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":80,
+                "proportion_of_students_gaining_intended_award_or_higher":5,
+                "proportion_of_students_leaving_course":15
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":15,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":30,
+                "proportion_of_students_in_work":40,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":75,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":85
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":24,
+                "number_of_students":10,
+                "proportion_of_students_in_professional_or_managerial_jobs":45,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":55,
+                "response_rate":85
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Sports and fitness occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":24500,
+                "lower_quartile_range":15000,
+                "median":20500,
+                "number_of_graduates":20,
+                "subject_code":"CAH03-01-02"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":23,
+                "response_rate":60,
+                "subject_code":"CAH03-01-02"
+            }
+        ]
+    },
+    "title":{
+        "english":"Animal Biology and Conservation"
+    },
+    "ucas_code_id":"A06-B48",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 34 */
+{
+    "_id":"5c2e877100f91b809b3554d2",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Ravensbourne",
+        "public_ukprn":"10005389",
+        "ukprn_name":"Ravensbourne",
+        "ukprn":"10005389"
+    },
+    "kis_course_id":"COM18",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.ravensbourne.ac.uk/study-here/undergraduate/school-of-design/department-of-design-practice/ba-hons-illustration-for-communication/"
+        },
+        "course_page":{
+            "english":"http://www.ravensbourne.ac.uk/study-here/undergraduate/school-of-design/department-of-design-practice/ba-hons-illustration-for-communication/"
+        },
+        "employment_details":{
+            "english":"http://www.ravensbourne.ac.uk/study-here/undergraduate/school-of-design/department-of-design-practice/ba-hons-illustration-for-communication/"
+        },
+        "financial_support_details":{
+            "english":"http://www.ravensbourne.ac.uk/discover-ravensbourne/student-services/"
+        },
+        "institution":"https://localhost:10000/institutions/10005389",
+        "learning_and_teaching_methods":{
+            "english":"http://www.ravensbourne.ac.uk/study-here/undergraduate/school-of-design/department-of-design-practice/ba-hons-illustration-for-communication/"
+        },
+        "self":"https://localhost:10000/institutions/10005389/courses/Illustration for Communication"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.501649",
+        "longitude":"0.005606"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":280,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":86,
+                "proportion_of_students_dormant_after_first_year_on_course":3,
+                "proportion_of_students_gained_lower_award":4,
+                "proportion_of_students_leaving_course":7,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":140,
+                "proportion_of_students_assumed_to_be_unemployed":3,
+                "proportion_of_students_in_study":3,
+                "proportion_of_students_in_work":92,
+                "proportion_of_students_in_work_or_study":95,
+                "proportion_of_students_who_are_not_available_for_work_or_study":2,
+                "response_rate":74,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":130,
+                "proportion_of_students_in_professional_or_managerial_jobs":68,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":32,
+                "response_rate":74,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":30
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":19
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":18
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":7
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Skilled trades occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":2
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Architects, town planners and surveyors",
+                        "percentage_of_students":2
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":27500,
+                "lower_quartile_range":17500,
+                "median":23500,
+                "number_of_graduates":170,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":55,
+                "subject_code":"CAH21-01-03"
+            }
+        ]
+    },
+    "title":{
+        "english":"Illustration for Communication"
+    },
+    "ucas_code_id":"A44-A18",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 35 */
+{
+    "_id":"5c2e83ce00f91b809b33704f",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Loughborough University",
+        "public_ukprn":"10004113",
+        "ukprn_name":"Loughborough University",
+        "ukprn":"10004113"
+    },
+    "kis_course_id":"KISC800",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.lboro.ac.uk/students/programme-specifications/2018/ssehs/undergraduate/name-1038449-en.html"
+        },
+        "course_page":{
+            "english":"http://www.lboro.ac.uk/study/undergraduate/courses/a-z/psychology/#variant"
+        },
+        "employment_details":{
+            "english":"http://www.lboro.ac.uk/services/careers/students-and-graduates/research-your-career/schools/ssehs/"
+        },
+        "financial_support_details":{
+            "english":"http://www.lboro.ac.uk/study/undergraduate/fees-finance/"
+        },
+        "institution":"https://localhost:10000/institutions/10004113",
+        "learning_and_teaching_methods":{
+            "english":"http://www.lboro.ac.uk/students/programme-specifications/2018/ssehs/undergraduate/name-1038449-en.html"
+        },
+        "self":"https://localhost:10000/institutions/10004113/courses/Psychology"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.768455",
+        "longitude":"-1.228838"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":105,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":91,
+                "proportion_of_students_dormant_after_first_year_on_course":1,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":7
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":70,
+                "proportion_of_students_assumed_to_be_unemployed":6,
+                "proportion_of_students_in_study":21,
+                "proportion_of_students_in_work":63,
+                "proportion_of_students_in_work_and_study":7,
+                "proportion_of_students_in_work_or_study":91,
+                "proportion_of_students_who_are_not_available_for_work_or_study":3,
+                "response_rate":83
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":45,
+                "proportion_of_students_in_professional_or_managerial_jobs":75,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":85
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Health professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Sports and fitness occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":26000,
+                "lower_quartile_range":17000,
+                "median":21500,
+                "number_of_graduates":110,
+                "subject_code":"CAH04-01-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":14,
+                "response_rate":85
+            }
+        ]
+    },
+    "title":{
+        "english":"Psychology"
+    },
+    "ucas_code_id":"A18-D65",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 36 */
+{
+    "_id":"5c2f214200f91b809b3ea807",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Wolverhampton",
+        "public_ukprn":"10007166",
+        "ukprn_name":"The University of Wolverhampton",
+        "ukprn":"10007166"
+    },
+    "kis_course_id":"VC030H31",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://courses.wlv.ac.uk/documents/cst/VC030H31UVD-specification.pdf"
+        },
+        "course_page":{
+            "english":"http://courses.wlv.ac.uk/course.asp?code=VC030H31UVD"
+        },
+        "employment_details":{
+            "english":"http://courses.wlv.ac.uk/course.asp?code=VC030H31UVD&view=emp#emp"
+        },
+        "financial_support_details":{
+            "english":"http://wlv.ac.uk/FinancialSupport"
+        },
+        "institution":"https://localhost:10000/institutions/10007166",
+        "learning_and_teaching_methods":{
+            "english":"http://courses.wlv.ac.uk/documents/cst/VC030H31UVD-specification.pdf"
+        },
+        "self":"https://localhost:10000/institutions/10007166/courses/Illustration"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"52.588293",
+        "longitude":"-2.128165"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":20,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":70,
+                "proportion_of_students_dormant_after_first_year_on_course":10,
+                "proportion_of_students_gaining_intended_award_or_higher":5,
+                "proportion_of_students_gained_lower_award":5,
+                "proportion_of_students_leaving_course":5,
+                "subject_code":"CAH21-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":23,
+                "number_of_students":15,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":10,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":85,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":65,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":70,
+                "subject_code":"CAH21-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Research and development managers",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":19000,
+                "lower_quartile_range":12500,
+                "median":16000,
+                "number_of_graduates":30,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":22,
+                "response_rate":55,
+                "subject_code":"CAH21-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Illustration"
+    },
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 37 */
+{
+    "_id":"5c2f25e600f91b809b41cef6",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Bristol",
+        "public_ukprn":"10007786",
+        "ukprn_name":"The University of Bristol",
+        "ukprn":"10007786"
+    },
+    "kis_course_id":"4COSC006UU-201718",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.bris.ac.uk/esu/unitprogcat/RouteStructureCohort.jsa?byCohort=Y&ayrCode=19%2F20&programmeCode=4COSC006U,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+        },
+        "course_page":{
+            "english":"http://www.bristol.ac.uk/study/undergraduate/2019/computer-science/bsc-comp-sci/"
+        },
+        "employment_details":{
+            "english":"http://www.bris.ac.uk/careers/be-inspired/bristol-graduates/"
+        },
+        "financial_support_details":{
+            "english":"http://www.bris.ac.uk/studentfunding"
+        },
+        "institution":"https://localhost:10000/institutions/10007786",
+        "learning_and_teaching_methods":{
+            "english":"http://www.bris.ac.uk/esu/unitprogcat/RouteStructureCohort.jsa?byCohort=Y&ayrCode=19%2F20&programmeCode=4COSC006U"
+        },
+        "self":"https://localhost:10000/institutions/10007786/courses/Computer Science"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.459064",
+        "longitude":"-2.603292"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":50,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":95
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":15,
+                "proportion_of_students_assumed_to_be_unemployed":20,
+                "proportion_of_students_in_study":15,
+                "proportion_of_students_in_work":65,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":80,
+                "response_rate":75
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":10,
+                "proportion_of_students_in_professional_or_managerial_jobs":100,
+                "response_rate":75
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":70
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":46000,
+                "lower_quartile_range":30500,
+                "median":35500,
+                "number_of_graduates":70,
+                "subject_code":"CAH11-01-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":24,
+                "response_rate":80
+            }
+        ]
+    },
+    "title":{
+        "english":"Computer Science"
+    },
+    "ucas_code_id":"A15-H81",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 38 */
+{
+    "_id":"5c2f16c400f91b809b3756eb",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Liverpool",
+        "public_ukprn":"10006842",
+        "ukprn_name":"The University of Liverpool",
+        "ukprn":"10006842"
+    },
+    "kis_course_id":"BA_PH",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/module-details/"
+        },
+        "course_page":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/overview/"
+        },
+        "employment_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/career-prospects/"
+        },
+        "financial_support_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/fees-finance/"
+        },
+        "institution":"https://localhost:10000/institutions/10006842",
+        "learning_and_teaching_methods":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/philosophy-ba-hons/module-details/"
+        },
+        "self":"https://localhost:10000/institutions/10006842/courses/Philosophy and History"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.40595",
+        "longitude":"-2.965622"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":75,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":75,
+                "proportion_of_students_dormant_after_first_year_on_course":13,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":11,
+                "subject_code":"CAH20-02-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":265,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":87,
+                "proportion_of_students_dormant_after_first_year_on_course":7,
+                "proportion_of_students_leaving_course":6,
+                "subject_code":"CAH20-01-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":30,
+                "proportion_of_students_in_work":50,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":90,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":70,
+                "subject_code":"CAH20-02-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":120,
+                "proportion_of_students_assumed_to_be_unemployed":4,
+                "proportion_of_students_in_study":27,
+                "proportion_of_students_in_work":52,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":84,
+                "proportion_of_students_who_are_not_available_for_work_or_study":12,
+                "response_rate":75,
+                "subject_code":"CAH20-01-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":75,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":70,
+                "subject_code":"CAH20-02-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":65,
+                "proportion_of_students_in_professional_or_managerial_jobs":65,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":35,
+                "response_rate":75,
+                "subject_code":"CAH20-01-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":38
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":65
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":9
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":8
+                    }, 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":7
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":6
+                    }, 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":6
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":3
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Skilled trades occupations",
+                        "percentage_of_students":2
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":26000,
+                "lower_quartile_range":16000,
+                "median":21000,
+                "number_of_graduates":230,
+                "subject_code":"CAH20-01-01"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":24000,
+                "lower_quartile_range":17000,
+                "median":21000,
+                "number_of_graduates":40,
+                "subject_code":"CAH20-02-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":23,
+                "response_rate":90,
+                "subject_code":"CAH20-02-01"
+            }, 
+            {
+                "aggregation_level":13,
+                "response_rate":55,
+                "subject_code":"CAH20-01-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Philosophy and History"
+    },
+    "ucas_code_id":"A03-B02",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 39 */
+{
+    "_id":"5c2e7d9400f91b809b3051f6",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Canterbury Christ Church University",
+        "public_ukprn":"10001143",
+        "ukprn_name":"Canterbury Christ Church University",
+        "ukprn":"10001143"
+    },
+    "kis_course_id":"PMDDGEK2SP2",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.canterbury.ac.uk/study-here/courses/undergraduate/english-language-19-20.aspx"
+        },
+        "course_page":{
+            "english":"https://www.canterbury.ac.uk/study-here/courses/undergraduate/english-language-19-20.aspx"
+        },
+        "employment_details":{
+            "english":"http://www.canterbury.ac.uk/career-development/information-for-prospective-students.aspx"
+        },
+        "financial_support_details":{
+            "english":"http://www.canterbury.ac.uk/study-here/fees-and-funding/undergraduate-fees-funding/scholarships-bursaries-and-financial-support.aspx"
+        },
+        "institution":"https://localhost:10000/institutions/10001143",
+        "learning_and_teaching_methods":{
+            "english":"https://www.canterbury.ac.uk/study-here/courses/undergraduate/english-language-19-20.aspx"
+        },
+        "self":"https://localhost:10000/institutions/10001143/courses/English Language/Sport & Exercise Science"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.279569",
+        "longitude":"1.088586"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"082",
+        "label":"BA/BSc",
+        "level":"F",
+        "name":"Bachelor of Arts, Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {}
+        ],
+        "employment":[ 
+            {}
+        ],
+        "job_type":[ 
+            {}
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"English Language/Sport & Exercise Science"
+    },
+    "ucas_code_id":"A19-F16",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 40 */
+{
+    "_id":"5c2f229900f91b809b3f95cd",
+    "country":{
+        "code":"XH",
+        "name":"Scotland"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Glasgow Caledonian University",
+        "public_ukprn":"10007762",
+        "ukprn_name":"Glasgow Caledonian University",
+        "ukprn":"10007762"
+    },
+    "kis_course_id":"P00237",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.gcu.ac.uk/kis/courses/1920/P00237"
+        },
+        "course_page":{
+            "english":"http://www.gcu.ac.uk/kis/courses/1920/P00237"
+        },
+        "employment_details":{
+            "english":"http://www.gcu.ac.uk/kis/courses/1920/P00237"
+        },
+        "financial_support_details":{
+            "english":"http://www.gcu.ac.uk/study/scholarships/"
+        },
+        "institution":"https://localhost:10000/institutions/10007762",
+        "learning_and_teaching_methods":{
+            "english":"http://www.gcu.ac.uk/kis/courses/1920/P00237"
+        },
+        "self":"https://localhost:10000/institutions/10007762/courses/Environmental Civil Engineering"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"55.866166",
+        "longitude":"-4.250567"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"1",
+        "label":"Optional"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":25,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":75,
+                "proportion_of_students_dormant_after_first_year_on_course":5,
+                "proportion_of_students_leaving_course":25
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":20,
+                "proportion_of_students_in_study":20,
+                "proportion_of_students_in_work":75,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":100,
+                "response_rate":90
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":90
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":50
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Conservation and environment professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Process, plant and machine operatives",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":12,
+                "response_rate":61,
+                "subject_code":"CAH10-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Environmental Civil Engineering"
+    },
+    "ucas_code_id":"A26-C95",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 41 */
+{
+    "_id":"5c2f23df00f91b809b407457",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Oxford",
+        "public_ukprn":"10007774",
+        "ukprn_name":"The University of Oxford",
+        "ukprn":"10007774"
+    },
+    "kis_course_id":"RQ54",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.ox.ac.uk/admissions/undergraduate/courses/modern-languages/modern-languages%3A-portuguese"
+        },
+        "course_page":{
+            "english":"http://www.ox.ac.uk/admissions/undergraduate/courses/modern-languages/modern-languages%3A-portuguese"
+        },
+        "employment_details":{
+            "english":"https://public.tableau.com/views/UniversityofOxford-DLHESurvey/Whatalumnihavedone?:embed=y&:display_count=yes&:showTabs=y&:showVizHome=no"
+        },
+        "financial_support_details":{
+            "english":"https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding?wssl=1"
+        },
+        "institution":"https://localhost:10000/institutions/10007774",
+        "learning_and_teaching_methods":{
+            "english":"http://www.ox.ac.uk/admissions/undergraduate/courses/modern-languages/modern-languages%3A-portuguese"
+        },
+        "self":"https://localhost:10000/institutions/10007774/courses/Portuguese and Hebrew"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.752128",
+        "longitude":"-1.250414"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":20,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":90,
+                "proportion_of_students_dormant_after_first_year_on_course":10,
+                "subject_code":"CAH19-03-07"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":50,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":100,
+                "subject_code":"CAH19-03-04"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":80,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":90,
+                "response_rate":75,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_in_study":30,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_or_study":100,
+                "response_rate":75,
+                "subject_code":"CAH19-03-07"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":20,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":25,
+                "response_rate":75,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":23,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":90,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":10,
+                "response_rate":80,
+                "subject_code":"CAH19-03-07"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":25
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Welfare professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":40000,
+                "lower_quartile_range":24500,
+                "median":30000,
+                "number_of_graduates":300,
+                "subject_code":"CAH19-03"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":36500,
+                "lower_quartile_range":23000,
+                "median":28500,
+                "number_of_graduates":35,
+                "subject_code":"CAH19-03-04"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":75,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":12,
+                "response_rate":66,
+                "subject_code":"CAH19-03"
+            }
+        ]
+    },
+    "title":{
+        "english":"Portuguese and Hebrew"
+    },
+    "ucas_code_id":"A30-G42",
+    "year_abroad":{
+        "code":"2",
+        "label":"Compulsory"
+    }
+}
+
+,/* 42 */
+{
+    "_id":"5c2f09b700f91b809b35e31e",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Sheffield Hallam University",
+        "public_ukprn":"10005790",
+        "ukprn_name":"Sheffield Hallam University",
+        "ukprn":"10005790"
+    },
+    "kis_course_id":"13544",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.shu.ac.uk/courses/nursing-and-midwifery/bsc-honours-nursing-learning-disability-and-social-work/full-time/"
+        },
+        "course_page":{
+            "english":"https://www.shu.ac.uk/courses/nursing-and-midwifery/bsc-honours-nursing-learning-disability-and-social-work/full-time/"
+        },
+        "employment_details":{
+            "english":"https://www.shu.ac.uk/courses/nursing-and-midwifery/bsc-honours-nursing-learning-disability-and-social-work/full-time/"
+        },
+        "financial_support_details":{
+            "english":"https://www.shu.ac.uk/study-here/fees-and-funding"
+        },
+        "institution":"https://localhost:10000/institutions/10005790",
+        "learning_and_teaching_methods":{
+            "english":"https://www.shu.ac.uk/courses/nursing-and-midwifery/bsc-honours-nursing-learning-disability-and-social-work/full-time/"
+        },
+        "self":"https://localhost:10000/institutions/10005790/courses/Nursing (Adult)"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.373383",
+        "longitude":"-1.495879"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":400,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":93,
+                "proportion_of_students_dormant_after_first_year_on_course":3,
+                "proportion_of_students_gained_lower_award":3,
+                "proportion_of_students_leaving_course":2
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":185,
+                "proportion_of_students_in_study":1,
+                "proportion_of_students_in_work":98,
+                "proportion_of_students_in_work_or_study":99,
+                "proportion_of_students_who_are_not_available_for_work_or_study":1,
+                "response_rate":83
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":185,
+                "proportion_of_students_in_professional_or_managerial_jobs":99,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":1,
+                "response_rate":83
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Nursing and midwifery professionals",
+                        "percentage_of_students":98
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":1
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":1
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":1
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":28000,
+                "lower_quartile_range":19500,
+                "median":25500,
+                "number_of_graduates":80,
+                "subject_code":"CAH02-01-02"
+            }, 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":30000,
+                "lower_quartile_range":21500,
+                "median":26500,
+                "number_of_graduates":220,
+                "subject_code":"CAH02-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":14,
+                "response_rate":87
+            }
+        ]
+    },
+    "title":{
+        "english":"Nursing (Adult)"
+    },
+    "ucas_code_id":"A18-A21",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 43 */
+{
+    "_id":"5c2f1ce300f91b809b3b9e32",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"University of Bedfordshire",
+        "public_ukprn":"10007152",
+        "ukprn_name":"University of Bedfordshire",
+        "ukprn":"10007152"
+    },
+    "kis_course_id":"BATPPAAF",
+    "length_of_course":{
+        "code":"4",
+        "label":"4 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.beds.ac.uk/howtoapply/courses/undergraduate/next-year/television-production#how,,,,"
+        },
+        "course_page":{
+            "english":"https://www.beds.ac.uk/howtoapply/courses/undergraduate/next-year/television-production"
+        },
+        "employment_details":{
+            "english":"https://www.beds.ac.uk/howtoapply/courses/undergraduate/next-year/television-production#career"
+        },
+        "financial_support_details":{
+            "english":"https://www.beds.ac.uk/howtoapply/courses/undergraduate/next-year/television-production#fees"
+        },
+        "institution":"https://localhost:10000/institutions/10007152",
+        "learning_and_teaching_methods":{
+            "english":"https://www.beds.ac.uk/howtoapply/courses/undergraduate/next-year/television-production#unit"
+        },
+        "self":"https://localhost:10000/institutions/10007152/courses/Television Production"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.87787",
+        "longitude":"-0.411382"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"2",
+        "label":"Compulsory"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":100,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":69,
+                "proportion_of_students_dormant_after_first_year_on_course":3,
+                "proportion_of_students_gaining_intended_award_or_higher":6,
+                "proportion_of_students_gained_lower_award":8,
+                "proportion_of_students_leaving_course":14,
+                "subject_code":"CAH18-01-05"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":35,
+                "proportion_of_students_assumed_to_be_unemployed":20,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":80,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":70,
+                "subject_code":"CAH18-01-05"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_in_professional_or_managerial_jobs":40,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":60,
+                "response_rate":70,
+                "subject_code":"CAH18-01-05"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Skilled trades occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":22000,
+                "lower_quartile_range":13000,
+                "median":18000,
+                "number_of_graduates":105,
+                "subject_code":"CAH18-01-05"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":80,
+                "subject_code":"CAH18-01-05"
+            }
+        ]
+    },
+    "title":{
+        "english":"Television Production"
+    },
+    "ucas_code_id":"A10-H09",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 44 */
+{
+    "_id":"5c2f179e00f91b809b37efd0",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Liverpool",
+        "public_ukprn":"10006842",
+        "ukprn_name":"The University of Liverpool",
+        "ukprn":"10006842"
+    },
+    "kis_course_id":"BA_TSCH",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/sociology-ba-hons/module-details/"
+        },
+        "course_page":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/sociology-ba-hons/overview/"
+        },
+        "employment_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/sociology-ba-hons/career-prospects/"
+        },
+        "financial_support_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/sociology-ba-hons/fees-finance/"
+        },
+        "institution":"https://localhost:10000/institutions/10006842",
+        "learning_and_teaching_methods":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/sociology-ba-hons/module-details/"
+        },
+        "self":"https://localhost:10000/institutions/10006842/courses/Sociology with Chinese Studies"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.40595",
+        "longitude":"-2.965622"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":235,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":92,
+                "proportion_of_students_dormant_after_first_year_on_course":4,
+                "proportion_of_students_leaving_course":4,
+                "subject_code":"CAH02-03"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":175,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":85,
+                "proportion_of_students_dormant_after_first_year_on_course":6,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":8,
+                "subject_code":"CAH15-01-02"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":60,
+                "proportion_of_students_assumed_to_be_unemployed":4,
+                "proportion_of_students_in_study":26,
+                "proportion_of_students_in_work":59,
+                "proportion_of_students_in_work_and_study":8,
+                "proportion_of_students_in_work_or_study":92,
+                "proportion_of_students_who_are_not_available_for_work_or_study":4,
+                "response_rate":73,
+                "subject_code":"CAH15-01-02"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":190,
+                "proportion_of_students_assumed_to_be_unemployed":3,
+                "proportion_of_students_in_study":14,
+                "proportion_of_students_in_work":78,
+                "proportion_of_students_in_work_and_study":2,
+                "proportion_of_students_in_work_or_study":94,
+                "proportion_of_students_who_are_not_available_for_work_or_study":3,
+                "response_rate":85,
+                "subject_code":"CAH02-03"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":35,
+                "proportion_of_students_in_professional_or_managerial_jobs":70,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":30,
+                "response_rate":75,
+                "subject_code":"CAH15-01-02"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":155,
+                "proportion_of_students_in_professional_or_managerial_jobs":95,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":5,
+                "response_rate":85,
+                "subject_code":"CAH02-03"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Therapy professionals",
+                        "percentage_of_students":50
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Health professionals",
+                        "percentage_of_students":37
+                    }, 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":3
+                    }, 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":2
+                    }, 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":1
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":1
+                    }, 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":1
+                    }, 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":1
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":1
+                    }, 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":1
+                    }, 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":23000,
+                "lower_quartile_range":15500,
+                "median":19000,
+                "number_of_graduates":105,
+                "subject_code":"CAH15-01-02"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":70,
+                "subject_code":"CAH15-01-02"
+            }, 
+            {
+                "aggregation_level":12,
+                "response_rate":67,
+                "subject_code":"CAH02-03"
+            }
+        ]
+    },
+    "title":{
+        "english":"Sociology with Chinese Studies"
+    },
+    "ucas_code_id":"A43-F50",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 45 */
+{
+    "_id":"5c2f17c800f91b809b380d83",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Liverpool",
+        "public_ukprn":"10006842",
+        "ukprn_name":"The University of Liverpool",
+        "ukprn":"10006842"
+    },
+    "kis_course_id":"BSC_TECSPA",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/economics-bsc-hons/module-details/"
+        },
+        "course_page":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/economics-bsc-hons/overview/"
+        },
+        "employment_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/economics-bsc-hons/career-prospects/"
+        },
+        "financial_support_details":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/economics-bsc-hons/fees-finance/"
+        },
+        "institution":"https://localhost:10000/institutions/10006842",
+        "learning_and_teaching_methods":{
+            "english":"https://www.liverpool.ac.uk/study/undergraduate/courses/economics-bsc-hons/module-details/"
+        },
+        "self":"https://localhost:10000/institutions/10006842/courses/Economics with Spanish"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.40595",
+        "longitude":"-2.965622"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":45,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":60,
+                "proportion_of_students_dormant_after_first_year_on_course":30,
+                "proportion_of_students_leaving_course":5,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":310,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":89,
+                "proportion_of_students_dormant_after_first_year_on_course":8,
+                "proportion_of_students_gaining_intended_award_or_higher":2,
+                "proportion_of_students_leaving_course":1,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":25,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":25,
+                "proportion_of_students_in_work":65,
+                "proportion_of_students_in_work_and_study":5,
+                "proportion_of_students_in_work_or_study":95,
+                "response_rate":70,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":50,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_and_study":10,
+                "proportion_of_students_in_work_or_study":85,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":70,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":80,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":20,
+                "response_rate":70,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":13,
+                "number_of_students":40,
+                "proportion_of_students_in_professional_or_managerial_jobs":95,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":5,
+                "response_rate":70,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":45
+                    }, 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":40
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":30
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Welfare professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Protective service occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Welfare and housing associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Sports and fitness occupations",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }, 
+                    {
+                        "job":"Childcare and related personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":26000,
+                "lower_quartile_range":20000,
+                "median":22000,
+                "number_of_graduates":35,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":35500,
+                "lower_quartile_range":19000,
+                "median":27000,
+                "number_of_graduates":60,
+                "subject_code":"CAH15-02-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":23,
+                "response_rate":65,
+                "subject_code":"CAH19-03-04"
+            }, 
+            {
+                "aggregation_level":13,
+                "response_rate":65,
+                "subject_code":"CAH15-02-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Economics with Spanish"
+    },
+    "ucas_code_id":"A44-G80",
+    "year_abroad":{
+        "code":"1",
+        "label":"Optional"
+    }
+}
+
+,/* 46 */
+{
+    "_id":"5c2f237800f91b809b402f76",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Lancaster",
+        "public_ukprn":"10007768",
+        "ukprn_name":"The University of Lancaster",
+        "ukprn":"10007768"
+    },
+    "kis_course_id":"019749",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.lancs.ac.uk/study/undergraduate/courses/management-and-human-resources-bsc-hons-n600/?show=studying"
+        },
+        "course_page":{
+            "english":"http://www.lancs.ac.uk/study/undergraduate/courses/management-and-human-resources-bsc-hons-n600/"
+        },
+        "employment_details":{
+            "english":"http://www.lancs.ac.uk/study/undergraduate/courses/management-and-human-resources-bsc-hons-n600/?show=careers"
+        },
+        "financial_support_details":{
+            "english":"http://www.lancs.ac.uk/study/undergraduate/fees-and-funding/"
+        },
+        "institution":"https://localhost:10000/institutions/10007768",
+        "learning_and_teaching_methods":{
+            "english":"http://www.lancs.ac.uk/study/undergraduate/courses/management-and-human-resources-bsc-hons-n600/?show=studying"
+        },
+        "self":"https://localhost:10000/institutions/10007768/courses/Management and Human Resources"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"54.01163",
+        "longitude":"-2.790449"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"021",
+        "label":"BSc",
+        "level":"F",
+        "name":"Bachelor of Science"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":320,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":91,
+                "proportion_of_students_dormant_after_first_year_on_course":4,
+                "proportion_of_students_leaving_course":4,
+                "subject_code":"CAH17-01-02"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":85,
+                "proportion_of_students_assumed_to_be_unemployed":1,
+                "proportion_of_students_in_study":8,
+                "proportion_of_students_in_work":80,
+                "proportion_of_students_in_work_and_study":6,
+                "proportion_of_students_in_work_or_study":94,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":77,
+                "subject_code":"CAH17-01-02"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":70,
+                "proportion_of_students_in_professional_or_managerial_jobs":86,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":14,
+                "response_rate":77,
+                "subject_code":"CAH17-01-02"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":48
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Managers, directors and senior officials",
+                        "percentage_of_students":8
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":7
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":4
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":3
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Engineering professionals",
+                        "percentage_of_students":1
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":1
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Customer service occupations",
+                        "percentage_of_students":1
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":36000,
+                "lower_quartile_range":22500,
+                "median":28000,
+                "number_of_graduates":270,
+                "subject_code":"CAH17-01-02"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":13,
+                "response_rate":80,
+                "subject_code":"CAH17-01-02"
+            }
+        ]
+    },
+    "title":{
+        "english":"Management and Human Resources"
+    },
+    "ucas_code_id":"A26-A22",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 47 */
+{
+    "_id":"5c2f15cd00f91b809b36aa84",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of West London",
+        "public_ukprn":"10006566",
+        "ukprn_name":"The University of West London",
+        "ukprn":"10006566"
+    },
+    "kis_course_id":"FABRMA001E",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35702"
+        },
+        "course_page":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35702"
+        },
+        "employment_details":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35702"
+        },
+        "financial_support_details":{
+            "english":"http://www.uwl.ac.uk/KISstudentsupport"
+        },
+        "institution":"https://localhost:10000/institutions/10006566",
+        "learning_and_teaching_methods":{
+            "english":"http://www.uwl.ac.uk/course/cidreport/35702"
+        },
+        "self":"https://localhost:10000/institutions/10006566/courses/Fashion Branding and Marketing"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.50661",
+        "longitude":"-0.30339"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":80,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":76,
+                "proportion_of_students_dormant_after_first_year_on_course":3,
+                "proportion_of_students_gaining_intended_award_or_higher":9,
+                "proportion_of_students_gained_lower_award":1,
+                "proportion_of_students_leaving_course":12,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":40,
+                "proportion_of_students_assumed_to_be_unemployed":5,
+                "proportion_of_students_in_study":5,
+                "proportion_of_students_in_work":80,
+                "proportion_of_students_in_work_or_study":85,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":85,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":30,
+                "proportion_of_students_in_professional_or_managerial_jobs":55,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":45,
+                "response_rate":85,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":30
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":25
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Elementary occupations",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Media professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Caring personal services",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":10,
+                "list":[ 
+                    {
+                        "job":"Leisure, travel and related personal service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":21500,
+                "lower_quartile_range":12000,
+                "median":18000,
+                "number_of_graduates":55,
+                "subject_code":"CAH21-01-03"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":22,
+                "response_rate":57,
+                "subject_code":"CAH21-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Fashion Branding and Marketing"
+    },
+    "ucas_code_id":"A17-G21",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 48 */
+{
+    "_id":"5c2f155700f91b809b3658f9",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"Staffordshire University",
+        "public_ukprn":"10006299",
+        "ukprn_name":"Staffordshire University",
+        "ukprn":"10006299"
+    },
+    "kis_course_id":"SSTK-10661",
+    "length_of_course":{
+        "code":"",
+        "label":""
+    },
+    "links":{
+        "assessment_method":{
+            "english":"http://www.staffs.ac.uk/course/computer-games-animation-ba"
+        },
+        "course_page":{
+            "english":"http://www.staffs.ac.uk/course/computer-games-animation-ba"
+        },
+        "employment_details":{
+            "english":"http://www.staffs.ac.uk/course/computer-games-animation-ba"
+        },
+        "financial_support_details":{
+            "english":"http://www.staffs.ac.uk/undergraduate/funding/"
+        },
+        "institution":"https://localhost:10000/institutions/10006299",
+        "learning_and_teaching_methods":{
+            "english":"http://www.staffs.ac.uk/course/computer-games-animation-ba"
+        },
+        "self":"https://localhost:10000/institutions/10006299/courses/Computer Games Animation"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"53.01009",
+        "longitude":"-2.18262"
+    },
+    "mode":{
+        "code":"2",
+        "label":"Part-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":10,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":60,
+                "proportion_of_students_dormant_after_first_year_on_course":15,
+                "proportion_of_students_leaving_course":25,
+                "subject_code":"CAH11-01-06"
+            }, 
+            {
+                "aggregation_level":22,
+                "number_of_students":10,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":85,
+                "proportion_of_students_dormant_after_first_year_on_course":15,
+                "subject_code":"CAH21-01"
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":15,
+                "proportion_of_students_in_work":100,
+                "proportion_of_students_in_work_or_study":100,
+                "response_rate":70,
+                "subject_code":"CAH11-01"
+            }, 
+            {
+                "aggregation_level":22,
+                "number_of_students":20,
+                "proportion_of_students_assumed_to_be_unemployed":10,
+                "proportion_of_students_in_study":15,
+                "proportion_of_students_in_work":70,
+                "proportion_of_students_in_work_or_study":85,
+                "proportion_of_students_who_are_not_available_for_work_or_study":5,
+                "response_rate":85,
+                "subject_code":"CAH21-01"
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":22,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":100,
+                "response_rate":85,
+                "subject_code":"CAH21-01"
+            }, 
+            {
+                "aggregation_level":12,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":100,
+                "response_rate":70,
+                "subject_code":"CAH11-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":45
+                    }, 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":40
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":15
+                    }, 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":15
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Business, research and administrative professionals",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Information technology and telecommunications professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Artistic, literary and media occupations",
+                        "percentage_of_students":10
+                    }, 
+                    {
+                        "job":"Conservation and environment professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Design occupations",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":22,
+                "higher_quartile_range":32000,
+                "lower_quartile_range":9500,
+                "median":18500,
+                "number_of_graduates":35,
+                "subject_code":"CAH21-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":22,
+                "response_rate":65,
+                "subject_code":"CAH11-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Computer Games Animation"
+    },
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 49 */
+{
+    "_id":"5c2e80ba00f91b809b31e5f6",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":true,
+    "institution":{
+        "public_ukprn_name":"The University of Winchester",
+        "public_ukprn":"10003614",
+        "ukprn_name":"The University of Winchester",
+        "ukprn":"10003614"
+    },
+    "kis_course_id":"BPGSSINGW9F",
+    "length_of_course":{
+        "code":"3",
+        "label":"3 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.winchester.ac.uk/study/undergraduate/courses/ba-hons-politics"
+        },
+        "course_page":{
+            "english":"https://www.winchester.ac.uk/study/undergraduate/courses/ba-hons-politics"
+        },
+        "employment_details":{
+            "english":"https://www.winchester.ac.uk/study/undergraduate/courses/ba-hons-politics"
+        },
+        "financial_support_details":{
+            "english":"https://www.winchester.ac.uk/accommodation-and-winchester-life/students-and-money/"
+        },
+        "institution":"https://localhost:10000/institutions/10003614",
+        "learning_and_teaching_methods":{
+            "english":"https://www.winchester.ac.uk/study/undergraduate/courses/ba-hons-politics"
+        },
+        "self":"https://localhost:10000/institutions/10003614/courses/Politics"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.060202",
+        "longitude":"-1.325926"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "qualification":{
+        "code":"000",
+        "label":"BA",
+        "level":"F",
+        "name":"Bachelor of Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":25,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":85,
+                "proportion_of_students_gained_lower_award":5,
+                "proportion_of_students_leaving_course":10
+            }
+        ],
+        "employment":[ 
+            {
+                "aggregation_level":14,
+                "number_of_students":15,
+                "proportion_of_students_in_study":15,
+                "proportion_of_students_in_work":60,
+                "proportion_of_students_in_work_and_study":15,
+                "proportion_of_students_in_work_or_study":90,
+                "proportion_of_students_who_are_not_available_for_work_or_study":10,
+                "response_rate":70
+            }
+        ],
+        "job_type":[ 
+            {
+                "aggregation_level":13,
+                "number_of_students":15,
+                "proportion_of_students_in_professional_or_managerial_jobs":35,
+                "proportion_of_students_in_non_professional_or_managerial_jobs":65,
+                "response_rate":70,
+                "subject_code":"CAH15-03-01"
+            }
+        ],
+        "job_list":[ 
+            {
+                "order":1,
+                "list":[ 
+                    {
+                        "job":"Administrative occupations",
+                        "percentage_of_students":35
+                    }
+                ]
+            }, 
+            {
+                "order":2,
+                "list":[ 
+                    {
+                        "job":"Sales occupations",
+                        "percentage_of_students":20
+                    }
+                ]
+            }, 
+            {
+                "order":3,
+                "list":[ 
+                    {
+                        "job":"Teaching and educational professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":4,
+                "list":[ 
+                    {
+                        "job":"Natural and social science professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":5,
+                "list":[ 
+                    {
+                        "job":"Business and public service associate professionals",
+                        "percentage_of_students":10
+                    }
+                ]
+            }, 
+            {
+                "order":6,
+                "list":[ 
+                    {
+                        "job":"Architects, town planners and surveyors",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":7,
+                "list":[ 
+                    {
+                        "job":"Science, engineering and technology associate professionals",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":8,
+                "list":[ 
+                    {
+                        "job":"Secretarial and related occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }, 
+            {
+                "order":9,
+                "list":[ 
+                    {
+                        "job":"Leisure, travel and related personal service occupations",
+                        "percentage_of_students":5
+                    }
+                ]
+            }
+        ],
+        "leo":[ 
+            {
+                "aggregation_level":23,
+                "higher_quartile_range":27500,
+                "lower_quartile_range":17000,
+                "median":18000,
+                "number_of_graduates":30,
+                "subject_code":"CAH15-03-01"
+            }
+        ],
+        "salary":[ 
+            {
+                "aggregation_level":23,
+                "response_rate":70,
+                "subject_code":"CAH15-03-01"
+            }
+        ]
+    },
+    "title":{
+        "english":"Politics"
+    },
+    "ucas_code_id":"A09-D88",
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+
+,/* 50 */
+{
+    "_id":"5c2e85a800f91b809b345d9c",
+    "country":{
+        "code":"XF",
+        "name":"England"
+    },
+    "distance_learning":{
+        "code":"0",
+        "label":"Course is available other than by distance learning"
+    },
+    "foundation_year_availability":"0",
+    "honours_award_provision":false,
+    "institution":{
+        "public_ukprn_name":"NCG",
+        "public_ukprn":"10004599",
+        "ukprn_name":"NCG",
+        "ukprn":"10004599"
+    },
+    "kis_course_id":"NCG0098A",
+    "length_of_course":{
+        "code":"2",
+        "label":"2 stages"
+    },
+    "links":{
+        "assessment_method":{
+            "english":"https://www.lscollege.ac.uk/courses/health-and-social-care/235-he/2585-fda-in-health-and-social-care-programme"
+        },
+        "course_page":{
+            "english":"https://www.lscollege.ac.uk/courses/health-and-social-care/235-he/2585-fda-in-health-and-social-care-programme"
+        },
+        "employment_details":{
+            "english":"https://www.lscollege.ac.uk/courses/health-and-social-care/235-he/2585-fda-in-health-and-social-care-programme"
+        },
+        "financial_support_details":{
+            "english":"https://www.lscollege.ac.uk/student-support"
+        },
+        "institution":"https://localhost:10000/institutions/10004599",
+        "learning_and_teaching_methods":{
+            "english":"https://www.lscollege.ac.uk/courses/health-and-social-care/235-he/2585-fda-in-health-and-social-care-programme"
+        },
+        "self":"https://localhost:10000/institutions/10004599/courses/Health and Social Care"
+    },
+    "location":{
+        "changes":false,
+        "latitude":"51.503071",
+        "longitude":"-0.107303"
+    },
+    "mode":{
+        "code":"1",
+        "label":"Full-time"
+    },
+    "nhs_funded":{
+        "code":"0",
+        "label":"None"
+    },
+    "qualification":{
+        "code":"031",
+        "label":"FDA",
+        "level":"U",
+        "name":"Foundation Degree of the Arts"
+    },
+    "sandwich_year":{
+        "code":"0",
+        "label":"Not available"
+    },
+    "statistics":{
+        "continuation":[ 
+            {
+                "aggregation_level":12,
+                "number_of_students":45,
+                "proportion_of_students_continuing_with_provider_after_first_year_on_course":80,
+                "proportion_of_students_leaving_course":20,
+                "subject_code":"CAH15-04"
+            }
+        ],
+        "employment":[ 
+            {}
+        ],
+        "job_type":[ 
+            {}
+        ],
+        "leo":[ 
+            {}
+        ],
+        "salary":[ 
+            {}
+        ]
+    },
+    "title":{
+        "english":"Health and Social Care"
+    },
+    "year_abroad":{
+        "code":"0",
+        "label":"Not available"
+    }
+}
+]
