@@ -1,0 +1,14 @@
+@import "../../styles.scss";
+
+.ofs-underline-button {
+    background:none!important;
+     border:none; 
+     padding:0!important;
+    
+     color: $govuk-link-colour;
+     cursor:pointer;
+    
+     &:hover{
+         text-decoration:underline;
+    }
+}
