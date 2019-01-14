@@ -26,7 +26,7 @@ export default  (props) => {
     }
 
     return (
-        <div>
+        <div className="ofs-course-section">
         <h3 className="ofs-heading-m">Further information</h3>
             <ul className="ofs-list ofs-course-links">
                 {courseLink()}

@@ -27,7 +27,7 @@ export default class CourseJobList extends Component {
         if(this.hasData) {
             const buttonLabel = this.state.open ? "less": "more";
             return (
-                <div>
+                <div className="ofs-course-section">
                     <h3 className="ofs-heading-m">Jobs after graduation</h3>
                     <ul className="ofs-list ofs-list--number">
                         {this.joblist.map(job => this.getJobListItem(job))}

@@ -1,0 +1,33 @@
+@import "../../styles.scss";
+
+.ofs-underline-button {
+    background:none!important;
+     border:none; 
+     padding:0!important;
+     margin-bottom: 0!important;
+     color: $ofs-link-colour;
+     cursor:pointer;
+    
+     &:hover{
+         text-decoration:underline;
+    }
+}
+
+.ofs-earnings-block {
+    display: block;
+    margin-bottom: ofs-spacing(3);
+}
+
+.ofs-earnings-table {
+    margin-bottom: ofs-spacing(1) !important;
+}
+
+.ofs-earnings-block__hidden {
+    display: none;
+}
+
+.ofs-earnings-block__expanded-section {
+    padding: ofs-spacing(3);
+    padding-left: ofs-spacing(4);
+    border-left: $ofs-border-width solid $ofs-border-colour;
+  }

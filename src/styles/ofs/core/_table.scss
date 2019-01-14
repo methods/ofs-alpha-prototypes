@@ -1,0 +1,53 @@
+@import "../settings/all";
+@import "../tools/all";
+@import "../helpers/all";
+
+@include ofs-exports("ofs/core/table") {
+  .ofs-table {
+    @include ofs-font($size: 19);
+    @include ofs-text-colour;
+    width: 100%;
+    @include ofs-responsive-margin(6, "bottom");
+
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  .ofs-table__header {
+    @include ofs-typography-weight-bold;
+  }
+
+  .ofs-table__header,
+  .ofs-table__cell {
+    padding: ofs-spacing(2) ofs-spacing(4) ofs-spacing(2) 0;
+    border-bottom: 1px solid $ofs-border-colour;
+    text-align: left;
+    // OFS Elements sets the font-size and line-height for all headers and cells
+    // in tables.
+    @include ofs-compatibility(ofs_elements) {
+      font-size: inherit;
+      line-height: inherit;
+    }
+  }
+
+  .ofs-table__cell--numeric {
+    @include ofs-font($size: false, $tabular: true);
+  }
+
+  .ofs-table__header--numeric,
+  .ofs-table__cell--numeric {
+    text-align: right;
+  }
+
+  .ofs-table__header:last-child,
+  .ofs-table__cell:last-child {
+    padding-right: 0;
+  }
+
+  .ofs-table__caption {
+    @include ofs-typography-weight-bold;
+
+    display: table-caption;
+    text-align: left;
+  }
+}

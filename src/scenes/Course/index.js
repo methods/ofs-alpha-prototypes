@@ -9,6 +9,7 @@ import getCourse from '../../services/data/getCourse'
 import CourseDetails from './components/CourseDetails';
 import CourseLinks from './components/CourseLinks';
 import CourseJobList from './components/CourseJobList';
+import EarningsDetails from './components/EarningsDetails';
 
 export default  class Course extends Component {
     componentDidMount() {
@@ -29,8 +30,9 @@ export default  class Course extends Component {
                             <span className="ofs-caption-xl">{course.institution.ukprn_name}</span>
                             <h1 className="ofs-heading-xl">{course.title.english}, {course.qualification.label}</h1>
                             <CourseDetails course={course} />
-                            <CourseLinks course={course} />
                             <CourseJobList course={course} />
+                            <EarningsDetails course={course} />
+                            <CourseLinks course={course} />
                         </div>
                     </div>
                     
