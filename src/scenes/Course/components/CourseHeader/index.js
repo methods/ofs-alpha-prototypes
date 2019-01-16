@@ -12,7 +12,7 @@ export default (props) => {
                 <div className="ofs-course-header__panel__section">
                     <img className="ofs-course-header__panel__icon" src="/assets/icons/location.png" alt="" />
                 </div>
-                <div class="ofs-course-header__panel__section">
+                <div className="ofs-course-header__panel__section">
                     <p className="ofs-body ofs-course-header__panel__institution-name ofs-!-font-weight-bold">{course.institution.ukprn_name}</p>
                     <a className="ofs-link" href={props.course.links.course_page.english}>See this course at the {course.institution.ukprn_name} website</a>
                 </div>

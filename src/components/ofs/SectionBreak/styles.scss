@@ -2,5 +2,6 @@
   @import "../../../styles/ofs/all.scss";
   
   .ofs-section-break-padded {
-    margin: ofs-spacing(3) 0
+    margin-top: ofs-spacing(3);
+    margin-bottom: ofs-spacing(3);
   }

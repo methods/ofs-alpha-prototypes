@@ -4,6 +4,6 @@ import './styles.scss'
 
 export default (props) => {
     return (
-        <hr className="ofs-section-break ofs-section-break--visible ofs-section-break-padded" />
+        <hr className="ofs-section-break ofs-section-break--visible ofs-section-break--m " />
     )
 }

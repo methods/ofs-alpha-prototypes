@@ -1,0 +1,45 @@
+
+  @import "../../../styles/ofs/all.scss";
+  
+  .ofs-back-link {
+    vertical-align: top;
+  }
+  .ofs-back-link__chevron {
+    padding-right: 2px;
+    height: 8px;
+  }
+
+  .ofs-back-link__link {
+    @include ofs-focusable-fill;
+
+    text-decoration: none !important;
+
+    &:link,
+    &:visited {
+        color: $ofs-brand-colour !important;
+    }
+
+    &:hover {
+        text-decoration: underline !important;
+      }
+
+    &:hover,
+    &:active {
+        color: $ofs-brand-colour;
+    }
+
+    // When focussed, the text colour needs to be darker to ensure that colour
+    // contrast is still acceptable
+    &:focus {
+        color: $ofs-brand-colour;
+    }
+
+    // alphagov/ofs_template includes a specific a:link:focus selector
+    // designed to make unvisited links a slightly darker blue when focussed, so
+    // we need to override the text colour for that combination of selectors.
+    @include ofs-compatibility(ofs_template) {
+        &:link:focus {
+        @include ofs-text-colour;
+        }
+    }
+}
