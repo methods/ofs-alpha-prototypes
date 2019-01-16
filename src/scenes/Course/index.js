@@ -10,13 +10,15 @@ import CourseDetails from './components/CourseDetails';
 import CourseLinks from './components/CourseLinks';
 import CourseJobList from './components/CourseJobList';
 import EarningsDetails from './components/EarningsDetails';
+import CourseHeader from './components/CourseHeader';
+import SectionBreak from '../../components/ofs/SectionBreak';
 
-export default  class Course extends Component {
+export default class Course extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
 
-    render(){
+    render() {
         const courseId = this.props.match.params.id
         const course = getCourse(courseId)
 
@@ -27,15 +29,15 @@ export default  class Course extends Component {
 
                     <div className="ofs-grid-row">
                         <div className="ofs-grid-column-full ofs-course-main-section">
-                            <span className="ofs-caption-xl">{course.institution.ukprn_name}</span>
-                            <h1 className="ofs-heading-xl">{course.title.english}, {course.qualification.label}</h1>
+                            <CourseHeader course={course} />
+                            <SectionBreak />
                             <CourseDetails course={course} />
                             <CourseJobList course={course} />
                             <EarningsDetails course={course} />
                             <CourseLinks course={course} />
                         </div>
                     </div>
-                    
+
                 </div>
                 <Footer />
             </div>

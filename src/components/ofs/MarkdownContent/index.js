@@ -5,7 +5,7 @@ import Markdown from 'react-markdown';
 export default (props) => {
   return (
     <div className="ofs-body">
-        <Markdown escapeHtml={true} source={props.content} />
+      <Markdown escapeHtml={true} source={props.content} />
     </div>
   )
 }

@@ -1,0 +1,33 @@
+@import "../../styles.scss";
+
+.ofs-course-header {
+    padding-top: ofs-spacing(3);
+    
+    &__title {
+            margin-bottom: ofs-spacing(2) !important;
+    }
+
+    &__subtitle {
+            margin-bottom: ofs-spacing(2) !important;
+    }
+
+    &__panel {
+        background-color: $ofs-panel-colour;
+        border-radius: ofs-spacing(3);
+        padding: ofs-spacing(3);
+        
+        &__section {
+            display: inline-block;
+            margin-top: 0;
+            vertical-align: top;
+        }
+
+        &__icon {
+            height: 55px;
+        }
+
+        &__institution-name {
+            margin-bottom: 0 !important;
+        }
+    }
+}
