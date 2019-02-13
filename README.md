@@ -8,6 +8,12 @@ Testing will be carried out using Heroku free tier apps that deploy from branche
 - [test app](http://ofs-prototype-test.herokuapp.com/)
 - [Prototype 01 - Dec 17 2018 - Choose a course page](http://ofs-prototype-01.herokuapp.com/)
 
+#### More Prototypes
+- Prototype 02 - Dec 17 2018 - [Card Wall axure/html](https://github.com/office-for-students/alpha-prototypes-axure/tree/develop/axure-prototypes/lab1-17th-dec)
+- Prototype 03 - Jan 9 2019 - [Gov UK](https://github.com/office-for-students/alpha-prototypes-axure/tree/develop/axure-prototypes/lab2-9th-Jan)
+- Prototype 04 - Jan 9 2019 - [Unihub-v1](https://github.com/office-for-students/alpha-prototypes-axure/tree/develop/axure-prototypes/lab2-9th-Jan)
+- Prototype 04 - Jan 25th 2019 - [Unihub-v2](https://github.com/office-for-students/alpha-prototypes-axure/tree/develop/axure-prototypes/lab3-25th-Jan)
+- Prototype 04 - Feb 11th 2019 - [Unihub-v3](https://github.com/office-for-students/alpha-prototypes-axure/tree/develop/axure-prototypes/lab4-11th-Feb)
 
 ### Useful links
 - [Unistats](https://unistats.ac.uk/)
@@ -103,3 +109,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+------------------------------
+
+### Licensing
+
+Please see [license file](/LICENSE)
+
